@@ -5,4 +5,86 @@ title: AI 每日资讯
 
 每天一条 AI 早报，一个文件存一天。
 
-最新一期：[2026-10-14](digests/2026-10-14.html)
+**往期：** 2026-10-17（本期） · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
+
+---
+
+# AI 早报 2026-10-17
+
+## 一、AI 资讯
+
+**1. Meta 开放 816B 模型权重：Muse Spark Open，自称"美国最强开源权重模型"**
+
+为什么值得知道：816B 总参数、每 token 只激活 42B，1M 上下文，原生多模态，专为代码和长程 agent 任务调优；两台 M5 Ultra Mac Studio（合计 1TB 统一内存）经 MLX 可本地跑，托管 API（Groq、Together、OpenRouter 等）已上线。开源权重 + agent 双热门，实测素材现成。
+
+来源：[TechCrunch](https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/)、[SiliconANGLE](https://siliconangle.com/2026/10/15/meta-releases-816b-parameter-muse-spark-open-for-coding-and-agent-work/)
+
+**2. ChatGPT Chrome 插件大更新：Chat 模式读标签页，Work 模式直接操作标签页**
+
+为什么值得知道：OpenAI 10 月 15 日在 X 宣布，"把 computer use 的能力带给所有 Chrome 用户"；Atlas 浏览器已下线，插件（Chrome 商店 700 万用户）成为主入口；可跨标签比价、填表（提交前停下人工确认）、整理标签页。
+
+来源：[Unite.AI](https://www.unite.ai/openai-brings-computer-use-to-chrome-with-chatgpt-tab-controls/)、[EM360Tech](https://em360tech.com/tech-articles/openai-lets-chatgpt-read-open-chrome-tabs-and-act-them-work-mode)
+
+**3. NVIDIA 连发三款开源 Nemotron 3.5：120B agent 模型 + 塞进 24GB 的 74B**
+
+为什么值得知道：Super VL 120B 主打多模态常驻 agent；Bolt 74B-A9B 用 2-bit 量化塞进 24GB 显存，单张 RTX 5090 可本地跑；更小的 Bolt E4B（4GB）10 月 23 日到；三款权重都在 Hugging Face，许可证 OpenMDW-1.1 允许商用。
+
+来源：[HPCwire](https://www.hpcwire.com/aiwire/2026/10/15/nvidia-expands-nemotron-family-with-highest-efficiency-super-vl-and-bolt-models/)、[Let's Data Science](https://letsdatascience.com/news/nvidia-expands-nemotron-35-with-super-vl-and-bolt-ff81d36b)
+
+**4. Anthropic 闭门投资者日：Q3 收入 168 亿美元、环比 +45%，调整后已盈利**
+
+为什么值得知道：路透报道 10 月 14 日旧金山投资者日：Q1 47 亿 → Q2 116 亿 → Q3 168 亿；IPO 大概率放在 11 月 3 日美国中期选举之后，目标估值 2 万亿美元以上；这是前沿实验室第一次把"烧钱能否跑赢收入"的问题交到公开市场面前（注意：盈利口径是"调整后"，官方尚未发布审计财报）。
+
+来源：[路透 via CTech](https://www.calcalistech.com/ctechnews/article/tgb6eqw4z)、[Business Day](https://www.businessday.co.za/world/international-companies/2026-10-15-anthropic-revenue-jumps-45-to-168bn/)
+
+**5. Anthropic 给外部评估机构 METR"员工级"访问权限，行业首例**
+
+为什么值得知道：路透 10 月 15 日报道：6 名 METR 员工拿到公司设备、工位和内部系统访问权限（对标内部风险评估团队），客户数据与模型架构除外；Anthropic 不能否决 METR 的结论，只能要求窄范围删减，METR 还可公开质疑删减；同时在和 Hugging Face、SecureBio 等谈。IPO 前的安全叙事，"外部审计"第一次真正落地。
+
+来源：[路透 via KRRO](https://krro.com/2026/10/15/anthropic-grants-ai-evaluator-metr-employee-level-access-to-its-models/)、[The Tech Buzz](https://www.techbuzz.ai/articles/anthropic-opens-doors-to-independent-ai-auditors)
+
+**6. OpenAI 工程师因在高管会议室装窃听器被美国司法部起诉**
+
+为什么值得知道：DOJ 10 月 13 日宣布：工程师 Abdulrahman Alfozan（沙特籍，2025 年 7 月入职）涉嫌 9 月 28 日左右把录音设备（卫生纸包裹）插进高管会议室电视 USB 口，存储数据已加密无法读取，包里还搜出第二个；OpenAI 称用自家 AI 模型锁定了嫌疑人，人已开除，暂无证据显示模型权重、源码或客户数据外泄。AI 实验室的"谍战"第一次闹到联邦起诉。
+
+来源：[The Register](https://www.theregister.com/security/2026/10/14/openai-engineer-charged-after-boardroom-bug-found-wrapped-in-toilet-paper/5303000)、[路透 via CTech](https://www.calcalistech.com/ctechnews/article/s1qoac3szx)
+
+**7. Anthropic 用自研 Scion 换掉 Git：agent 写代码把日合并量推到 3 万次**
+
+为什么值得知道：10 月 13 日工程博客：日合并从 5 月的 2500 次涨到 9 月超 30000 次，增量主力是 Claude 自己写的代码；主分支历史近 100GB，CI 每天 2500 万次检出；7 人 5 个月建成，CPU/内存占用降到原来的 1/200；不开源。"AI 写代码先冲垮的是代码基础设施"的第一个硬数字。
+
+来源：[Temperature2](https://temperature2.com/p/2026-10-14-anthropic-scion-git-replacement-claude-scale/)、[Developers Digest](https://www.developersdigest.tech/blog/anthropic-scion-source-control-git-agents-2026)
+
+## 二、技术分享·好实践
+
+**1. 把官方博客 + 994 条 HN 评论一起读完的 Scion 拆解**
+
+讲了什么：[LevelUp Coding 的 Scion 深度拆解](https://levelup.gitconnected.com/anthropic-scion-replaces-git-f42317d62889)——通读 Anthropic 官方工程博客和 Hacker News 994 条评论，再对比 Google / Meta 的方案，讲清 Scion 到底是什么、对普通开发者意味着什么。
+
+为什么有效：钩子先纠偏——"全网读成了'Anthropic 杀死了 git'，其实不是"；证据是"我读了哪些材料"的完整清单，可信度一次立住。
+
+可以直接借的一招：写解读开头先纠正一个流行误读，再列"我读完的材料清单"。
+
+**2. ChatGPT Chrome 新功能的保姆级教程**
+
+讲了什么：[explainx.ai 的 Chrome 插件教程](https://explainx.ai/blog/chatgpt-chrome-extension-open-tabs-work-control-permissions-setup-risks-2026)——Chat 读标签页、Work 操作标签页：安装步骤、权限说明、风险提示。
+
+为什么有效：TL;DR 表格先给结论；权限部分按"点允许之前先检查什么"组织；风险单独成段不回避（"agent 在已登录网站上操作，页面内容不完全可信"）。
+
+可以直接借的一招：工具教程固定四件套——一句话 TL;DR 表 + 安装步骤 + 权限清单 + 风险段。
+
+**3. Thursdai 播客 newsletter：边吵边聊 AI 新闻**
+
+讲了什么：[Thursdai 10 月 15 日这期](https://sub.thursdai.news/p/thursdai-oct-15-meta-ships-muse-wonder)——一期 AI 新闻讨论：Meta 开放 816B、Gemini 4 Argon、Anthropic 投资者日，几个主持人观点对冲着聊。
+
+为什么有效：传闻明确标传闻（配自嘲式免责），个人经历当证据（主持人因"在别家 agent 里用 Claude 被封号"退订、又考虑续订）。
+
+可以直接借的一招：聊新闻时主动摆出对立观点，传闻和实测分开标，立场用自嘲兜底。
+
+**4. Forkast：NVIDIA 新模型的真新闻不是参数，是许可证**
+
+讲了什么：[Forkast 的 Nemotron 分析](https://forkast.news/nvidia-ships-its-own-open-source-model-for-its-own-hardware-the-compute-landlord-gets-vertical/)——Bolt 发布，但标题盯的是 OpenMDW-1.1 许可证：零收入门槛、零 OEM 限制，对比 StepFun、Mistral、Kimi K3 的 $20M 门槛。
+
+为什么有效：所有人都在报参数，他报条款——"The license is the story"；证据是一张各家许可证门槛对比，观点一次砸实。
+
+可以直接借的一招：每个大新闻里找"发布会没强调、但影响最大"的那一条当标题。
