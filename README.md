@@ -4,6 +4,9 @@
 
 ## 归档
 
+- [2026-10-23](https://crayonn.github.io/ai-daily-digest/digests/2026-10-23.html)
+- [2026-10-22](https://crayonn.github.io/ai-daily-digest/digests/2026-10-22.html)
+- [2026-10-19](https://crayonn.github.io/ai-daily-digest/digests/2026-10-19.html)
 - [2026-10-18](https://crayonn.github.io/ai-daily-digest/digests/2026-10-18.html)
 - [2026-10-17](https://crayonn.github.io/ai-daily-digest/digests/2026-10-17.html)
 - [2026-10-16](https://crayonn.github.io/ai-daily-digest/digests/2026-10-16.html)
