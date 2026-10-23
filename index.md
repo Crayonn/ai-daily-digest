@@ -5,92 +5,101 @@ title: AI 每日资讯
 
 每天一条 AI 早报，一个文件存一天。
 
-**往期：** 2026-10-19（本期） · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
+**往期：** 2026-10-23（本期） · [2026-10-22](digests/2026-10-22.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
 
 ---
 
-# AI 早报 2026-10-19
+
+# AI 早报 2026-10-23
 
 ## 一、AI 资讯
 
-**1. Anthropic 把第三方评测机构请进办公室：METR 拿到 "employee-like access"**
+**1. DeepSeek 完成约 1000 亿元融资：腾讯、宁德时代领投，备战明年初上海上市**
 
-10 月 18 日宣布：非营利评测机构 METR 不再是远程拿数据，而是直接进驻 Anthropic 办公室、用内部硬件和系统做模型风险评估。背景是 9 月 Dario Amodei 与 Altman、马斯克共同呼吁前沿实验室引入第三方审计——这是第一家落地的；OpenAI 表过态但还没拿出对等动作。
+10 月 22 日彭博、路透、WSJ 同日引述知情人士报道：深度求索新一轮融资约 1000 亿元人民币（约 150 亿美元），是中国史上最大规模的私募融资之一。腾讯和宁德时代（均为老股东）是最大出资方，另有兆易创新、美团、吉利、美的、网易、博裕资本、CPE、君联资本、IDG 等 15 家以上机构参与。融资目标从 7 月的 500 亿两度上调至 1000 亿；投前估值约 5000 亿元（约 740 亿美元）。资金投向数据中心和开源模型；已聘中信证券筹备科创板上市，目标明年初；创始人梁文锋 9 月称公司年化营收已达 10 亿美元。
 
-为什么值得知道：前沿实验室第一次把"开门让人查"做到这个程度；接下来看哪家跟进，会直接影响各家的发布节奏和合规成本。
+为什么值得知道：距美国下令联邦机构移除 DeepSeek 仅两天，中国产业资本就用史上最大手笔投票；开源模型的"算力军备赛"正式开打——有钱之后拼的不再是算法巧劲。
 
-来源：[AI Daily Post](https://aidailypost.com/news/anthropic-gives-ai-watchdog-employee-like)
+来源：[路透（经新浪）](https://k.sina.cn/article_5952915720_162d24908067051lfk.html?from=tech)、[彭博（经 Paktechstan）](https://paktechstan.com/deepseek-closes-15-billion-funding-round-backed-by-tencent-and-catl-one-of-china-s-biggest-ever)、[WSJ（经 DigitalToday）](https://www.digitaltoday.co.kr/cn/view/118389/deepseek-raises-15-billion-aims-for-shanghai-ipo-in-early-2027)
 
-**2. Anthropic 自曝内部数据：agent 工时已是员工 6 倍，初级岗占比 27%→9%**
+**2. NVIDIA GTC Berlin：DSX POD 把 AI 工厂部署从 6 个月压缩到 14 天**
 
-10 月 18 日公布：到 8 月，内部交互式 agent 工时约为员工工时的 6 倍；技术岗中初级工程师占比从 27% 跌到 9%；人均 commit 数是半年前的约 5 倍。最有说服力的细节：agent 写的代码和人写的被 revert 的概率一样——初级岗消失不是因为"AI 代码质量不行"。
+10 月 21 日黄仁勋 GTC Berlin 主题演讲：发布 DSX POD——Vera Rubin AI 数据中心的工厂预制模块，整机在集装箱内布线测试完毕再交付，备好场地的部署时间从数月压缩到最快 14 天，2027 年初全球交付。黄仁勋算账：400 亿美元年化收入的基础设施，晚 3 个月就是 100 亿美元。同场发布 OpenShell 参考架构：企业可在安全边界内跑 Anthropic、OpenAI、Google、Meta、SpaceX Super Intelligence 的 agent，CrowdStrike、Palo Alto、SAP、ServiceNow 做配套。
 
-为什么值得知道：第一家前沿 lab 亲手量化 agent 化对自身组织的冲击，"初级岗去哪了"第一次有了一手数据；这组数字会被所有科技公司的管理层引用。
+为什么值得知道：AI 基建的瓶颈从"买不到卡"变成"建不快厂房"——模块化交付是云厂商和主权 AI 买家都会跟进的形态。
 
-来源：[AIToolsRecap](https://aitoolsrecap.com/Blog/ai-news-october-18-2026)
+来源：[AIStockWire](https://aistockwire.com/blog/nvidia-nvda-dsx-pod-gtc-berlin-keynote-openshell-sovereign-ai-october-2026)、[Barron's（经 Mint）](https://www.livemint.com/global/nvidias-10-billion-ai-data-center-quick-fix-and-the-winning-stocks-11792584415478.html)
 
-**3. Claude 半小时解开 NSA 25 年的 NIST 曲线种子谜**
+**3. 路透：字节、阿里、腾讯向 NVIDIA 下了超 300 万块 Blackwell 芯片订单，约 350 亿美元**
 
-Anthropic 10 月 16 日发布报告：一名员工让内部研究模型调查 NIST 椭圆曲线种子的来源，没有给"遗忘的英文短语"旧线索；Claude 在半小时内从种子的统计指纹认出是老 C 库随机数发生器 lrand48、用 1997–1998 年的 Unix 时间戳做种子，并用格密码（LLL）技术倒推内部状态——P-256 的种子是第 1842 个候选值。复现代码已公开，"NSA 留后门"的阴谋论空间大幅压缩（B-163 等少数参数仍未解开）。
+知情人士向路透透露：三家中国科技巨头合计订购超 300 万块 Blackwell 芯片（另有台媒称是 RTX PRO 5500 工作站卡，单价约 1.14 万美元），总额超 350 亿美元。但 NVIDIA 2027 年全球 Blackwell 产能上限约 300 万块，只能满足订单的 5–10%。中美两国监管审批悬而未决（美方要求从对华芯片销售中分成 15%），这批货能否交付还是未知数。
 
-为什么值得知道：展示的是科研式推理的方法论——自己发现统计指纹、自己选工具倒推；能力主张来自厂商，但有多家独立报道交叉验证。
+为什么值得知道：中国 AI 产能扩张的需求是真实的，卡脖子的是供给——这也解释了为什么 DeepSeek 融资的第一投向就是数据中心。
 
-来源：[CoinDesk](https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery)、[Cybersecurity News](https://www.cybersecuritynews.com/claude-ai-cryptography-mystery/)
+来源：[NAI 500（引述路透）](https://nai500.com/blog/2026/10/nvidias-35b-china-order-what-investors-should-note/)、[Zubiqo（引述路透）](https://zubiqo.com/news/nvidia-advances-billions-to-six-suppliers-locks-down-ai-chip-capacity-through-2028-hzvtwi)
 
-**4. 预算档价格继续分化：V4 Pro 输入降 28%，GLM 5.3 Flash 暴涨 400%**
+**4. Agentic AI Foundation 一口气收编四个新项目**
 
-价格追踪站记录的 10 月 18 日变动：DeepSeek V4 Pro 0423 输入 $0.29→$0.21（-28%），V3.2 涨 8% 到 $0.28；Z.AI GLM 4.7 降 10% 到 $0.54，GLM 5.3 Flash $0.03→$0.15（+400%）。注意：该站同时写 V4.1 Flash 输入涨 100% 到 $0.08，但与官方发布说明的"价格不变"打架——这条先别信，以自己账单为准。
+10 月 22 日 AGNTCon + MCPCon 北美大会上宣布：Anthropic 捐出 Agent Skills、OpenAI 捐出 Open Responses、Hugging Face 捐出 OpenEnv、阿里捐出 OpenSandbox。AAIF 成立一年，托管项目从 3 个扩到 10 个（已有 A2A、MCP、AGENTS.md、goose 等），覆盖 agent 能力扩展、跨模型互操作、训练评估环境、安全运行时四层。
 
-为什么值得知道：高端和 budget 档差距越拉越大，跑 agent 的人账单结构在变；今天就可以拿着自己的用量重算一遍。
+为什么值得知道：OpenAI 和 Anthropic 同时把自家 agent 标准捐给中立基金会——agent 互操作正在走当年"容器标准化"的路，MCP 之外的第二战场开辟了。
 
-来源：[olud.ai](https://olud.ai/news/2026-10-18.html)
+来源：[Morningstar（PR Newswire 通稿）](https://www.morningstar.com/news/pr-newswire/20261022dc78734/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox)
 
-**5. Character.AI 申请 Chapter 11，Disney 2000 万美元拿走技术**
+**5. 意大利 EU AI 法案实施令今日生效：最高罚 3500 万欧元或全球营收 7%，算法单独开除人无效**
 
-10 月 18 日披露的法庭文件：公司申请破产保护，Disney 出 $20M 买下技术授权，至少 60 名员工转投 Disney（年薪包约 $6000 万）。
+10 月 7 日颁布的第 179 号立法令今日（10 月 23 日）生效：数字署（AgID）管认证、国家网络安全局（ACN）管市场监管；违反禁用类 AI 用途最高罚 3500 万欧元或全球年营收 7%；设 AI 监管沙盒。最硬的一条是劳工条款：招聘、调岗、解雇、处分、绩效评定不能只靠算法决定，违规解雇直接无效——比欧盟统一时间表早了一年多。
 
-为什么值得知道：AI 陪伴赛道的标志性公司倒下——高 DAU + 难变现的路没走通；Disney 接盘的方向是 IP 化 AI 角色，值得盯后续产品。
+为什么值得知道：欧盟 AI 法案第一次有了"带牙齿"的国家级执行；在意大利有员工、用算法排班或筛简历的公司，合规账今天就要重算。
 
-来源：[The Diary of AI](https://thediaryofai.com/ai-news-20261018/)、[AI News This Week](https://ainews.q-sci.org/ai-news-this-week.html)
+来源：[Pasquale Pillitteri（核对官方法令文本）](https://pasqualepillitteri.it/en/news/22825/italy-ai-decree-179-2026-fines-35-million-euros)、[TechTimes](https://www.techtimes.com/articles/329377/20261022/italys-ai-workplace-safety-mandate-takes-effect-thursday-scheduling-tools-covered.htm)、[AI News Report](https://ainewsreport.org/blog/italy-ai-law-takes-effect-employers-can-no-longer-let-an-algorithm-alone-fire-a-worker)
 
-**6. 三巨头罕见"统一口径"谈网络安全协作（传闻/未证实）**
+**6. 1Password for Agents 上线：AI 帮你登录，但它永远看不到密码**
 
-BitRss 10 月 18 日报道：OpenAI、Anthropic、Google DeepMind 确认过去数周在联合制定 AI 网络安全防护措施。目前只有这一家报道、没看到官方公告，先当传闻看。
+10 月 22 日发布：agent 到登录页时用数字密钥向 1Password 自证身份，你在自己手机上看到"它想登哪个账号、为什么"，点批准后 1Password 直接把账号密码加一次性验证码填进网页——agent 全程看不到密码。首批支持 Meta Muse、Grok Bot，Anthropic Claude Duet、OpenAI Dots/ChatGPT Work 后续接入；Browserbase、Perplexity、Ramp 等在做集成。个人版/家庭版免费含（1password.com 账号，欧加节点暂不支持）。
 
-为什么值得知道：如果属实，是三家第一次在安全议题上协同发声——监管压力下，"行业共识"正在取代单打独斗。
+为什么值得知道：agent 时代最大的信任卡点就是"要不要把密码给它看"——1Password 给出了"委托但不交钥匙"的标准答案，Claude Duet 这类主动 agent 的最后一公里打通了。
 
-来源：[BitRss](https://bitrss.com/openai-anthropic-and-google-deepmind-confirm-weeks-of-safety-coordination-252531)
+来源：[PCWorld](https://www.pcworld.com/article/3267020/1password-opens-the-door-to-ai-agents-without-handing-over-your-passwords.html)、[Digital Trends](https://www.digitaltrends.com/computing/1password-wants-ai-agents-to-handle-logins-without-ever-taking-a-peek-at-your-passwords/)、[9to5Mac](https://9to5mac.com/2026/10/22/1password-launches-solution-for-safely-using-logins-with-ai-agents/)
+
+**7. 传闻/未证实：Anthropic S-1 公开递交据称最快今天，估值讨论从 2 万亿降到 1.5 万亿**
+
+多家信源称 Anthropic 最快今天公开递交 S-1、11 月上市，目标估值在 1.5 万亿–2 万亿美元之间摇摆（此前传 2 万亿）。已证实的部分（WSJ/路透审阅的草案）：2026 上半年收入 163 亿美元、净亏 807 亿（约 720 亿是非现金会计调整），未来算力承诺超 6000 亿美元，Claude Code 是增长主引擎，但约 1/5 收入来自两个大客户。
+
+为什么值得知道：若成行将是史上最大 IPO；"收入 15 倍增长、烧钱更快"的账本，就是整个 AI 行业"资本换算力"模式的缩影。
+
+来源：传闻部分见 [kimkj 日报](https://kimkj.com/ja/ai-board-ja/?mod=document&uid=19724)；数字部分见 [Cryptothreads（引述 WSJ/路透）](https://cryptothreads.io/news/anthropic-ipo-filing-shows-80b-loss-and-600b-compute-bill/)、[The Boston Report](https://thebostonreport.com/2026/10/21/anthropic-s1-draft-revenue-loss-ipo/)
 
 ## 二、技术分享·好实践
 
-**1. Anthropic 内部 agent 化报告——"拿自己开刀"的数据披露**
+**1. 《Fan Out Subagents：先扇出去，再把收回来的东西验一遍》——补上文档没讲的那一半**
 
-讲了什么：[AIToolsRecap 的 10-18 日报](https://aitoolsrecap.com/Blog/ai-news-october-18-2026)里转述的 Anthropic 内部数据——agent 工时、初级岗占比、commit 量和 revert 率全摊开。
+讲了什么：[AgentsRoom](https://agentsroom.dev/blog/fan-out-subagents-in-claude-code) 对照 Claude Code 2.1.301 实测了三种扇出子 agent 的方式（prompt 里直接说、/batch、脚本循环 claude -p），然后讲了他们每晚的真实用法：6 个子 agent 把博客新文章翻成 17 种语言，主会话合并——每个子 agent 都报告"遵守了规则"，但预先写好的检查脚本每次都能抓出问题。
 
-为什么有效：厂商通常只讲模型多强，它反手把组织数据摊开；"revert 率一样"这种反直觉对照自带传播，评论区会自己吵起来。
+为什么有效：钩子在后半段——所有教程都教"怎么扇出去"，只有它讲"收回来怎么验"；用自家生产流程当证据，而不是玩具 demo。
 
-可以直接借的一招：有独家数据就先晒数据表再给结论，反常识的对照组比任何形容词都有力。
+可以直接借的一招：写 agent 并行工作流帖时，把"校验脚本"和"抓到过的问题"一起晒出来，比晒成功截图可信十倍。
 
-**2. Reflection AI Beam 公告——把"性价比"画成曲线**
+**2. 《Agent Teams vs Subagents：同一个 PR review 跑三遍，数字说话》**
 
-讲了什么：[开源周报的解析](http://newscarpenter.blogspot.com/2026/10/open-source-ai-news-weekly-mistral.html)——501B 开源 MoE（23B 激活），对标 GLM-5.2 的成绩、只用 1/3–1/4 推理算力。
+讲了什么：[Medium @akshaybuilds（10 月 19 日）](https://medium.com/@akshaybuilds/claude-code-agent-teams-when-a-team-beats-subagents-and-what-it-costs-554dcee428fe) 把一次 PR review 分别用单会话、三个 subagent、三个 agent team 各跑一遍：team 花了单会话 3.4 倍 token，但只有 team 抓到了重连代码里的竞态条件。结论：agent 之间需要互相讨论才上 team，否则 subagent 更划算。
 
-为什么有效：结构是"一张 score-vs-FLOPs 曲线 + 一张训练账单"（23.8T tokens / 100M rollouts），技术人看完能自己算，不用信你的形容词。
+为什么有效：结构是"同一任务 × 三种跑法 × 实测数字"，3.4 倍 token 和"唯一抓到的 bug"两个数字撑起全文，没有一句空话。
 
-可以直接借的一招：讲效率优势时直接上图（横轴成本、纵轴分数），别用"更高效"这种词。
+可以直接借的一招：对比类帖子不要列功能表——同一个任务跑多遍，拿 token 数和结果差说话。
 
-**3. DeepSeek V4.1-Flash-1017 发布——先把代价自己说出来**
+**3. 《CellCog 的 subagent 交接设计：没看完的结果不许标"已完成"》**
 
-讲了什么：[Local AI Zone 的 10 月更新汇总](https://local-ai-zone.github.io/blog/October_2026_AI_Model_Updates.html)——小版本更新：benchmark 全涨、输出更短、价格不变，附 91.5% 缓存命中率的数学。
+讲了什么：[CellCog 博客](https://cellcog.ai/blog/ai-employee-subagents/) 讲 AI 员工把活派给 Claude Code/Codex 子 agent 的机制：子 agent 完工后拿一个"wake link"叫醒父 agent；每个完工的子 agent 带一个小圆点，父 agent 必须真正读完输出并标记，点才消失——"reviewed, not just done"。
 
-为什么有效：诚实披露 trade-off（"输出更短"这种藏不住的代价先自己讲），让"有效单价约 $0.017/M"显得可信。
+为什么有效：拆的是一个机制设计细节（已读确认状态），而不是泛泛讲"多 agent 协作"；小圆点这个视觉钩子让人一下记住。
 
-可以直接借的一招：发更新帖先讲"代价是什么"再讲"值在哪里"，顺序反过来，信任感完全不一样。
+可以直接借的一招：讲工作流时，找一个"状态机"级别的细节深挖（比如已读/未读），比讲全流程更让人记住。
 
-**4. NVIDIA Nemotron 3.5 Bolt 发布——"能在哪跑"清单式发布**
+**4. 《Claude Code workflow：worktree 和 subagent 的分工表》**
 
-讲了什么：[DailyCited 的 10-15 日报](https://dailycited.com/d/2026-10-15/)——74B MoE（9B 激活）用 2-bit 量化压进 24GB 显存，专为笔记本本地 agent 设计。
+讲了什么：[willowvoice 实战帖](https://willowvoice.com/blog/claude-code-workflow-tips) 用一张对照表讲清 worktree（隔离文件状态，防两个会话互踩）和 subagent（隔离上下文，防大扫描污染主会话）的分工：并行写代码用 worktree，有界的探查任务用 subagent。另有一条 MCP 忠告：只接真正用的 server，每个多余的 MCP 都在加延迟和扩大攻击面。
 
-为什么有效：发布当天直接列出 llama.cpp / vLLM / Ollama / Unsloth / LM Studio 五个可运行渠道，读者看完知道下一步干什么，转发和收藏都顺手。
+为什么有效：表格把两个最容易混的概念一次讲透；MCP 那条是反常识的减法建议，收藏动机强。
 
-可以直接借的一招：工具类更新结尾附"现在就能试的 3–5 个渠道"，把阅读变成行动。
+可以直接借的一招：讲两个易混概念时直接上对照表（隔离什么/解决什么问题/典型场景三列），读者 30 秒看懂。
