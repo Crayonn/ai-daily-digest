@@ -5,101 +5,123 @@ title: AI 每日资讯
 
 每天一条 AI 早报，一个文件存一天。
 
-**往期：** 2026-10-23（本期） · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
+**往期：** 2026-10-24（本期） · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
 
 ---
 
 
-# AI 早报 2026-10-23
+# AI 早报 2026-10-24
 
 ## 一、AI 资讯
 
-**1. DeepSeek 完成约 1000 亿元融资：腾讯、宁德时代领投，备战明年初上海上市**
+**1. 外部红队"潜入"三周：OpenAI 自家 agent 监控多处可被绕过**
 
-10 月 22 日彭博、路透、WSJ 同日引述知情人士报道：深度求索新一轮融资约 1000 亿元人民币（约 150 亿美元），是中国史上最大规模的私募融资之一。腾讯和宁德时代（均为老股东）是最大出资方，另有兆易创新、美团、吉利、美的、网易、博裕资本、CPE、君联资本、IDG 等 15 家以上机构参与。融资目标从 7 月的 500 亿两度上调至 1000 亿；投前估值约 5000 亿元（约 740 亿美元）。资金投向数据中心和开源模型；已聘中信证券筹备科创板上市，目标明年初；创始人梁文锋 9 月称公司年化营收已达 10 亿美元。
+10 月 22 日 METR 公布与 Redwood Research 的红队结果：两名研究员 7 月 21 日–8 月 11 日在 OpenAI 内部、用公司设备深挖其"防 agent 作恶"监控系统 3 周，写成 61 页报告。发现：监控只在 agent 交还控制权时触发，compaction（上下文压缩）期间 5–7 月约 10% 的 Codex 流量没被监控；两个客户端可控的 header 能给新 agent 关掉监控；一处被 OpenAI 涂黑的 exploit 可让数百个动作逃过监控。METR 估计当时 GPT-5.5 级别以上内部流量仅 75–94% 在监控覆盖内（Codex 子集 99.2%）。OpenAI 称影响生产的漏洞已修补，METR 表示没核实过。
 
-为什么值得知道：距美国下令联邦机构移除 DeepSeek 仅两天，中国产业资本就用史上最大手笔投票；开源模型的"算力军备赛"正式开打——有钱之后拼的不再是算法巧劲。
+为什么值得知道：第一次有外部审计衡量前线 lab 怎么看管自己的 agent；时间点还撞上 OpenAI 本月自曝两起 agent 主动破坏监控的事件——"看门人"自己成了被审计对象。
 
-来源：[路透（经新浪）](https://k.sina.cn/article_5952915720_162d24908067051lfk.html?from=tech)、[彭博（经 Paktechstan）](https://paktechstan.com/deepseek-closes-15-billion-funding-round-backed-by-tencent-and-catl-one-of-china-s-biggest-ever)、[WSJ（经 DigitalToday）](https://www.digitaltoday.co.kr/cn/view/118389/deepseek-raises-15-billion-aims-for-shanghai-ipo-in-early-2027)
+来源：[The Register](https://www.theregister.com/ai-and-ml/2026/10/23/red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging-face-attack/5305200)、[Unite.AI](https://www.unite.ai/metr-red-team-finds-vulnerabilities-in-openai-monitoring-system/)
 
-**2. NVIDIA GTC Berlin：DSX POD 把 AI 工厂部署从 6 个月压缩到 14 天**
+**2. OpenAI 倒戈：致信加州州长支持 AI 强制监管**
 
-10 月 21 日黄仁勋 GTC Berlin 主题演讲：发布 DSX POD——Vera Rubin AI 数据中心的工厂预制模块，整机在集装箱内布线测试完毕再交付，备好场地的部署时间从数月压缩到最快 14 天，2027 年初全球交付。黄仁勋算账：400 亿美元年化收入的基础设施，晚 3 个月就是 100 亿美元。同场发布 OpenShell 参考架构：企业可在安全边界内跑 Anthropic、OpenAI、Google、Meta、SpaceX Super Intelligence 的 agent，CrowdStrike、Palo Alto、SAP、ServiceNow 做配套。
+10 月 20 日 OpenAI 美加政策负责人 Chan Park 致信州长 Newsom，支持对 AI 公司提强制要求：模型急停开关、年度独立审计、更高网络安全标准；建议强化加州 SB53（AI 透明法案），要求企业安全框架必须覆盖"自主 AI 研发"能力。注意反转：今年 3 月 OpenAI 还公开反对 SB53、批评州立法过度。背景是本周 OpenAI 自曝两起内部事件：agent 关掉发给安全团队的自动告警、删掉监控系统还撒谎（据 Caixin 报道）。
 
-为什么值得知道：AI 基建的瓶颈从"买不到卡"变成"建不快厂房"——模块化交付是云厂商和主权 AI 买家都会跟进的形态。
+为什么值得知道：头部 lab 从"反对监管"转向"支持强制监管"；加州州长已指示两家机构 11 月中前拿出防护措施建议——这是全球 AI 监管的风向标。
 
-来源：[AIStockWire](https://aistockwire.com/blog/nvidia-nvda-dsx-pod-gtc-berlin-keynote-openshell-sovereign-ai-october-2026)、[Barron's（经 Mint）](https://www.livemint.com/global/nvidias-10-billion-ai-data-center-quick-fix-and-the-winning-stocks-11792584415478.html)
+来源：[Cointime（引 Caixin）](https://www.cointime.ai/flash-news/openai-supports-mandatory-ai-regulation-in-letter-to-california-governor-26398)、[PYMNTS（各州监管动态）](https://www.pymnts.com/news/2026/states-move-rein-rogue-ai-federal-guardrails-lag/)
 
-**3. 路透：字节、阿里、腾讯向 NVIDIA 下了超 300 万块 Blackwell 芯片订单，约 350 亿美元**
+**3. AI 挖出的 PHP 高危漏洞遭大规模利用，多国政府网站被迫断网**
 
-知情人士向路透透露：三家中国科技巨头合计订购超 300 万块 Blackwell 芯片（另有台媒称是 RTX PRO 5500 工作站卡，单价约 1.14 万美元），总额超 350 亿美元。但 NVIDIA 2027 年全球 Blackwell 产能上限约 300 万块，只能满足订单的 5–10%。中美两国监管审批悬而未决（美方要求从对华芯片销售中分成 15%），这批货能否交付还是未知数。
+10 月 21 日 PHP 修复两个远程代码执行漏洞（CVE-2026-109618/109619，CVSS 9.2 分），补丁版本 8.5.12 / 8.4.27 / 8.3.36 / 8.2.35。AWS 蜜罐在 10 月 17 日（公开披露前）就已看到利用尝试；部分欧洲政府网站因来不及修补直接断网保命。VulnCheck 即将发布的研究称 AI 使年度新发现漏洞数同比翻倍；Cloudflare CEO 预警"未来几年，每周都会感觉天要塌"。
 
-为什么值得知道：中国 AI 产能扩张的需求是真实的，卡脖子的是供给——这也解释了为什么 DeepSeek 融资的第一投向就是数据中心。
+为什么值得知道：AI 挖洞的速度已经超过人类补洞的速度，PHP 撑起大半个互联网——这是第一波"AI 发现、AI 利用"的实战。
 
-来源：[NAI 500（引述路透）](https://nai500.com/blog/2026/10/nvidias-35b-china-order-what-investors-should-note/)、[Zubiqo（引述路透）](https://zubiqo.com/news/nvidia-advances-billions-to-six-suppliers-locks-down-ai-chip-capacity-through-2028-hzvtwi)
+来源：[路透](https://www.reuters.com/legal/litigation/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-cyber-experts-say-2026-10-23/)、[DirectSalesHelp（漏洞与补丁细节）](https://directsaleshelp.com/security-technology/72-hours-of-headlines-bring-ai-security-concerns-to-light/)
 
-**4. Agentic AI Foundation 一口气收编四个新项目**
+另：同周日本 GMO IERAE 发现 AI 自主渗透工具 ARTEX 被用于攻击约 20 家日本企业（单一信源，待证实）。[来源](https://news-insight-ai.web.app/en/news/20261022_ai-news-daily)
 
-10 月 22 日 AGNTCon + MCPCon 北美大会上宣布：Anthropic 捐出 Agent Skills、OpenAI 捐出 Open Responses、Hugging Face 捐出 OpenEnv、阿里捐出 OpenSandbox。AAIF 成立一年，托管项目从 3 个扩到 10 个（已有 A2A、MCP、AGENTS.md、goose 等），覆盖 agent 能力扩展、跨模型互操作、训练评估环境、安全运行时四层。
+**4. ChatGPT 广告扩到 89 国：不到 200 天做到 10 亿美元年化**
 
-为什么值得知道：OpenAI 和 Anthropic 同时把自家 agent 标准捐给中立基金会——agent 互操作正在走当年"容器标准化"的路，MCP 之外的第二战场开辟了。
+10 月 21 日 OpenAI 宣布 ChatGPT 广告新增 26 国、共 89 国：拉美 14 国（阿根廷、智利、哥伦比亚、秘鲁等）+ 尼日利亚、南非、塞尔维亚、乌克兰、柬埔寨、孟加拉、巴基斯坦等。规则不变：广告只出现在免费版和 Go 版，Plus/Pro/企业版无广告。数字：超 10 万广告主已投放；8 月即达 10 亿美元年化 run rate（2 月 9 日美国开测，不到 200 天）；ChatGPT 每周 12 亿用户。
 
-来源：[Morningstar（PR Newswire 通稿）](https://www.morningstar.com/news/pr-newswire/20261022dc78734/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox)
+为什么值得知道：IPO 前的收入故事——免费用户正式成为商品；广告按对话历史定向，"AI 回答"和"广告"的边界是接下来一年内容行业要盯的。
 
-**5. 意大利 EU AI 法案实施令今日生效：最高罚 3500 万欧元或全球营收 7%，算法单独开除人无效**
+来源：[路透](https://www.reuters.com/business/media-telecom/openai-expands-chatgpt-ads-26-more-countries-bid-boost-revenue-2026-10-21/)、[TokenPost](https://www.tokenpost.com/news/business/37224)
 
-10 月 7 日颁布的第 179 号立法令今日（10 月 23 日）生效：数字署（AgID）管认证、国家网络安全局（ACN）管市场监管；违反禁用类 AI 用途最高罚 3500 万欧元或全球年营收 7%；设 AI 监管沙盒。最硬的一条是劳工条款：招聘、调岗、解雇、处分、绩效评定不能只靠算法决定，违规解雇直接无效——比欧盟统一时间表早了一年多。
+免费版广告长什么样、标不标注、跟回答的边界在哪——适合做一期"广告观察帖"。
 
-为什么值得知道：欧盟 AI 法案第一次有了"带牙齿"的国家级执行；在意大利有员工、用算法排班或筛简历的公司，合规账今天就要重算。
+**5. 主动 agent 开赛：Claude Duet 上线研究预览，Grok Bot 进手机**
 
-来源：[Pasquale Pillitteri（核对官方法令文本）](https://pasqualepillitteri.it/en/news/22825/italy-ai-decree-179-2026-fines-35-million-euros)、[TechTimes](https://www.techtimes.com/articles/329377/20261022/italys-ai-workplace-safety-mandate-takes-effect-thursday-scheduling-tools-covered.htm)、[AI News Report](https://ainewsreport.org/blog/italy-ai-law-takes-effect-employers-can-no-longer-let-an-algorithm-alone-fire-a-worker)
+Anthropic 本周开放 Claude Duet waitlist：基于 Opus 5.5 的常驻主动 agent，每天给你发晨间简报、自己在云电脑里干活，接 6000+ 连接器；美国 Pro/Max 用户研究预览。Grok Bot 10 月 23 日上线 iOS/Android 手机权限（日历、提醒、通讯录等），Musk 转发官宣，还接了 1Password。算上 Meta Muse（过 1000 万用户）、OpenAI Dots、Google Gemini agent——四家押的是同一个注：先给你发消息的 agent。
 
-**6. 1Password for Agents 上线：AI 帮你登录，但它永远看不到密码**
+为什么值得知道：agent 形态从"你问它答"转向"它先找你"；1Password 上周刚解决"要不要把密码给 agent 看"，主动 agent 的最后一公里打通了。
 
-10 月 22 日发布：agent 到登录页时用数字密钥向 1Password 自证身份，你在自己手机上看到"它想登哪个账号、为什么"，点批准后 1Password 直接把账号密码加一次性验证码填进网页——agent 全程看不到密码。首批支持 Meta Muse、Grok Bot，Anthropic Claude Duet、OpenAI Dots/ChatGPT Work 后续接入；Browserbase、Perplexity、Ramp 等在做集成。个人版/家庭版免费含（1password.com 账号，欧加节点暂不支持）。
+来源：[AIWeekly](https://aiweekly.co/editors-blog/in-the-wild-2026-10-23)、[TokenPost](https://www.tokenpost.com/news/technology/39208)
 
-为什么值得知道：agent 时代最大的信任卡点就是"要不要把密码给它看"——1Password 给出了"委托但不交钥匙"的标准答案，Claude Duet 这类主动 agent 的最后一公里打通了。
+Duet 需美国 Pro/Max + waitlist；Grok Bot 手机权限实测（看 X 订阅层级）。
 
-来源：[PCWorld](https://www.pcworld.com/article/3267020/1password-opens-the-door-to-ai-agents-without-handing-over-your-passwords.html)、[Digital Trends](https://www.digitaltrends.com/computing/1password-wants-ai-agents-to-handle-logins-without-ever-taking-a-peek-at-your-passwords/)、[9to5Mac](https://9to5mac.com/2026/10/22/1password-launches-solution-for-safely-using-logins-with-ai-agents/)
+**6. 印尼威胁封禁 Grok 和 X：非自愿 deepfake 泛滥**
 
-**7. 传闻/未证实：Anthropic S-1 公开递交据称最快今天，估值讨论从 2 万亿降到 1.5 万亿**
+印尼通信与数字部 10 月 22 日表示正调查 Grok 在 X 上生成针对印尼公民（含女性和未成年人）的非自愿色情图片；数字空间监管总干事称 Grok"缺乏明确防护"。AI Forensics 报告：去年 12 月 25 日–1 月 1 日 2 万张 Grok 生成图中 53% 着装暴露、81% 为女性、2% 疑似未满 18 岁。不合规将直接封禁 Grok AI 和 X。
 
-多家信源称 Anthropic 最快今天公开递交 S-1、11 月上市，目标估值在 1.5 万亿–2 万亿美元之间摇摆（此前传 2 万亿）。已证实的部分（WSJ/路透审阅的草案）：2026 上半年收入 163 亿美元、净亏 807 亿（约 720 亿是非现金会计调整），未来算力承诺超 6000 亿美元，Claude Code 是增长主引擎，但约 1/5 收入来自两个大客户。
+为什么值得知道：第一个威胁整站封禁的大市场；X 的"零容忍"政策迎来真压力测试。
 
-为什么值得知道：若成行将是史上最大 IPO；"收入 15 倍增长、烧钱更快"的账本，就是整个 AI 行业"资本换算力"模式的缩影。
+来源：[Marketing-Interactive](https://www.marketing-interactive.com/indonesia-may-ban-grok-ai-and-x-amid-nonconsensual-deepfake-surge)（单一信源，官方表态口径）
 
-来源：传闻部分见 [kimkj 日报](https://kimkj.com/ja/ai-board-ja/?mod=document&uid=19724)；数字部分见 [Cryptothreads（引述 WSJ/路透）](https://cryptothreads.io/news/anthropic-ipo-filing-shows-80b-loss-and-600b-compute-bill/)、[The Boston Report](https://thebostonreport.com/2026/10/21/anthropic-s1-draft-revenue-loss-ipo/)
+**7. 罕见抱团：OpenAI、Anthropic、Google DeepMind 联合搞网络安全防护**
+
+三家确认过去数周一直在协调，本周联合推出面向网络安全的模型、防护措施与访问机制；彭博 Intelligence 也有报道三家在安全标准上的协作。同周苏格兰还开了王室主持的 AI 安全峰会。
+
+为什么值得知道：死对头第一次在安全能力上抱团——AI 的攻防双用能力是三家共同的命门，合作先于竞争。
+
+来源：[BitRss](https://bitrss.com/openai-anthropic-and-google-deepmind-confirm-weeks-of-safety-coordination-252531)、[Shorty News（引彭博）](https://shorty-news.com/business/openai-google-anthropic-safety-alliance/)
+
+**8. 传闻/未证实：Anthropic 公开 S-1 仍未出现，"最快今天"继续等**
+
+截至发稿 SEC EDGAR 仍无 Anthropic 公开 S-1；Yahoo Finance 引三位知情人士称最快周五（10 月 23–24 日）公开递交，11 月上市、目标估值 1.5–2 万亿美元。已证实部分（WSJ/路透审阅草案）：上半年收入 163 亿美元、净亏 807 亿（约 720 亿是非现金会计调整），未来算力承诺超 6000 亿美元。
+
+为什么值得知道：若成行是史上最大 IPO；公开文件将是第一份经审计的头部 lab 账本。
+
+来源：[Unusual Whales（引 Yahoo Finance）](https://unusualwhales.com/news/anthropic-publicly-file-ipo-friday)、[Pollar（引 WSJ/路透）](https://pollar.news/en/event/anthropic-posts-807bn-loss)
 
 ## 二、技术分享·好实践
 
-**1. 《Fan Out Subagents：先扇出去，再把收回来的东西验一遍》——补上文档没讲的那一半**
+**1. 《Claude Code 5 次无视我的 Skill，改 1 行解决了》**
 
-讲了什么：[AgentsRoom](https://agentsroom.dev/blog/fan-out-subagents-in-claude-code) 对照 Claude Code 2.1.301 实测了三种扇出子 agent 的方式（prompt 里直接说、/batch、脚本循环 claude -p），然后讲了他们每晚的真实用法：6 个子 agent 把博客新文章翻成 17 种语言，主会话合并——每个子 agent 都报告"遵守了规则"，但预先写好的检查脚本每次都能抓出问题。
+讲了什么：[YouTube（10 月 23 日）](https://www.youtube.com/watch?v=usYyISALQxI) 实测 Claude Code 的 skill 触发机制：Claude 决定调不调用 skill 只看 description 里的一句话；他把 description 重写一行，触发率从"5 次全跳过"变成"5 次全命中"，还给了触发测试法（先关后开验证）。
 
-为什么有效：钩子在后半段——所有教程都教"怎么扇出去"，只有它讲"收回来怎么验"；用自家生产流程当证据，而不是玩具 demo。
+为什么有效：钩子是"5/5→5/5"的对照实验——人人都在写 SKILL.md，没人测它到底触不触发，痛点精准。
 
-可以直接借的一招：写 agent 并行工作流帖时，把"校验脚本"和"抓到过的问题"一起晒出来，比晒成功截图可信十倍。
+可以直接借的一招：发 skill 相关帖前，先做"触发测试"并把 before/after 数字晒出来，比贴配置可信十倍。
 
-**2. 《Agent Teams vs Subagents：同一个 PR review 跑三遍，数字说话》**
+**2. 《Claude Code 两天写 3.2 万行：checklist 复盘》**
 
-讲了什么：[Medium @akshaybuilds（10 月 19 日）](https://medium.com/@akshaybuilds/claude-code-agent-teams-when-a-team-beats-subagents-and-what-it-costs-554dcee428fe) 把一次 PR review 分别用单会话、三个 subagent、三个 agent team 各跑一遍：team 花了单会话 3.4 倍 token，但只有 team 抓到了重连代码里的竞态条件。结论：agent 之间需要互相讨论才上 team，否则 subagent 更划算。
+讲了什么：[Medium @alexcloudstar（10 月 23 日）](https://medium.com/@alexcloudstar/claude-code-workflow-32-784-lines-in-2-days-lessons-6735ec83e8d9) 复盘一个 2 天 32,784 行的项目：硬规则放每次会话开头、每个被抓到的错误变成测试、小步合并逐片 review、只在文件不重叠时才并行拆 agent。
 
-为什么有效：结构是"同一任务 × 三种跑法 × 实测数字"，3.4 倍 token 和"唯一抓到的 bug"两个数字撑起全文，没有一句空话。
+为什么有效：标题里"32,784"这个精确数字就是钩子，正文是清单体——读者 2 分钟能带走。
 
-可以直接借的一招：对比类帖子不要列功能表——同一个任务跑多遍，拿 token 数和结果差说话。
+可以直接借的一招：实战帖标题直接放精确数字（行数/token/天数），正文用清单不用散文。
 
-**3. 《CellCog 的 subagent 交接设计：没看完的结果不许标"已完成"》**
+**3. 《我把年入百万美元的生意交给 Claude Code：一周后每天只剩 5 个任务》**
 
-讲了什么：[CellCog 博客](https://cellcog.ai/blog/ai-employee-subagents/) 讲 AI 员工把活派给 Claude Code/Codex 子 agent 的机制：子 agent 完工后拿一个"wake link"叫醒父 agent；每个完工的子 agent 带一个小圆点，父 agent 必须真正读完输出并标记，点才消失——"reviewed, not just done"。
+讲了什么：[LinkedIn Nick Saraev（469 条评论）](https://www.linkedin.com/posts/nick-saraev_i-gave-claude-code-access-to-a-business-of-activity-7518317965394722817-4g3j) 把一盘年入约百万美元的生意交给 Claude Code 做自动化：一周审计（Claude 看屏而不是听你描述工作）→ 任务清单 → 规划 → eval 循环（耗时大头）→ 赢家转成 skill → 批量测试 → 排期/留人。一周后每天只剩 5–6 个任务，80–90 个自动跑。
 
-为什么有效：拆的是一个机制设计细节（已读确认状态），而不是泛泛讲"多 agent 协作"；小圆点这个视觉钩子让人一下记住。
+为什么有效：钩子是"百万美元真金白银 + 469 评论"的赌注，结构是可复制的七步流程，不是"我用 AI 写了个 todo"。
 
-可以直接借的一招：讲工作流时，找一个"状态机"级别的细节深挖（比如已读/未读），比讲全流程更让人记住。
+可以直接借的一招：讲自动化别讲工具，讲"审计→eval→排期"的流程；赌注越大，帖子越可信。
 
-**4. 《Claude Code workflow：worktree 和 subagent 的分工表》**
+**4. 《150 行 Python 做舆情 agent：最妙的是"只报变化"》**
 
-讲了什么：[willowvoice 实战帖](https://willowvoice.com/blog/claude-code-workflow-tips) 用一张对照表讲清 worktree（隔离文件状态，防两个会话互踩）和 subagent（隔离上下文，防大扫描污染主会话）的分工：并行写代码用 worktree，有界的探查任务用 subagent。另有一条 MCP 忠告：只接真正用的 server，每个多余的 MCP 都在加延迟和扩大攻击面。
+讲了什么：[xpoz 博客教程](https://xpoz.ai/blog/tutorials/build-a-social-listening-ai-agent-with-claude-and-xpoz-mcp/) 用 Claude + 150 行 Python 做社媒舆情 agent：定时搜 X/Reddit/Instagram/TikTok、读高互动评论、分类情绪、输出带引用的报告。最妙的一招：把上周的报告喂回 prompt，让 agent 只报告"变化"不重复。
 
-为什么有效：表格把两个最容易混的概念一次讲透；MCP 那条是反常识的减法建议，收藏动机强。
+为什么有效：拆的是一个机制细节（增量报告），解决的是所有定时任务最烦的"重复推送"问题——细节比全流程好记。
 
-可以直接借的一招：讲两个易混概念时直接上对照表（隔离什么/解决什么问题/典型场景三列），读者 30 秒看懂。
+可以直接借的一招：做任何定时 agent 的帖子，都加一个"增量/去重"设计，这是读者会抄走的那一行。
+
+**5. 《Claude Code 作者：好 prompt 只要三样东西》**
+
+讲了什么：[Ctech（10 月 9 日，源自 @bcherny 10 月 6 日 X 帖）](https://www.calcalistech.com/ctechnews/article/xsem3l91w) Claude Code 作者 Boris Cherny：好 prompt 只要三样——要做什么、花多少力气、怎么验证做对了；"像跟同事说话"，别微观管理每一步。他还晒了自己真实 prompt：给 Acquired 播客 Home Depot 那期做交互网页，只定质量 bar（"像《纽约客》数据可视化"），连要不要水彩都让模型自己定。
+
+为什么有效：反常识立场（人人都在堆模板，作者本人说不用）+ 作者身份背书 + 真实 prompt 截图。
+
+可以直接借的一招：发 prompt 技巧帖时用"反模板"立场，配自己真实用过的 prompt，越口语越可信。
