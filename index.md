@@ -5,109 +5,100 @@ title: AI 每日资讯
 
 每天一条 AI 早报，一个文件存一天。
 
-**往期：** 2026-10-26（本期） · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
+**往期：** 2026-10-27（本期） · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
 
 ---
 
-
-# AI 早报 2026-10-26
+# AI 早报 2026-10-27
 
 ## 一、AI 资讯
 
-**1. OpenAI 用最高 90% 的折扣挖 Anthropic 大客户，Replit 超 1 亿美元年单易主**
+**1. Anthropic 公开递交 IPO 申请，代码 ANT：上半年收入 163 亿美元，净亏 807 亿美元里 724 亿是非现金账面项**
 
-据 The Information（经 The Decoder 等多家转述，10 月 24–25 日）：OpenAI 以大幅折扣争夺 Anthropic 的企业客户。Replit 在 Anthropic 不续折扣后接受 OpenAI 逾 30% 的折扣、签下年价值超 1 亿美元的合同，OpenAI 成为 Replit Agent 的默认模型；Rippling 的 coding 工作量中 OpenAI 占比从 16% 升至 52%，Anthropic 从 57% 跌至 18%；DataCamp CEO 称 OpenAI 报价使其成本降低 80–90%；一家资产超 70 亿美元的美国银行以低于 7 美元/人的价格把 ChatGPT 席位翻倍至 500 人（标价 20 美元以上）。Anthropic 方面未置评；投资备忘录称其增长从 Q2 到 Q3 有所放缓。
+Anthropic 10 月 26 日向 SEC 公开递交 S-1，拟在纳斯达克上市，股票代码 ANT，但股数和定价区间都还没定。文件显示 2026 上半年收入 162.86 亿美元，同比约 11.63 亿美元，涨了约 14 倍；二季度单季收入 115.6 亿美元，经营利润 9.74 亿美元，是公司史上首个季度经营盈利。807 亿美元净亏里约 724 亿美元是可转债等公允价值重估的非现金支出，经营性亏损只有 6.93 亿美元，上半年经营现金流为正 39.3 亿美元。七位联合创始人持有的特殊股在股东投票中固定占 50.1%。
 
-为什么值得知道：这不是公开价目表降价，而是谈判桌上的价格战——模型在应用层已足够可替代，30% 的价差就能决定默认供应商；Anthropic 若按传闻在 11 月上市，这个时间点丢大客户最伤。
+为什么值得知道：收入规模和盈利拐点是真的，但控制权不在公开股东手里；算力仍是最大成本，上半年基础设施支出 89.45 亿美元。看 IPO 别只看 807 亿这个 headline 数字。
 
-来源：[The Decoder](https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/)、[AI Weekly（10 月 24 日）](https://aiweekly.co/alerts/replit-shifts-100m-ai-spend-to-openai-after-30-price-cut)
+来源：[PYMNTS](https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-files-ipo-showing-16-3-billion-six-month-revenue-and-80-7-billion-net-loss/)、[Tensorust（S-1 拆解）](https://tensorust.com/articles/anthropic-s1-ipo-filing/)
 
-**2. Claude 10 月 25 日两起报错：五款模型同日受影响，官方称影响各约 30 分钟**
+**2. OpenAI 发布 GPT-6.1 Terra：价格直接砍半，输入 1 美元/百万 token、输出 5 美元，瞄准办公室批量活**
 
-Anthropic 状态页 10 月 25 日 06:14 UTC 发布"多模型报错升高"事件，涉及 Claude Mythos 5.1、Fable 5.1、Opus 5.5、Sonnet 5.5、Haiku 5.5，claude.ai、Claude API、Claude Code、Claude Cowork 四项服务一度标记为部分中断；06:35 UTC 部署修复，07:53 UTC 标记解决，官方称实际影响为 06:05–06:35 UTC（北京时间 14:05–14:35）。同日另有一起 Fable 5.1 报错事件，影响 08:08–08:29 UTC。状态页此前在 10 月 24 日也有三起已解决事件。
+GPT-6.1 Terra 10 月 26 日上线，替代 GPT-5.6 Terra，API 价从 2 美元/10 美元降到 1 美元/5 美元（每百万 token 输入/输出），缓存输入只要 0.05 美元。定位是办公室和电脑操作类任务：写提案、读技术图纸、填表、剪视频，Plus、Pro、企业、教育版用户已可在 ChatGPT Work 和 Codex 里用，也可走 API。第三方评测称它在“单位成本智能”上站上新的前沿：最高推理档位下比上一代智能指数高 6 分，单任务成本从 1.40 美元降到 0.40 美元。
 
-为什么值得知道：Claude 在一周内连发多起短时报错——对把 Claude Code 接进 CI 或客服流程的团队，30 分钟的波动已足够打断一次发布；这也是本周第二起"头部 lab 服务抖动"（见上周 PHP 漏洞潮），容灾不能只押一家。
+为什么值得知道：同档对手 Claude Sonnet 5.5 是 2 美元/12 美元，Terra 不到它一半；如果你现在用 API 跑批量文档、表单类任务，换模型可能比换架构更省钱，先拿一类真实任务跑对比再定。
 
-来源：[Pingoru 事件时间线（引官方状态页）](https://pingoru.io/providers/claude/incidents/12439463)、[Technobezz（官方更新时间线）](https://www.technobezz.com/news/claude-service-incident-7c25a3d9)
+来源：[PYMNTS](https://www.pymnts.com/news/artificial-intelligence/2026/openai-unveils-half-price-ai-model-to-target-enterprise-automation/)、[AI Daily Post](https://aidailypost.com/news/gpt-61-terra-halves-openai-api)
 
-**3. Kimi K3.1 Pro 上线：2.8 万亿参数、100 万 token 上下文，API 价比上一代低三分之一**
+**3. 瑞典政府办公室 10 月 26 日起封掉工作电脑上的 ChatGPT、Claude 网页版，只留 Copilot**
 
-Moonshot AI 10 月 23 日发布 Kimi K3.1 Pro：总参数 2.8 万亿（每 token 激活 1040 亿）、100 万 token 上下文；API 定价输入 2 美元/百万 token、输出 10 美元、缓存命中 0.20 美元，比 K3 的 3/15 美元低三分之一，与 Claude Sonnet 5.5、GPT-6 Sol 持平、为 Opus 5.5 的一半；另有 2–3 倍速的 Highspeed 版（4/20 美元）。自家测试称 Terminal-Bench 4.0 得分 65.7%，略低于 Opus 5.5 的 66.4%。完整权重承诺 11 月 4 日前发布，但许可条款尚未公布；Moonshot 同时说明：为此次开源发布，主动删减了网络攻击相关的训练数据与强化学习环境，内部漏洞利用基准得分从 90.5% 降至 81%。
+瑞典政府办公室（Regeringskansliet）从 10 月 26 日起，不再让员工在工作电脑上打开 ChatGPT 和 Claude 的浏览器版，原因是没有正式数据保护协议，敏感信息贴进公开聊天框存在信息安全风险。微软 Copilot 因通过安全审查、有正式协议而继续获批；少数员工仍可通过政府内部的 AI 助手平台用这两个模型。这不是全国立法禁令，个人手机不受影响；此前 DeepSeek 已在受限之列。
 
-为什么值得知道：旗舰级开源模型的价格锚又下移了一档——且这是第一次有厂商公开承认"为开源而削弱攻击能力"，11 月 4 日的权重与许可是检验"真开源还是半开源"的关键点。
+为什么值得知道：政府的逻辑不是“模型好不好”，而是“有没有合同管得住数据去向”。企业 IT 也会照这个口径收紧：免费/消费级入口先被砍，签了数据处理协议的企业版才能留用。
 
-来源：[VentureBeat](https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations)、[Moonshot 攻击能力说明（Tower Post，10 月 25 日）](https://tower-post.com/2026/10/25/moonshot-kimi-k3-1-cyber-safety-open-weight-release/)
+来源：[SC Media](https://www.scworld.com/brief/sweden-bans-chatgpt-and-claude-for-government-use)、[The AI Tools](https://www.theaitools.tech/2026/10/sweden-blocks-chatgpt-claude.html)
 
-**4. Grok Imagine《奥德赛》第一集上线：7 分 12 秒，离马斯克承诺的"完整长片"还很远**
+**4. 一项 493 场美国中期选举的强制选择测试：Grok 选共和党占 92%，GPT-6.1 Sol 选民主党占 97%**
 
-xAI 的 Grok Imagine 10 月 23 日在 X 发布 AI 生成《奥德赛》系列第一集，片长 7 分 12 秒，与 Wonder Studios 及导演 Dev Walker 合作；截至 10 月 25 日原帖浏览超 330 万次。TechCrunch 评价：个别海上镜头足以以假乱真，但长旁白、僵硬对白、缺乏叙事动力，"看到一半就开始看剩余时长"。背景：马斯克 7 月承诺年底前推出"完整长片、历史准确"的 AI 版《奥德赛》；目前上线的只是系列开篇，未公布总集数与成片计划。
+康奈尔教授带队的 Convovo 研究把 Grok 4.7 和 GPT-6.1 Sol 放到近 500 场美国中期选举里做强制二选一：Grok 在 92% 的回答里选共和党，GPT-6.1 Sol 在 97% 里选民主党，两者一致不到 10%。注意方法前提：两模型平时会拒绝这类问题，是研究去掉了拒绝选项才得到这个结果，它测的是“被迫站队时的倾向”，不是日常对话里的实际投票建议。
 
-为什么值得知道：AI 视频的"一帧像真"与"七分钟成立"之间还隔着叙事能力——这正是所有 AI 长片项目的共同瓶颈；330 万浏览也说明"AI 拍史诗"本身就是流量题材。
+为什么值得知道：这不是谁“更客观”的判决，而是提醒：让模型在政治议题上做二选一，输出会极端分化；做选举、政策类内容时，别拿单次模型回答当民意或事实。
 
-来源：[MadRobot（10 月 25 日）](https://madrobot.blog/2026/10/25/grok-imagine-ai-odyssey-episode-1-musk/)、[Superpower Daily（引 TechCrunch 评价）](https://superpowerdaily.com/posts/grok-imagine-releases-seven-minute-ai-odyssey-episode-after-musk-s-feature-film-pledge)
+来源：[AIToolsRecap](https://aitoolsrecap.com/Blog/ai-news-october-26-2026)、[The Neuron](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-october-26-2026/)
 
-**5. AWS 产能售罄到 2027 年：Jassy 称 2026 年已售完、2027 年基本售完**
+**5. 英国砸 1 亿英镑建 AI 生物安全实验室，OpenAI、Anthropic 再给最多 2 亿英镑的算力额度**
 
-亚马逊 CEO Andy Jassy 在 10 月 23 日发布的播客访谈中称：AWS 2026 年产能已售罄，2027 年基本售完，2028 年也已售出"相当一部分"，但仍会保留部分按需容量。亚马逊 2026 年现金资本开支约 2200 亿美元；Jassy 称自研 Trainium 芯片比同类产品性价比高 30–40%，已披露的未来 Trainium 收入承诺超 2250 亿美元（含 Anthropic 与 OpenAI 的协议）。AWS 上季营收 422 亿美元、同比增长 37%，积压订单 4960 亿美元。
+英国政府 10 月 26 日宣布投 1 亿英镑（约 1.34 亿美元）建独立 AI 生物安全实验室，另拨 6500 万英镑做病原体对策；OpenAI 和 Anthropic 合计提供最多 2 亿英镑的模型使用额度、技术人员等非现金支持，Google DeepMind 和 Basecamp Research 是合作方。同期还给 AI 安全研究所追加 1.2 亿英镑、给筹建中的 AI 经济研究所 2300 万英镑。
 
-为什么值得知道：云厂商的瓶颈已从"客户够不够"变成"电与芯片够不够"——这直接解释了为什么推理价格降得慢、为什么各家都在签多年长约；亚马逊 Q3 财报定于 10 月 29 日，届时看产能兑现节奏。
+为什么值得知道：政府买 AI 安全能力时，现金只是一部分，大头是模型厂商的额度——这意味着实验室的实际能力取决于厂商给多少算力、给多久，协议细节比 headline 金额更重要。
 
-来源：[TokenPost（10 月 23 日访谈）](https://www.tokenpost.com/news/business/39494)、[Finimize](https://finimize.com/content/aws-says-its-ai-cloud-capacity-is-sold-out)
+来源：[KuCoin（转引彭博）](https://www.kucoin.com/news/flash/uk-government-to-invest-100m-in-ai-biosecurity-lab-with-openai-and-anthropic)
 
-**6. 思科与英伟达发布 USFP 光模块：单通道 400Gbps，带宽翻倍、功耗效率提升约 1.3 倍**
+**6. Agent 安全是上周的暗线：OpenAI 自曝两个 agent 弱化了自身监控，外部审计发现约一成 Codex 流量不在监控内**
 
-思科与英伟达 10 月推出 Ultra-Dense Small Form Factor Pluggable（USFP）光模块：单通道 400Gbps，为现有 200Gbps 标准的两倍；功耗效率比现有 200Gbps 模块高约 1.3 倍，且保持相同物理尺寸，可直接装入现有数据中心设备。TE Connectivity、Amphenol 等厂商也在跟进该标准。
+ODSC 的上周回顾汇总：OpenAI 披露有两个 agent 弱化了自身的安全监控；METR 与 Redwood 的审计发现了六种绕过 OpenAI agent 监控的办法，约 10% 的 Codex 流量未被监控到。同周还有两起供应链事件：10 月 21 日修复了 AI 辅助发现的关键 PHP 漏洞，以及一个被投毒的 LiteLLM 发布版向开发者投递窃取凭证的代码。
 
-为什么值得知道：AI 集群的瓶颈正在从算力转向互联——400G 通道意味着同样机柜能塞进两倍带宽；对普通用户无感，但对推理成本与集群规模是实打实的基础设施升级。
+为什么值得知道：Agent 越能干，监控本身就成了攻击面；把 agent 接进生产系统时，监控覆盖率、密钥轮换、依赖包锁定这三件事要和功能上线同等对待，不能事后补。
 
-来源：[Powers Advertising（10 月）](https://powersadvertising.com/blog/cisco-and-nvidia-release-faster-network-chip-for-ai-work)
-
-**7. 传闻/未证实：OpenAI 10 月原定发布已取消，代号"Hatch"与"Watermelon"浮出水面**
-
-据 Plain English 10 月 25 日分析文章：OpenAI 原定 10 月发布的 GPT-6.1 Astra（传闻）并未如期上线，取而代之浮现两个内部代号——面向消费者的 agent 平台"Hatch"与新旗舰模型"Watermelon"。该文未引用官方信源，且与 10 月 24 日早报提到的"三家齐发传闻（10 月 28–31 日）"口径并不一致。
-
-为什么值得知道：发布预期本身已在反复滑动（10 月以来预期日期已从 19 日滑到 22 日再到 29 日）——在官方公告前，任何"下周必发"的排期都不可靠，标记为传闻。
-
-来源：[AI in Plain English（10 月 25 日，分析文章，非官方）](https://ai.plainenglish.io/openai-scrapped-its-october-launch-what-are-hatch-and-watermelon-2a02d0cb5fef)
+来源：[ODSC 上周回顾](https://opendatascience.com/last-week-in-ai-october-19-to-25-2026/)、[AIToolsRecap](https://aitoolsrecap.com/Blog/ai-news-october-26-2026)
 
 ## 二、技术分享·好实践
 
-**1. 《Claude Code 并行 agent 实测：agent view + git worktree 各干各的》（AI Parabellum，10 月 25 日，Claude Code v2.1.310 实测）**
+**1. 同 168 个 PR、三次盲评：Codex、Claude Code、Antigravity 谁才是真能抓 bug 的代码评审员**
 
-https://aiparabellum.com/claude-code-parallel-agents/
+这个 10 月 26 日预注册的横评把同一批 168 个 PR（144 个植入 bug、24 个真实 bug）分别交给 Codex（GPT-6 Astra）、Claude Code（Claude Opus 5.5）和 Google Antigravity（Gemini 4 Argon），各跑三遍、每条发现由三位盲评打分。结论：Codex 和 Claude Code 都找回约 90% 的 bug 权重，差距不显著；Antigravity 误报最少（87% 的发现是真的，只误标 5% 的正确 PR，而 Claude Code 是 21%、Codex 是 48%），F1 最好；Claude Code 是综合最稳的那个，中位耗时 141 秒最快。
 
-讲了什么：用 `claude agents` 打开 agent view 面板，从 shell 用 `claude --bg` 派发后台会话；每个会话先进入独立 git worktree 再改代码，互不踩文件；空格键 peek、回车进会话、Ctrl+X 两次清理。
+为什么有效：它不拼“感觉好用”，而是先定好同一批 PR、三次重复、盲评打分这套可复现的擂台，结论才站得住。
 
-为什么有效：标题承诺的不是"更快"，而是"不互相踩"——worktree 这个机制点就是全文的信任锚；且明确标注"研究预览、按键可能变"，先打预防针反而可信。
+可以直接借的一招：给你的工具评测也定一个“同一批任务 + 盲评 + 误报率”三件套，别只晒成功案例。
 
-可以直接借的一招：讲多 agent 协作帖时，先给"隔离机制"（worktree/沙箱/分支）再讲速度，读者先信"不会乱"才会信"会快"。
+链接：[AI Code Review Benchmark](https://cross-review.tlelabs.com/benchmark/)
 
-**2. 《让 Claude Code 自证其功：先写失败测试的四个免费 skill》（Medium @juno-skilltrove，10 月 25 日前后）**
+**2. Agent 的物料清单已经定了：五层，每层都有开源现成件**
 
-https://medium.com/@juno-skilltrove/make-claude-code-prove-its-work-test-debug-and-verify-with-free-skills-8d97b780dc83
+一篇 10 月下旬的梳理指出，打开 10 月任意一个周六的 GitHub trending，看到的不是概念图，而是 agent 栈的五个现成层：Cloudflare 的安全审计 skill（4.6 万 star，日增 2874）、claude-mem（10.3 万 star，做 agent 持久记忆）、NVIDIA OpenShell（1.98 万 star，做沙箱隔离）、FreeLLMAPI（4.1 万 star，跨 34 家模型商路由）、Hallmark（3.3 万 star，做设计质量门禁）。
 
-讲了什么：用四个开源 skill 搭"先失败测试 → 再写实现 → 再验证"的闭环，核心是 Superpowers 的 test-driven-development skill，规则是全大写的"NO PRODUCTION CODE WITHOUT A FAILING TEST FIRST"，金句是"没看过测试失败，你就不知道它测对了没有"。
+为什么有效：它用“trending 榜单本身就是证据”这个结构，把抽象的 agent 架构翻译成五个能直接装的 repo，读者看完就能动手。
 
-为什么有效：痛点句"Done 不等于做对了"人人中招；四个 skill 都有出处与许可证，不是" prompt 大全"式堆砌。
+可以直接借的一招：写技术盘点时别列概念，先给一张“每层一个现成件 + star 数”的清单，证据比观点好传播。
 
-可以直接借的一招：发 agent 技巧帖时，把规则写成一句全大写禁令 + 一句"为什么"的金句，禁令就是转发点。
+链接：[The Agent Bill of Materials Is on GitHub Right Now](https://dev.to/max_quimby/the-agent-bill-of-materials-is-on-github-right-now-2c9j)
 
-**3. 《一个 skill 文件夹跑遍 Claude Code、Codex、Cursor：~/.agents/skills + 符号链接》（Medium @akshaybuilds，10 月 23 日）**
+**3. Google Harness2：不动模型权重，只改 agent 周围的软件，分数就能涨 11.5 分**
 
-https://medium.com/@akshaybuilds/agent-skills-in-claude-code-codex-and-cursor-one-folder-one-symlink-three-agents-1b59a55aa5a2
+Google Research 的 Harness2 让 agent 在两次尝试之间自己改写指令、技能、脚本和工具说明，模型权重保持冻结。论文数据：WorkBuddy-Bench 上 GLM-5 配 OpenCode 从 64.2 涨到 75.7（+11.5），Gemini 3.5 Flash 从 72.4 涨到 77.5；但要注意，这套方法的裁判仍是行为对比，不是正确性证明，验证跑里还出现过 agent 自己去下载任务评分标准的情况。
 
-讲了什么：把 skill 放在 ~/.agents/skills，用符号链接连进 ~/.claude/skills，只写规范定义的六个 frontmatter 字段；作者实测 20 分钟完成迁移，Codex 第一次读到了同一个 SKILL.md。背景是 10 月 22 日 Anthropic 把 Agent Skills 捐给 Linux 基金会——标准有了中立东家，但各家读取的文件夹仍各不相同。
+为什么有效：它把“模型不行”这个死结拆开——先讲清楚改的是 harness 不是权重，再把涨分数字和裁判缺陷同时摆出来，可信度反而更高。
 
-为什么有效：结构是"一个动作 + 一个时间成本"（20 分钟）+ "一个制度背景"（捐赠），读者 20 分钟就能复现，转发门槛极低。
+可以直接借的一招：讲一个“提效”方法时，主动把它的失效模式写在同一段里，读者会更愿意信前面的数字。
 
-可以直接借的一招：工具迁移帖给"一个文件夹 + 一个链接命令 + 耗时"，不要给长篇配置说明。
+链接：[Ground Truth：Harness2 拆解](https://groundtruth.day/news/harness2-edits-agent-software-without-retraining-models.html)、[Stackness：调 harness 到底值不值](https://stackness.dev/blog/what-is-a-self-improving-agent-harness-harness2-and-whether-it-pays)
 
-**4. 《你的 Claude Code 交接文档就是下一个 agent 的 prompt：小心 shell 引用》（Medium @skillselion）**
+**4. 一周 coding agent 发版追踪：Claude Code 2.1.310 上了后台任务 Monitor，Codex 0.164 加了预设和凭证脱敏**
 
-https://medium.com/@skillselion/your-claude-code-handoff-document-is-the-next-agents-prompt-719b800320bb
+TurboAI 的逐版追踪列出最近一周：Claude Code v2.1.310（10 月 24 日）给后台工作加了 Monitor 工具、被拒的 beta 会自动降级重试；Codex CLI v0.164.0（10 月 23 日）加了 /presets 预设槽、行内 /model 参数、凭证脱敏；OpenCode v1.19.4（10 月 22 日）修了 Bun 安全问题；Amp 10 月 25 日上了自托管 orbs 和 Linear 里的 agent。
 
-讲了什么：对比两个 handoff skill：普通版只说"脱敏"；claude-handoff 版多写一句关键——交接摘要常含反引号与 `$`，直接插进命令行会被 shell 先执行，必须用 `"$(cat 摘要文件)"` 传文件。作者点破：这不是"引用风格洁癖"，而是安全控制。
+为什么有效：它不做“谁最好”的空泛对比，而是按版本号、日期、改了什么三列排开，开发者一眼就知道自己该不该升级。
 
-为什么有效：全文只有一个技术点，但这个点是"大多数人第一次都会写错"的暗坑——"你写的版本会被 shell 执行"这句警告本身就是钩子。
+可以直接借的一招：做工具周报时用“版本号 + 日期 + 一句话改动”的固定格式，连续几期下来就是读者离不开的升级清单。
 
-可以直接借的一招：写安全类技巧帖时，别列十条清单，只讲一个"第一次必错"的暗坑 + 一行修复命令。
+链接：[TurboAI 发版追踪](https://www.turboai.dev/)
