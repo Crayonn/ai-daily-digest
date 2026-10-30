@@ -3,6 +3,7 @@
 每天一条 AI 早报，一个文件存一天。
 
 ## 归档
+- [2026-10-30](https://crayonn.github.io/ai-daily-digest/digests/2026-10-30.html)
 - [2026-10-29](https://crayonn.github.io/ai-daily-digest/digests/2026-10-29.html)
 - [2026-10-28](https://crayonn.github.io/ai-daily-digest/digests/2026-10-28.html)
 - [2026-10-27](https://crayonn.github.io/ai-daily-digest/digests/2026-10-27.html)
@@ -21,3 +22,4 @@
 - [2026-10-14](https://crayonn.github.io/ai-daily-digest/digests/2026-10-14.html)
 
 - 资讯文件：`digests/YYYY-MM-DD.md`
+","uri":"repo://Crayonn/ai-daily-digest/sha/63b8b993931d85f8192621e6bb570d6f26c692a7/contents/README.md"},"type":"resource
