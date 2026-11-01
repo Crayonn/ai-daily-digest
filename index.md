@@ -5,100 +5,100 @@ title: AI 每日资讯
 
 每天一条 AI 早报，一个文件存一天。
 
-**往期：** 2026-10-31（本期） · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
+**往期：** 2026-11-01（本期） · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
 
 ---
 
-# AI 早报 2026-10-30
+# AI 早报 2026-11-01
 
 ## 一、AI 资讯
 
-**1. OpenAI 一天内反转：取消 Pro 200 额度腰斩，Pro 全档额度翻倍**
+**1. Cursor 假插件范围扩大：受影响版本从 2.1.313 扩到 2.1.312，官方已出清理脚本**
 
-OpenAI 10 月 29 日宣布，Pro 100、Pro 200、Pro 500 和 Business Premium 的使用额度全部翻倍，即日生效；原定 10 月 30 日把 Pro 200 的 Work 和 Codex 额度从 20 倍 Plus 砍到 10 倍的计划取消，Pro 200 的 Work 和 Codex 用量维持不变，Dots 的扩展额度继续单独计算。Plus 不在本次调整内。
+10 月 31 日更新的通报把 Cursor 市场里被篡改的 Claude Code 扩展从只有 2.1.313 扩大到 2.1.312 和 2.1.313 两个版本（macOS 与 Windows，10 月 29 日约 2:27–13:35 太平洋时间窗口内安装或自动更新的用户在列，最多 5000 人）。关键澄清：2.1.312 本身也有干净版，只看版本号不够——要查扩展文件里是否含攻击者 IP 134.209.82.225、authorized_keys 里是否多了 svc-telemetry 密钥；Cursor 已发布清理脚本，且卸载扩展不等于清除后门。微软亦确认被篡改版本未进 VS Marketplace 或 npm，只走 Cursor 市场。
 
-为什么值得知道：这是用户抗议直接改写定价的罕见案例——付费档的“额度”原来是可以谈判的；如果你是 Pro 用户，今天就去 Settings → Usage 核对自己的新额度，别按旧的 10 倍计划做预算。
+为什么值得知道：这是本周最该立刻动手的一条——升级到 2.1.314 只是第一步，10 月 29 日在 Cursor 里更新过该扩展的人，今天必须按清理清单查一遍机器，而不是只升个版本就了事。
 
-来源：[The Decoder](https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/)、[BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/)
+来源：[Brandefense 清理手册（10 月 31 日更新）](https://brandefense.io/security-news/malicious-extensions-claude-code-cursor-playbook/)、[ThreatDefence 通报（10 月 31 日更新）](https://threatdefence.com/article/claude-code-openvsx-extension-backdoor-advisory)
 
-**2. Alphabet 财报爆冷：股价单日创纪录跌 13%，AI 花钱速度超过赚钱速度**
+**2. ChatGPT 与 Codex 12 月起共用一个额度池：帮助中心口径已变，但额度数字和确切日期仍未公布**
 
-Alphabet 三季度营收 1276 亿美元（同比 +25%），但低于预期的 1282 亿美元，调整后每股收益 2.67 美元，低于预期的 3.02 美元；单季资本开支 514 亿美元（去年同期约 240 亿美元），自由现金流为 -90.7 亿美元，上一季度 -59 亿美元已是上市 22 年来首次转负；全年资本开支指引维持在 1950–2050 亿美元，并预告 2027 年还会“显著增加”。股价 10 月 29 日跌 13.3%，创单日最大跌幅，市值蒸发约 4500–5000 亿美元，纳斯达克跟跌 1.83%。亮点是 Google Cloud 营收翻倍至 307.1 亿美元，超出预期。
+10 月 31 日被多家追踪站引述的 OpenAI 帮助中心页面写明：12 月起 Plus、Pro、Business 订阅的用量额度将在 ChatGPT 与 Codex 间共享、按 token 计量，Instant chat 不计入，合并后的剩余额度与重置时间见设置里的 Usage，超限后可等重置、升级或买积分。但要同时说明另一面：OpenAI 尚未公布各档的具体额度数字和 12 月的具体日期，且其负责人 10 月 28 日曾称 Chat 与 Work 的合并“仍在开发、尚未上线”——所以“12 月合并”是页面口径，不是已上线的功能，额度会不会变大变小现在无法判断。
 
-为什么值得知道：AI 投资叙事第一次被现金流数字正面冲击——云业务翻倍都盖不住广告和现金流的缺口；这会影响所有 AI 公司的融资环境和定价，别只看模型发布，要看财报里的资本开支。
+为什么值得知道：对同时重度用聊天和 Codex 的人，这比任何新模型都更影响 12 月的账单——现在就去设置里看自己的用量曲线，别等合并后才发现一个下午的 agent 任务吃掉了聊天额度。
 
-来源：[The Hindu BusinessLine](https://www.thehindubusinessline.com/markets/stock-markets/alphabet-shares-fall-over-10-after-earnings-miss-as-ai-spending-drives-cash-burn/article71638746.ece/amp/)、[Reuters 交易日复盘](https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-10-29/)
+来源：[Automater 梳理（引 OpenAI 帮助中心 10 月 31 日页面）](https://automater.ai/news/chatgpt-codex-shared-token-allowance-december/)、[LimitDigest 对照（10 月 31 日更新，含负责人表态）](https://limitdigest.com/guides/chatgpt-codex-shared-limit/)
 
-**3. AI agent 攻破了 Anthropic：走的不是 Claude，而是第三方办公软件**
+**3. 微软向约 6 万人发出自愿离职 offer：约占员工总数 27%，公司预计接受者不超过 3000 人**
 
-安全公司 Cathedral 在 Anthropic 授权的漏洞赏金测试中，用 AI agent 经第三方行政、销售类软件的漏洞进入 Anthropic 内部业务系统，触及销售、人力、IT 系统中的会议记录、薪酬、招聘信息和内部 Slack 消息；Anthropic 确认入侵属实，但强调 Claude 用户对话、源代码和模型权重未被触及，当天即切断访问并通报联邦机构。双方对范围有分歧：Cathedral 称不到 12 小时得手，Anthropic 称此前已有数日未成功的尝试，且对方只上报了一个漏洞。
+微软 10 月 26 日启动的自愿离职 offer 覆盖美、英、加、印约 6 万名 70 级及以下员工（Xbox、Windows、Copilot、财务等团队参与，数据中心、销售、营销、安全、量子等部分团队不在列），员工须在 12 月初前决定、12 月 31 日离职，补偿按标准离职包（与级别、地点、司龄挂钩）。CFO Amy Hood 预计接受者“非常少”，多家报道引述的内部预期为 3000 人或更少（约 5%）。背景数字：微软全球员工 22.3 万人，本财年 AI 相关资本开支约 1700 亿美元。
 
-为什么值得知道：最硬的模型公司栽在最软的环节——你给 agent 接的每一个第三方应用都是入口；自查清单很具体：盘点哪些应用能碰到人力和聊天数据，给 agent 的权限按最小范围收紧。
+为什么值得知道：6 万是“可走的人数”不是“会走的人数”——把两者混为一谈会误读成大裁员；真正的信号在另一面：公司宁可用人力成本换 AI 算力预算，AI 基建的账单正在倒逼组织结构调整。
 
-来源：[The Decoder](https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/)、[eSecurity Planet](https://www.esecurityplanet.com/artificial-intelligence/news-anthropic-ai-agents-third-party-business-systems-intrusion/)
+来源：[GeekWire（10 月 31 日）](https://www.geekwire.com/2026/microsofts-big-buyout-amazons-trillion-dollar-future-and-an-ai-wearable-reviews-our-show/)、[TradersView（10 月 30 日）](https://tradersview.deriv.com/trending-news/microsoft-offers-voluntary-buyouts-to-roughly-60-000-employees-to-fund-ai-push)
 
-**4. OpenAI 重写 Model Spec：把“忠于人类意图”立为第一原则**
+**4. Android Studio Rabbit 2 转正：40 多个 coding agent 可直接进官方 IDE**
 
-OpenAI 10 月 29 日更新模型行为规范 Model Spec，围绕五项价值重组：忠于人类意图、最小化伤害、诚实透明、人类自主、尽责；其中“忠于人类意图”是基础——要求模型理解用户、开发者和 OpenAI 真正想要什么，而不是字面执行指令。OpenAI 同时承认，现有模型尚未完全体现新规范，正在探索新的训练方法。
+Google 在 10 月 28 日 Android Dev Summit 上宣布 Android Studio Rabbit 2 进入稳定版，核心是 Bring Your Own Agent：通过开放的 Agent Client Protocol，Claude Agent、Codex、Antigravity 等 40 多个 agent 可在 IDE 内直接运行，并调用模拟器、构建系统、Logcat 等 IDE 工具；Android CLI 同步成为 Claude Code、Codex 与 Antigravity 的官方插件。Google 未给其中 alpha/beta API 的正式上线日期。
 
-为什么值得知道：这相当于 OpenAI 版的“宪法”公开化，与 Anthropic 的 Constitutional AI 正面呼应；对普通用户最直接的影响是，以后模型拒绝或追问时，理由会更多引用“你的真实意图”而非“规则不允许”。
+为什么值得知道：IDE 正在从“一家工具”变成“agent 的底座”——安卓开发者不用再为换 agent 换 IDE，选型标准从“哪个 IDE 自带 AI 强”变成了“哪个 agent 在 IDE 里调得到真工具”。
 
-来源：[Reuters](https://www.reuters.com/business/openai-says-human-intent-center-updated-ai-model-guidelines-2026-10-29/)
+来源：[Android Headlines（10 月 28 日）](https://www.androidheadlines.com/2026/10/google-lets-you-bring-your-own-agent-as-part-of-android-studio-updates.html)、[DEV 详解](https://dev.to/paullovelace/android-studio-just-opened-to-40-ai-agents-claude-codex-and-antigravity-in-one-ide-explained-28gb)
 
-**5. Nvidia 开源 Nemotron 3.5 Transcribe：40 种语言转录、翻译、分说话人一次搞定**
+**5. Kimi K3.1 Pro 开源权重倒计时 3 天：11 月 4 日见分晓，API 价 2/10 美元**
 
-Nvidia 10 月 28 日发布开源语音模型 Nemotron 3.5 Transcribe：转录 40 种语言、31 种语言与英语互译、13 种语言的说话人归属，单条录音最长 1 小时、最多区分 8 位说话人，还支持时间戳和音频问答；30B 参数、混合专家架构，实际激活约 4B 参数，可跑在 Jetson AGX Thor 到 Blackwell 芯片上；配套发布 Granary v2 开源语音数据管线。注意：只处理录音，不支持实时流。
+Moonshot 的 Kimi K3.1 Pro（10 月 23 日上线，2.8T 总参数、104B 激活、100 万上下文）承诺 11 月 4 日前放出完整权重，届时将成为 Artificial Analysis 指数上得分最高的开源权重模型（现指数 55 分、第 4 位）；厂商自报 Terminal-Bench 4.0 为 65.7%，仅比 Claude Opus 5.5 的 66.4% 低 0.7 个百分点；API 价为输入 2 美元、输出 10 美元/百万 token，比 K3 便宜约三分之一。两处提醒：权重许可尚未公布（K3 用的是自定义许可而非 OSI 许可）；Moonshot 称已为开源版删去网络攻击相关训练数据，自述其内部测评从 90.5% 降到 81.0%，真实效果要等权重放出后由第三方验证。
 
-为什么值得知道：会议、采访、播客转录第一次有了一个“提示词可控 + 本地可跑”的开源整包方案，不用再把转录、翻译、分说话人拆成三个服务拼；但基准成绩是 Nvidia 自报的，嘈杂真实录音要先实测。
+为什么值得知道：11 月 4 日是本周唯一一个“日期已定、结果可验证”的开源大事件——本地部署党和做 coding agent 选型的人，那天再看一次第三方复跑成绩比现在抄发布稿靠谱。
 
-来源：[The AI Insider](https://theaiinsider.tech/2026/10/29/nvidia-releases-open-weight-nemotron-3-5-transcribe-model-for-multilingual-voice-ai/)、[FreeStack 实测](https://www.freestackhq.com/news/nvidia-nemotron-3-5-transcribe)
+来源：[Capital and Compute 梳理](https://capitalandcompute.net/blog/kimi-k3-1-pro-pricing-benchmarks/)、[TechTimes（网络攻击数据删减）](https://www.techtimes.com/articles/329470/20261026/kimi-k31-pro-scores-4th-215-ai-models-moonshot-scrubs-cyberattack-data-before-open-weights.htm)
 
-**6. xAI 被曝要买下密西西比 418 套房，条件是住户放弃噪音诉讼索赔**
+**6. OpenAI 与 Anthropic 同日宣称证伪指数时间假设：两份证明都还没过同行评审**
 
-据 The Guardian 等报道，xAI 子公司 MZX Tech 正向密西西比州 Southaven 市 Colonial Hills 社区住户发购房邀约，目标多达 418 套，报价参照 Zillow 等估值，已有至少 18 户同意出售、10 月以来完成 5 笔交易；条件是卖方签署弃权书，放弃 6 月集体诉讼中关于燃气轮机噪音的全部索赔；另有租户称房东售房后只给 60 天搬离且无搬迁补偿。xAI 未证实 418 套和 18 户的数字。
+OpenAI 10 月 26 日宣布其模型在调和分析一举拿下局部光滑猜想（连带 Kakeya 与 Stein 限制猜想）、在计算复杂性上证伪指数时间假设（ETH）、在量子场论上给出 QCD 等四维理论的存在性证明，并称前两项已用 Lean 形式化、交由外部学者牵头核查；Anthropic 同日也在 GitHub 放出 Claude 研究模型找到的 3-SAT 次指数算法与 Lean 4 证明，称核心算法由模型以 1400 万输出 token、无人工输入找到。共同的前提必须写清：这些都是厂商自称的“原始研究数据”，尚未经过同行评审；物理部分的材料尚未公开，诺贝尔奖得主 David Gross 牵头的团队将先写自己的说明再放出。
 
-为什么值得知道：数据中心的“社区成本”第一次以“整片买房 + 法律弃权”的形式出现——选址争议正在从环评报告变成房地产交易，下一座 AI 数据中心落点附近的居民关系会成为工期风险。
+为什么值得知道：两家顶级实验室在同一天、同一猜想上撞车，本身就是新闻；但“AI 证明了数学猜想”与“数学界接受了证明”之间还隔着核查——转述时只写前半句就是误导。
 
-来源：[Gadget Review](https://www.gadgetreview.com/xai-is-offering-to-buy-out-a-mississippi-neighborhood-if-residents-agree-not-to-sue-over-noise)、[Oossa](https://oossa.com/en/xai-offers-to-buy-southaven-homes-tied-to-data-center-lawsuit)
+来源：[MLQ 梳理（10 月 27 日）](https://mlq.ai/news/openai-puts-three-ai-generated-breakthroughs-before-academic-review/)、[The Jarrus 对照（OpenAI 与 Anthropic 两份 ETH 证明）](https://thejarrus.com/en/news/openai-science-results/)
 
 ## 二、技术分享·好实践
 
-**1. Anthropic 官方研究：专家跟着 agent 的判断走，86% 的选择与 agent 的“偏好”一致**
+**1. Claude Code Plan Mode 的正确用法：先出计划、再让另一个模型当守门员**
 
-Anthropic 让 50 名因果推断分析师用 Claude Code 分析一家虚构农业合作社是否应扩大咨询项目，四个分析决策点上 agent 的倾向由抛硬币暗中指定。结果：分析师 86% 的选择与 agent 倾向一致（随机应为 50%）；事先已有自己观点的人，在 agent 反对时 60% 改了主意，agent 赞同时只有 6% 改动；77% 的人在事后解释中复述了 agent 的论点，只有 15% 提到 AI 是来源。但用 agent 的一组严重错误率也更低（6% 对无 agent 组的 55%，不过无 agent 组只有 11 人且经验较浅）。
+这篇 10 月 31 日更新的文章讲透了 Plan Mode 的完整工作流：`/plan` 或 Shift+Tab 进入后，Claude 只探索不改代码，计划存入 `~/.claude/plans`；作者的进阶做法是“计划文件工作流”——一个 agent 写接近层面的计划并逐项核对引用的文件与签名，再由 Codex（没有就用 Opus 替补并注明）只判 PASS/FAIL，FAIL 只给一轮修改机会，第二轮仍不过就列出被否决的意见照常执行或升级真正的阻塞点。关键规则写在守门 prompt 里：只因实质缺陷判 FAIL，不为“缺行号、缺完整代码、缺细节”判 FAIL。
 
-为什么有效：它用“抛硬币指定倾向”这个实验设计，把“AI 影响判断”从感觉变成了可数数字，反直觉的结论自带传播力；同时主动写明局限（单任务、单领域、倾向被人为放大），可信度反而更高。
+为什么有效：它把“先计划”从一句口号变成了可复制的两人制——写计划的人与审计划的人不是同一个模型，且评审标准被写死，读者照抄就能用。
 
-可以直接借的一招：讲 agent 协作时，别只说“AI 帮了我”，先写下你自己的判断再对照 AI 的——把“先有己见再看 AI”做成固定动作，帖子本身就成了方法论。
+可以直接借的一招：讲 agent 工作流时，别只说“先让 AI 出计划”，把“谁审、审什么标准、不过几轮就停”三条写出来，帖子立刻从经验谈变成可执行流程。
 
-链接：[Anthropic 官方研究](https://www.anthropic.com/research/agents-judgment-calls)
+链接：[Code by Ramiz（10 月 31 日更新）](https://codebyramiz.com/blog/claude-code-plan-mode/)
 
-**2. impeccable：给 AI 生成的页面做“去同质化”设计，61 条规则不用调模型**
+**2. AI 编程工具不慢，慢的是评审队列：哈佛工作论文给了一组反直觉数字**
 
-impeccable 是一套让 AI coding agent 生成界面时不落入同一套模板的设计工具：一次 `/impeccable init` 把产品事实写进 PRODUCT.md，24 条共享命令覆盖塑形、 critique、打磨和动效，61 条确定性检测规则在 CLI 或浏览器插件里运行，全程不调模型、不花 API 钱。一天新增 1683 star，冲到 GitHub 日榜第二。
+这篇 10 月 31 日的文章引用了一份哈佛工作论文（未经过同行评审，先当强信号）：分析 718 家公司约 3 亿个工程事件后，采用 AI coding agent 的公司代码行数约 +30%、提交约 +20%、PR 约 +23%，但已解决 issue 与完成任务数没有显著增加；PR 从打开到合并的时间约 +49%，从 7 天拉长到 10.5 天，评审要求改动的 PR 接近翻倍、每 PR 评论约 +35%。作者的三个动作：按“从首次提交到上线”算交付周期而非代码量、给 agent 的 PR 设软上限拆小、把评审排进正式人力。
 
-为什么有效：它不空谈“审美”，而是把“AI 味”翻译成可执行的规则和命令——读者不用认同作者的品味，只需跑一遍规则就能看到自己页面的问题。
+为什么有效：钩子就是“不慢”这个反常识判断——读者以为工具慢，数据说慢在评审；而且作者主动标注“未同行评审”，可信度反而更高。
 
-可以直接借的一招：把“感觉不对”变成检查清单——列出你领域最常见的 5 个 AI 味特征，让读者对着自己的产出逐项自查。
+可以直接借的一招：写工具效果时，别只报“产出多了多少”，同时报“下游哪个环节变慢了”——一正一负两个数字，比单方面叫好更容易被转发。
 
-链接：[GitHub 日榜（ghtrends.dev，含 impeccable）](https://ghtrends.dev/daily/)
+链接：[Medium（10 月 31 日）](https://medium.com/@editor.thereutex/your-ai-coding-tool-isnt-slow-your-review-queue-is-44c72ea278b9)
 
-**3. superpowers：给多步骤 coding 任务设检查点，agent 干一小时也不失控**
+**3. Harness Engineering 入门：模型之外那一半，才是 agent 可靠性的来源**
 
-superpowers 是一组 skill：把长任务拆成需求、规划、实现、测试、复核几个阶段，每个阶段结束前都有可检查的中间物，agent 只有通过检查点才能往下走。一天新增 797 star，当日新上榜。
+这篇 10 步指南把 Thoughtworks 的定义落到 solo 开发者也能做的事上：Agent = 模型 + Harness，Harness 就是模型之外的全部——指令、工具、检查、记忆。最值得抄的一步是“指南配传感器”：前馈的规则（CLAUDE.md、约定、示例）与反馈的检查（测试、lint、类型检查）必须成对出现，只给反馈 agent 会重复犯错、只给规则你永远不知道规则有没有生效；且 lint 报错要写给模型看——写清改什么、为什么，agent 才能在人类介入前自己修好。
 
-为什么有效：它解决的是“agent 闷头干一小时，交出来全错”的真实痛点——结构上把“信任”换成了“验收”，读者一看就知道自己上次翻车缺的就是这一环。
+为什么有效：结构是“定义 → 10 步 → 每周检查清单”，且每步都标注“一个下午能做完”，读者读完不是收藏而是能立刻排进本周。
 
-可以直接借的一招：发长任务帖时，别只晒最终结果，晒一张“检查点清单”——每步交付什么、怎么验收，方法论帖的可复制性立刻拉高。
+可以直接借的一招：讲 agent 技巧时，用“指南/传感器”这对概念收束全文——读者带走的不只是一个技巧，而是一套以后判断任何 agent 建议的框架。
 
-链接：[GitHub 日榜（ghtrends.dev，含 superpowers）](https://ghtrends.dev/daily/)
+链接：[Medium：Harness Engineering for Beginners](https://dipenvaja.medium.com/harness-engineering-for-beginners-10-steps-to-make-ai-coding-agents-reliable-935506fa691b)
 
-**4. Nemotron 转录实测：真刀真枪测了 5 分钟辩论录音，还公开了一处翻车**
+**4. “Claude 2.0”不是模型：10 月 30 日长文把一次 App 更新的 11 个传言逐项验真**
 
-FreeStack 用 1984 年里根–蒙代尔辩论的 5 分钟录音实测 Nvidia 新发布的 Nemotron 3.5 Transcribe 官方演示：转录抓住了关键金句，但也如实记录了一处说话人标签在里根连续发言处切错；且说明演示无需账号和点数，但这是托管演示，不等于无限免费或本地运行。
+这篇 10 月 30 日的分析先辟谣：Anthropic 没有发布叫 Claude 2.0 的模型，10 月 14 日上线的是 Claude Code Desktop 的大更新（嵌套会话、会话栏、云端 Projects 公测、Mods 等），“Claude 2”本是 2023 年的老模型名；然后逐项核对 viral 帖里“11 个功能”哪些是真功能换了名字、哪些是计划表里的错误行，并给出任务分流规则：要用到本机独有资源（内网数据库、VPN、自定义 skill）走本地，两个并行任务碰同一批文件就开 Worktree 隔离，离开一小时以上走云端。
 
-为什么有效：它不复述发布稿的“40 种语言”，而是用一段真实录音做对照实验，并且把翻车点写进标题级结论——读者要的正是这种“哪里会错”的信息。
+为什么有效：它用“先正名、再验真、最后给分流规则”的三段式，把一则以讹传讹的传言变成了可查的决策表；且开篇就声明“这是分析帖、没做过的测试不编造”，立住了可信度。
 
-可以直接借的一招：测任何新工具时，故意放一个难样本（多人连续发言、口音、专业术语），并把错的那一处原样贴出来——有缺点的实测比完美的赞美可信十倍。
+可以直接借的一招：遇到 viral 的“新版本爆料”，先查“这是模型、App 还是功能名”——光是把三者分清，你的帖子就已经比转发截图的人深一层。
 
-链接：[FreeStack 实测](https://www.freestackhq.com/news/nvidia-nemotron-3-5-transcribe)
+链接：[Mejba（10 月 30 日）](https://www.mejba.me/blog/claude-code-desktop-nested-sessions)
