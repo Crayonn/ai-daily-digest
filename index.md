@@ -5,100 +5,152 @@ title: AI 每日资讯
 
 每天一条 AI 早报，一个文件存一天。
 
-**往期：** 2026-11-04（本期） · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
+**往期：** 2026-11-05（本期） · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
 
 ---
 
-# AI 早报 2026-11-04
+# AI 早报 2026-11-05
 
 ## 一、AI 资讯
 
-**1. OpenAI 称 ChatGPT 搜索量已达 Google 的约 20%，但这是它自己的口径**
+**1. OpenAI 收购 Pierre，要把 Git 存储直接装进 Codex**
 
-OpenAI 消费产品负责人 Adam Fry 在 11 月 3 日的发布会上称，ChatGPT 中触发联网搜索的查询量约为 Google 查询量的五分之一；同场还称 ChatGPT 周活已从两个月前的 10 亿升至 12 亿。
+OpenAI 11 月 4 日宣布收购开发工具公司 Pierre Computer：其 Trees、Diffs 库早已在 Codex 应用里负责文件浏览和变更展示，商业产品 Code Storage 则用 Git 存代码并提供面向机器的 API；交易价格未披露，仍需监管批准，交割前两家公司保持独立，Pierre 的开源项目将继续开源。
 
-为什么值得知道：20% 是 OpenAI 自报、未公开测算方法和 Google 一侧的数据来源，独立估计要低得多（seoClarity 约 7.5%、Ahrefs 约 12%），且统计的是查询量不是流量份额——别把它当成“搜索格局已变天”，但它确实说明 AI 对话正在分流一部分“先问再搜”的需求。
+为什么值得知道：这不是又买一家模型公司，而是买“agent 写代码之后往哪存、怎么审”这一层——Codex 从生成代码走向托管代码仓库，直接对上 GitHub 的地盘；结合 OpenAI 11 月 2 日自研的 Git 后端 Pando，agent 时代的版本控制正在被重写，个人开发者现在就该留意 Codex 的代码存储规则会不会变。
 
-来源：[The Verge 报道（11 月 3 日，转引）](https://9to5google.com/2026/11/03/chatgpt-has-hit-roughly-20-of-google-search-volume-openai-says/)、[Big Technology 报道的口径提醒](https://stevendigital.com/alerts/openai-says-chatgpt-search-20-percent-of-google/)
+来源：[SiliconNoon（11 月 4 日）](https://siliconnoon.com/openai-buys-pierre-to-rebuild-git-for-teams-of-coding-agents/)、[AI SI Daily（11 月 4 日，转引 Axios）](https://www.aisidaily.com/daily/ai-daily-2026-11-04/)
 
-**2. Cursor 官方渠道里混进带后门的 Claude Code 扩展，最多 5000 人中招，卸载也清不掉**
+**2. Meta 发债为 AI 续命：美元 150 亿已售出，欧元首发订单高达 530 亿欧元**
 
-10 月 29 日约 2:27 至 13:35（太平洋时间），Cursor 自家扩展市场分发了被篡改的 anthropic.claude-code 2.1.312 / 2.1.313，会往 ~/.ssh/authorized_keys 里写署名 svc-telemetry 的攻击者密钥并留持久化脚本；干净版是 2.1.314，但升级到干净版也不会自动清除已写入的密钥和脚本。
+Meta 11 月 3 日先售出 150 亿美元五年期美元债（订单一度达 580 亿美元，约 3.9 倍认购），11 月 4 日又启动首笔欧元债、目标至多 90 亿欧元，订单高达约 530 亿欧元，创欧洲企业债历史最大订单簿；但代价不低：2056 年到期的最长债比美债高约 2.2 个百分点，S&P 已在 10 月 30 日把 Meta 展望调为负面，理由是支出与现金流的不确定性。
 
-为什么值得知道：这是直接冲着开发者工作站来的供应链攻击，机器上常有仓库、云凭证——今天就能自查：`grep svc-telemetry ~/.ssh/authorized_keys`，中招按 Cursor 公告清密钥、清持久化任务、轮换凭证，别只卸载扩展了事。
+为什么值得知道：市场一边抢着借钱给 Meta 建算力，一边要求更高的风险溢价——AI 基建的融资成本正在上升；Meta 今年资本开支指引为 1350–1450 亿美元，三季度还烧了 21.2 亿美元现金，这轮发债规模说明“算力竞赛”现在是靠债市续命，不是靠利润。
 
-来源：[The Hacker News（10 月 30 日）](https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html?m=1&hl=ja_JP)、[5 分钟自查清单](https://blog.authon.dev/claude-code-extension-backdoor-cursor-5-minute-check)
+来源：[The Private Banker（11 月 4 日）](https://leprivatebanker.com/2026/11/04/meta-draws-record-e53-billion-of-orders-for-debut-euro-bonds-topping-ab-inbevs-2016-mark/)、[MoneyCheck（11 月 4 日，转引路透）](https://moneycheck.com/meta-stock-rises-3-as-it-taps-bond-market-again-for-ai-spending/)
 
-**3. Anthropic 修订招股书：Q3 收入 170 亿美元，却又亏回去，算力承诺高达 8954 亿美元**
+**3. Google 学校账号默认关 AI：拒绝 AI 的学校，连 Search 也一起丢了**
 
-11 月 2 日提交的 S-1/A 补上三季度：收入 169.56 亿美元，同比增 1127%、环比增约 47%（增速较 Q2 的 144% 放缓）；经营亏损 5.67 亿美元，主因是 50 亿美元高价短期算力采购和 20 亿美元捐赠匹配非现金支出；采购与租赁承诺合计约 8954 亿美元，其中约 698 亿美元在一年内到期，Broadcom 约 1610 亿、Google 约 1210 亿、SpaceX AI 部门最高 1205 亿、亚马逊 1100 亿美元。
+据《华尔街日报》报道，Google 将美国 K-12 学生账号的 Gemini、NotebookLM 乃至 Search 默认关闭，除非学校主动开启；想用传统搜索、不想要 AI 的学校，也必须接受 AI 已整合进搜索的体验。参议员 Blumenthal 和前 FTC 主席 Lina Khan 已在 11 月 3–4 日公开批评，Google 则在 X 上回应称“学校自己说了算”。
 
-为什么值得知道：这是第一家前沿模型公司完整摊开的账本——收入翻倍增长也 covering 不住算力账，短期算力溢价直接吃掉利润；对所有人都是一个信号：模型降价的另一面，是厂商在为算力锁仓付出天价。
+为什么值得知道：这是第一次有大厂把“用不用 AI”做成二选一的捆绑条件——学校要么全盘接受 AI 搜索，要么连基础搜索都没有；对家长和教育工作者，这比任何模型发布都更直接地决定了孩子每天接触到的信息形态。
 
-来源：[PPC Land 对 S-1/A 的拆解（11 月 2 日）](https://ppc.land/anthropic-swings-to-567m-q3-operating-loss-on-5bn-of-short-term-compute/)、[Dealroom 报道（11 月 2 日）](https://dealroom.co/news/168953-anthropics-amended-s-1-17b-in-q3-revenue-a-slide-back-to-an-operating-lo/)
+来源：[Zot News（11 月 4 日，综合 WSJ 与 NYT）](https://zot.news/article/google-curbs-school-ai-openai-anthropic-target-election-wgnib)、[The Neuron（11 月 4 日）](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/)
 
-**4. SemiAnalysis 发布 GDPx：最强 agent 也只完成 12% 的真实专业任务**
+**4. 中期选举里数据中心输了：41 项地方公投，除 1 项外全部反对开发**
 
-11 月 2 日发布的 GDPx 用 206 个长任务、11 个专业领域（芯片设计、金融、法律、生物等）考 agent，单任务限时 8 小时、二进制通过/失败评分。Claude Opus 5.5 以 12.0% 居首（每任务 51.41 美元）、Gemini 4 Carbon 10.9% 第二（每任务仅 16.29 美元，性价比最高）、GPT-6 Astra 9.6% 第三；金融、法律领域几乎所有模型都是 0 分。
+11 月 3 日中期选举中，涉及数据中心的地方投票几乎一边倒：41 项相关措施中除 1 项外全部投向反对开发一方，俄亥俄州和得克萨斯州反对数据中心扩张的候选人也胜选。舆论风向从“建算力就是进步”转向了“先谈电价、水和选址”。
 
-为什么值得知道：这不是又一个刷分榜——它把“答对 90% 但交付物错了”判为失败，所以分数低恰恰说明 agent 离“替你干完一份专业工作”还远；同时 Carbon 用不到三分之一的成本追到 1.1 个百分点以内，选型时成本/成功率比单看排名更重要。
+为什么值得知道：算力竞赛的瓶颈正在从芯片和资金转向土地与选票——哪怕巨头手里有几百亿美元，也可能在地方公投这一关被卡住；这对所有押注“无限扩建数据中心”的叙事都是一个实实在在的刹车。
 
-来源：[SemiAnalysis GDPx 发布解读](https://www.unite.ai/semianalysis-launches-gdpx-benchmark-spanning-11-agentic-domains/)、[榜单与成本明细](https://vortx.ch/gdpx-benchmark-ai-agents-score-12-cost-428-per-win/)
+来源：[The Diary of AI（11 月 4 日）](https://thediaryofai.com/ai-news-20261104/)
 
-**5. OpenAI 悬赏翻倍再翻倍：严重漏洞最高 17.2 万美元，还推了日常任务基准 LifeVal**
+**5. AMD 三季度：营收 134 亿美元创新高，数据中心业务暴涨 97%**
 
-OpenAI 11 月 2 日宣布：核心产品（ChatGPT、Codex、API 平台）严重漏洞奖金升至 3 万美元，特别重大的发现基础奖 10 万美元、叠加质量/忠诚/活动奖励最高约 17.2 万美元，近 30 天内已获奖的报告可补差价；同时与 Cathedral Systems 合作搞内部安全冲刺，用自家模型攻自家系统。同日发布的 LifeVal 则用 3995 人调研提炼的日常任务（找托育、做预算、办政务）测模型，GPT-6 Astra 在 16 项任务中的 10 项拿满分。
+AMD 11 月 3 日公布 Q3：总营收 134 亿美元，同比增 45%；数据中心板块 85 亿美元，同比增 97%，由 EPYC 服务器 CPU 需求和新一代 Instinct MI450 系列 GPU 上市共同推动。MI450 单卡配备 432GB HBM4 显存，AMD 称比英伟达下一代 Vera Rubin 多约 50%，Anthropic、Meta、微软、OpenAI 和 Oracle 已在首批 Helios 机架系统上跑负载。
 
-为什么值得知道：悬赏涨到这个量级，说明厂商自己也承认 AI 正在放大攻防两边的能力；LifeVal 更值得普通用户留意——它测的不是考试题，而是你每天真的会交给 AI 的杂事。
+为什么值得知道：英伟达之外终于出现第二供货源的财报证据——不是PPT，是 85 亿美元的季度收入；但要注意 85 亿是整个数据中心板块（含 CPU），AMD 没有拆分 AI 芯片单独的数字，别把 97% 直接读成“AI 芯片翻倍”。
 
-来源：[The Decoder（11 月 3 日）](https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/)、[Cybernews（11 月 3 日）](https://cybernews.com/ai-news/openai-increases-bug-bounty-rewards/)
+来源：[DigiTechInfo（11 月 4 日，基于 AMD 财报）](https://digitechinfo.net/amd-data-center-revenue-97-percent-mi450-nvidia/)
 
-**6. 英伟达被曝要求云客户“去中国化”：新合同里非中国客户占比不得低于 51%**
+**6. 腾讯发布 Hy4：Hunyuan 第一个会看图、会操作电脑的模型**
 
-《金融时报》11 月 3 日引述 5 名知情人士称，英伟达近几个月口头要求数据中心和云客户：新合同中至少 51% 的服务卖给非中国公司，只影响未来合同、不追溯现有租约；英伟达未证实也未否认。同期价格信号：B300 机架国际价约 60 万美元，10 月在中国市场曾报出约 254 万美元。
+腾讯 11 月 4 日发布 Hunyuan Hy4：首个支持视觉输入和电脑操作（CLI 与 GUI）的 Hunyuan 模型，API 定价与 8 月预览版持平——输入每百万 token 0.834 美元、输出 2.501 美元、缓存输入 0.042 美元；在 579 项金融任务上得分 3.04，腾讯称是开源权重模型第一；第三方 Agent Arena 排名第 14，单任务成本 0.55 美元，比 Kimi K3.1 Pro（Max）便宜约 62%，分数只差不到 1 个百分点。
 
-为什么值得知道：这等于芯片商在当“私人出口管制员”——海外租卡训练这条路正在收窄，国内团队依赖海外云算力的成本和不确定性都会上升；但注意这是匿名信源、口头传达，51% 的统计口径（收入/算力/客户数）尚未明确，别当成已落地的政策条文。
+为什么值得知道：Hy4 的卖点不在榜单第一，而在“便宜 + 能动手操作电脑”——对想用 agent 跑真实任务的人，0.55 美元一个任务的成本线比很多旗舰模型低得多；但腾讯自家榜单里 14 项非内部测试只有 1 项第一，开放权重也还没给日期，别只看宣传口径。
 
-来源：[Tech Xplore 转引 AFP/FT（11 月 3 日）](https://techxplore.com/news/2026-11-nvidia-center-clients-china-exposure.html)、[Dealroom 报道（11 月 3 日）](https://dealroom.co/news/other-1ogu1el-nvidia-orders-data-centre-clients-to-reduce-china-exposure/)
+来源：[AI SI Daily（11 月 4 日）](https://www.aisidaily.com/daily/ai-daily-2026-11-04/)、[The Diary of AI（11 月 4 日）](https://thediaryofai.com/ai-news-20261104/)
+
+**7. Moonshot 按期交卷：Kimi K3.1 Pro 权重已上 Hugging Face**
+
+Moonshot AI 在 11 月 4 日截止日前把 Kimi K3.1 Pro 的权重发布到 Hugging Face，采用其自有的 Kimi K3.1 Pro License。同一天腾讯 Hy4 的权重和系统卡则仍未给日期。
+
+为什么值得知道：开源权重“说到做到、按期交付”本身就是信号——K3.1 Pro 从发布到权重开放没有拖延，本地部署和二次开发可以直接动手；但注意许可证是 Moonshot 自有条款，不是常见的 Apache/MIT，商用前先读许可细则。
+
+来源：[The Diary of AI（11 月 4 日）](https://thediaryofai.com/ai-news-20261104/)
+
+**8. OpenAI 与 Anthropic 设选举“战情室”，欧盟法院顾问称 Google AI 用新闻内容或侵权**
+
+《纽约时报》报道，OpenAI 和 Anthropic 已设立专门团队，应对 11 月中期选举期间的虚假信息；同期路透报道，欧盟法院一名顾问表示，Google AI 聊天机器人使用新闻内容的方式可能违反版权规则。这两件事同一天出现，恰好是 AI 在选举信息战里的两面：防假消息，和自己是不是侵权方。
+
+为什么值得知道：中期选举期间 AI 生成的政治内容已多到需要大厂设专班应对，普通用户转发选举类帖子前更值得多查一步；而欧盟的版权意见若成判例，会直接影响所有 AI 摘要引用新闻的合法性，内容创作者尤其该留意。
+
+来源：[Zot News（11 月 4 日，综合 NYT 与路透）](https://zot.news/article/google-curbs-school-ai-openai-anthropic-target-election-wgnib)
+
+**9. Pangram Image 1.0 全面开放：自称图片识别 99.96%、视频 98.57%**
+
+AI 文本检测工具 Pangram 11 月 4 日把 Image 1.0 从研究预览转为全面开放：网页、API 和 Chrome 插件都能用，视频检测用轻量版逐帧检查；公司自称在其自有评测集上图片准确率 99.96%、视频 98.57%，比次优竞品高约 29 个百分点，最小可检图片降至 256×256 像素。
+
+为什么值得知道：选举季假图假视频满天飞时，一个随手可用的检测工具确实有用；但 99.96% 是厂商自有评测集上的数字，不是独立第三方结果——把它当“初步筛查”，别当“最终判决”，重要内容仍需人工核对来源。
+
+来源：[Digital Trends（11 月 4 日）](https://www.digitaltrends.com/cool-tech/pangram-the-gold-standard-for-ai-text-checks-releases-image-1-0-tool-to-sniff-fake-pics-and-videos/)
+
+**10. Menlo Ventures：企业今年 AI 支出 1768 亿美元，是去年的 5 倍多**
+
+Menlo Ventures 11 月 3 日的报告（基于近 400 名企业决策者调研加公开财报）估计：企业今年在 AI 上花了 1768 亿美元，是去年的 5 倍多；agent 已占经 OpenRouter 流转的 AI 工作量的约 80%；Anthropic、OpenAI、Google 三家拿走了企业 AI 支出的 69%。
+
+为什么值得知道：钱的流向比模型榜单更诚实——企业买单的不是“最聪明的模型”，而是能干活的 agent 和三家头部供应商；对个人选工具也有启示：跟着企业付费的方向走，生态和兼容性踩坑最少。
+
+来源：[Paisano AI（11 月 4 日，转引 Menlo Ventures 报告）](https://paisanoai.substack.com/p/ai-agentic-news-november-4-2026)
 
 ## 二、技术分享·好实践
 
-**1. 同一个 bug，Claude Code 37 秒、DeepSeek 新 agent 73 秒——但后者是自己“听到”任务的**
+**1. 别再写无尽提示词了：先写一页规格，让 agent 照着规格干**
 
-Towards AI 11 月 3 日的实测：DeepSeek 开源研究原型 dsh-superagent 监听 GitHub issue、被 @ 到后自己开工，和 Claude Code 交出完全相同的 4 行修复；Claude 更快还多发现一个 bug，DeepSeek 花费约 0.2 美元且全程不用人守着。
+这篇 11 月 4 日的长文讲 spec-driven development：先写一页规格（目标、用户、行为、边界、非目标），再给 agent 常驻上下文（CLAUDE.md/AGENTS.md），先要计划再写代码；并引用数据称自由提示在 500 行后开始不可靠、无结构 AI 代码的返工可占冲刺容量的 20–30%。
 
-为什么有效：钩子不在“谁更快”，而在对比结构——同一仓库、同一 bug、同一修复结果，速度/成本/自主性三维一次讲清，读者不用信作者结论，自己就能算账。
+为什么有效：钩子直接反常识——“提示词是最慢、最容易出 bug 的写法”，再用“14 小时返工 vs 3 小时”的对比数字把痛点钉死，读者不是被说服，而是被算账算服。
 
-可以直接借的一招：做工具对比时固定“同一任务 + 同一验收标准”，只换一个变量，结论的可信度立刻翻倍。
+可以直接借的一招：下次让 agent 写代码前，先发一句“先读规格，给我分步计划并列出不清楚的地方，现在不要写代码”。
 
-链接：https://pub.towardsai.net/i-raced-deepseeks-new-agent-against-claude-code-37-seconds-vs-73-02d9ce10c4e9
+链接：https://medium.com/artificial-intel-ligence-playground/prompting-is-now-the-slowest-buggiest-way-to-code-with-ai-heres-the-fast-clean-one-21d933e686e1
 
-**2. GDPx 为什么敢把满分 agent 打到 12%：因为它按“交付物对不对”判分**
+**2. 写给开发者的提示词基础课：5 个技巧，每个都配 Python 例子**
 
-dev.to 11 月 3 日的解读把 GDPx 的方法论讲透：8 小时真活、二进制评分、90% 完成也算失败，并点出金融/法律 0 分、安全分类器拖累部分模型分数等四个 caveat。
+11 月 2 日的教程把提示词拆成任务、信息、输出三要素，再给 5 个可直接用的技巧：说清任务/受众/范围、把上下文和指令分开、定义输出格式、用例子代替长篇规则、设角色但仍要验证；并点出关键一句：提示词从不改变模型权重，它只决定模型已有能力被用出几成。
 
-为什么有效：结构是“先给反直觉结论，再拆评分规则，最后主动列出自己的不可信之处”——作者先替读者质疑，读者反而更愿意信前面的结论。
+为什么有效：结构是“一个失败例子开场 + 一条原理 + 五个带代码的技巧”，每个技巧都有正反对照，读者读完能立刻改自己的提示词，不用再翻第二篇。
 
-可以直接借的一招：发任何榜单/测评帖时，结尾主动写 3–4 条“这个结论哪里可能不成立”，比只贴分数更像内行。
+可以直接借的一招：写提示词时先问自己三句——要什么任务、模型需要哪些信息、答案以什么形式交；答不上来就别发。
 
-链接：https://dev.to/danielsamfdo/12-of-the-economy-the-benchmark-that-grades-ai-agents-like-employees-5f8g
+链接：https://medium.com/@swapnilgupta22/prompt-engineering-for-developers-part-1-basics-and-5-core-techniques-0d3358b45fb2
 
-**3. Cursor 后门事件最值得抄的不是新闻，是那篇“5 分钟自查”**
+**3. 用 ChatGPT 写代码的 10 个提示词：模板 + 实跑结果，不是只贴提示词**
 
-authon.dev 的帖子把一次供应链攻击压成一张检查单：哪两个版本、哪个密钥名、哪条 grep 命令、卸载为什么没用、清完还要轮换什么。
+这篇指南把 Codex 最佳实践的四段式（目标、上下文、约束、验收）套用到普通 ChatGPT 对话，给出 10 个可直接复制的编程提示词，并实跑了其中 3 个、用 Claude Opus 5.5 执行验证（11 月 1 日、4 日两次实测），还附了一个免费的提示词打分器，检查角色/目标/上下文/格式/约束/例子六要素缺了哪项。
 
-为什么有效：证据形式极具体——文件名、密钥标签、命令都可直接复制验证，读者读完就能动手，而不是只感到害怕。
+为什么有效：证据形式是“跑出来的结果”而非“作者觉得好”——提示词帖最容易沦为玄学，这篇用执行验证把可信度拉回地面。
 
-可以直接借的一招：讲安全/翻车类话题时，结尾必须给一条“复制粘贴就能跑的验证命令”，这是收藏率最高的段落形态。
+可以直接借的一招：发任何提示词合集时，至少实跑 1–2 条并贴出运行结果，有实跑的帖子收藏率完全不同。
 
-链接：https://blog.authon.dev/claude-code-extension-backdoor-cursor-5-minute-check
+链接：https://www.promptxp.app/guides/how-to-use-chatgpt-for-coding
 
-**4. AI 视频到底多少钱一秒？这篇把各家“信用点”全换算成了秒**
+**4. 本周 Claude Code、Codex、Gemini CLI 周报：一个有截止日期的更新清单**
 
-DreamDrive 11 月的跨平台成本指南把 Google Flow、Runway、Luma、Kling、Pika 的信用点体系统一换算成“一段 10 秒成片实际多少钱”，并点出分辨率是最贵的杠杆（Luma 上 1080p 比 360p 贵 20 倍）。
+11 月 1 日这周的周报把三家工具的更新压成一件事：Claude Code 2.1.311–2.1.316 四连发，Opus 4.8 的 fast mode 已于 10 月 30 日弃用、11 月 30 日彻底移除，移除后请求直接报错、不回落到标准版，必须迁到 Opus 5.5；同时空闲压缩（idle compaction）扩展到 VS Code 和桌面端，Codex 0.166 新增 `codex queue --resume` 和 `codex doctor --network-only`。
 
-为什么有效：钩子直击真实痛点——套餐价看不懂，换算成“一条片子多少钱”立刻能决策；证据是各家官网价目页，不是二手传言。
+为什么有效：结构是“先给截止日期，再给迁移路径”——读者最怕的不是更新多，而是不知道哪个更新会让自己的脚本在月底突然报错，这篇把唯一会炸的点放在最前面。
 
-可以直接借的一招：写价格/成本帖时，别贴套餐表，贴“完成一次真实任务的总价”，再加一个“最贵的变量是什么”。
+可以直接借的一招：写工具更新帖时，第一句就写“哪个改动会在哪天让你的现有用法失效”，再写新功能。
 
-链接：https://www.dreamdrive.ai/learn/cross-platform/ai-video-cost-which-platform-for-what/
+链接：https://aicoding-guide.com/en/posts/weekly-2026-11-01/
+
+**5. 视频生成 API 横评：没有模型能赢所有榜单，所以要选“一家接多家”的平台**
+
+Runway Dev 11 月 3 日核查的横评：Artificial Analysis 上 Seedance 2.5 图生视频第 1、Wan 3.0 文生视频第 1，Arena 上 MiniMax H3 和 Gemini Omni Flash 1.1 居首；结论是没有单一模型通吃，因此平台价值在于一个 key 能接 22 个模型、带 MCP 插件和按场景分的 Recipes 端点，而不是押注某一个模型。
+
+为什么有效：钩子先打破“谁是最强模型”的幻想，再用三张榜单的交叉排名证明“榜单第一取决于你问的是哪张榜”，最后落到一个可执行的选型标准，读者看完就知道怎么选。
+
+可以直接借的一招：做横评时别只贴一张榜单，贴两张以上榜单的交叉结果，再给“按你的场景该看哪张榜”。
+
+链接：https://dev.runwayml.com/learn/best-ai-video-generation-apis
+
+**6. Kling 4.0 新手指南：30 秒成片 + 立体声，11 月 4 日上 Product Hunt**
+
+这篇 11 月 4 日的指南讲 Kling 4.0：单段最长 30 秒（Kling 3.0 的两倍）、原生立体声音频、可锁定角色/物体/运镜，10 月 15 日全面开放后已上架 Runway、Google Flow、Genspark、SeaArt 等合作平台；并提醒 Runway 上 Kling 4.0 信用点 75 折到 11 月 30 日，Genspark 的 5 折已于 11 月 4 日结束。
+
+为什么有效：互动设计很实在——不是罗列参数，而是按“先理解变化、再开户、再选平台”三步走，结尾还给了“去你已有的工具里找 Kling 4.0”这个省钱路径，读者不用另开账号就能试。
+
+可以直接借的一招：介绍新工具时，最后一句永远写“你不用新开账号，在你已有的 XX 里就能找到它”，转化率最高的一句话。
+
+链接：https://aitoolsteps.com/how-to-use-kling-4-0-ai-for-beginners/
