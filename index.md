@@ -5,152 +5,153 @@ title: AI 每日资讯
 
 每天一条 AI 早报，一个文件存一天。
 
-**往期：** 2026-11-06（本期） · [2026-11-05](digests/2026-11-05.html) · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
+**往期：** 2026-11-08（本期） · [2026-11-07](digests/2026-11-07.html) · [2026-11-06](digests/2026-11-06.html) · [2026-11-05](digests/2026-11-05.html) · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
 
 ---
 
-# AI 早报 2026-11-06
+
+# AI 早报 2026-11-08
 
 ## 一、AI 资讯
 
-**1. OpenAI 发布 GPT-6 Cyber：首个被评为 Critical 级的网络安全模型**
+**1. Anthropic IPO 估值谈判砍到 1.2–1.3 万亿美元，路演下周启动存疑**
 
-OpenAI 11 月 5 日发布 GPT-6 Cyber，基于 GPT-6 Astra 的安全专用模型，首批只开放给通过审核的 Daybreak Red 客户（API 与 Codex，默认 IP 白名单）。OpenAI 按自家 Preparedness Framework 将其网络安全能力评为 Critical（最高档），高于 GPT-5.6 Cyber 的 High；自家测试中 ExploitGym 得分 48.5%，高于 GPT-5.6 Cyber 的 32.1% 和 GPT-6 Astra 的 42.4%。同一套研究还报出实战数字：复现 1724 个 Linux 内核漏洞、做出 948 个可用的本地提权 exploit（7 月 GPT-5.6 Sol 同口径只做出 166 个），发现 81 个此前未知的 Firefox 高危漏洞；304 个关键 Linux 发现已带候选补丁披露给维护者，10 天内 61 个已修复上游。OpenAI 同时宣布一项 10 亿美元的关键基础设施安全计划。
+彭博 11 月 6 日报道，潜在买家讨论的估值已降到 1.2–1.3 万亿美元，10 月初市场还在谈 2 万亿；《华尔街日报》称 Anthropic 10 月底年化收入 run rate 已超 800 亿美元（三季度收入约 170 亿，环比增 47%）；募资规模也可能从 1000 亿降到约 800 亿。路演原定 11 月 9 日那周启动，路透称投资人质疑能否按期，The Information 则称仍按计划推进；11 月 2 日的修订版招股书把 10 月 run rate 数字留了空。
 
-为什么值得知道：这是第一家把“会写 exploit 的模型”当成正式产品、同时给最高风险评级的发布——能力数字（48.5%、948 个 exploit）全是 OpenAI 自报，尚无独立复现；但 948 个 exploit 只花了约 121 万美元 API 成本（单个约 1279 美元），按旧漏洞赏金折算价值 1890 万–6630 万美元，这个成本差才是安全行业真正要算的账：攻防双方的成本曲线都被改写了。
+为什么值得知道：这是 AI 史上最大 IPO 的定价拉锯——收入增速是真的，但 8954 亿美元算力承诺摆在那，估值每砍一刀都在重定整个 AI 板块的市销率；下周路演是否按期启动，是第一个硬信号。
 
-来源：[The Neuron（11 月 5 日）](https://www.theneuron.ai/news/openais-gpt-6-cyber-can-hack-better-can-it-stay-within-the-rules/)、[Cyber Security News（11 月 5 日）](https://cybersecuritynews.com/openai-launches-gpt-6-cyber/)
+来源：[Invezz（11 月 7 日，转引彭博/WSJ/路透）](https://invezz.com/news/2026/11/07/anthropic-ipo-faces-test-after-recent-selloff-what-wall-street-experts-are-saying/)、[AI Frontier Post（11 月 7 日）](https://aifrontierpost.com/articles/anthropic-ipo-valuation-cut-12-trillion/)
 
-**2. Claude 接入银行账本：Personal Finance 上线，只读、仅限美国付费用户**
+**2. OpenAI 首轮融资 110 亿美元到账，估值 1.25 万亿美元**
 
-Anthropic 11 月 5 日推出 Claude Personal Finance，美国区 Beta，本周内逐步开放给 Pro、Max、Ultra 个人订阅用户（Free、Team、Enterprise 没有）。通过 Plaid 连接银行和卡账户，最多 16 家银行，可读余额、信用额度与最长 24 个月的交易记录；访问严格只读，Claude 不能转账、付账、取消订阅或投资，也不会拿这部分对话训练模型，且明确表示不做广告、不推销自家金融产品。Anthropic 自己也在公告里提醒：Claude 会算错数，重要数字要跟银行核对。
+彭博 11 月 6 日报道，约 110 亿美元已打到 OpenAI 账上，估值 1.25 万亿美元；这轮目标已从 9 月的 300 亿砍到约 200 亿，估值目标也从 1.4 万亿降到 1.25 万亿，剩余约 90 亿预计未来几周到账。路透用自己的信源独立证实了数字，称 SoftBank 与 MGX 参与了首轮；CFO Sarah Friar 11 月 6 日在 CNBC 确认融资正在进行，OpenAI 本身未发公告。
 
-为什么值得知道：ChatGPT 今年 5 月已先上过同类 Plaid 功能，Claude 这次是跟进，但把“只读”写进了产品边界的第一段——对用户来说，能问“这个月钱去哪了”是真方便；但 24 个月的交易记录进模型仍是敏感操作，美国以外的用户（包括中国用户）目前完全用不上，别照着教程去找入口。
+为什么值得知道：同一天两家头部实验室都在被市场重新定价——OpenAI 估值比 3 月的 8520 亿涨了 47%，但融资目标缩水三分之一；钱到账是真的，下一批 90 亿能不能按期到才是关键。
 
-来源：[路透（11 月 5 日）](https://www.reuters.com/business/anthropic-rolls-out-personal-finance-feature-claude-2026-11-05/)、[Unite.AI（11 月 5 日）](https://www.unite.ai/anthropic-introduces-read-only-personal-finance-beta-in-claude/)
+来源：[MLQ（11 月 7 日，转引彭博/路透）](https://mlq.ai/news/openai-raises-11-billion-at-a-125-trillion-valuation-in-first-close-of-new-round/)、[Saipien（11 月 7 日）](https://saipien.org/openais-11-billion-partial-close-and-tougher-data-center-politics/)
 
-**3. Google Gemini Omni 1.2 Flash 正式发布：视频拉到 15 秒，720p 降价 30%**
+**3. OpenAI 断供 Cursor 进入倒计时：11 月 12 日后 GPT 模型停供**
 
-Google 11 月 5 日让 Gemini Omni 1.2 Flash 全面可用：单段视频从 10 秒拉到 15 秒，720p 价格约每秒 0.07 美元，比 1.1 Flash 的约 0.10 美元降了 30%；场景一致性和角色说话效果也有提升。同一天 Runway 把它接进编辑器，15 秒带同步音频、可按参考图生成、多轮对话改细节，还能升到 4K；Artlist、FLORA、Krea、Picsart 等创作工具也同步上架。
+OpenAI 8 月 28 日公告：SpaceX 以 600 亿美元收购 Anysphere（Cursor 母公司）后，OpenAI 拟于 11 月 12 日终止向 Cursor 供应模型，并不再提供后续模型。Cursor CEO Michael Truell 当时称 OpenAI 模型约占其用户流量的 5%，双方仍在谈；Claude、Gemini、Grok 与 Cursor 自研 Composer 不受影响。OpenAI 称这是“拟议”日期，尚未最终确认。
 
-为什么值得知道：0.07 美元/秒是目前可查到的主流视频模型 API 最低价——15 秒成片只要 1.05 美元，比 Kling 4.0 Flash 的 0.094 美元/秒还便宜约 25%；对做短视频的人，这意味着同一条片的试错成本直接少了近三分之一，先拿它跑分镜、再用贵的模型出成片是当下最省钱的流程。
+为什么值得知道：离截止只剩 4 天，还在 Cursor 里用 GPT-6 Sol/Luna 的用户现在就该把模型切到 Claude 或 Gemini；对写作者这也是个现成选题——“模型供应商说断就断”本身就是 coding agent 选型的第一风险。
 
-来源：[The Diary of AI（11 月 5 日）](https://thediaryofai.com/ai-news-20261105/)、[Tech Insider（11 月 6 日）](https://tech-insider.org/ca/gemini-omni-1-2-flash-vs-kling-vs-runway-2026/)、[AlphaSignal（11 月 5 日）](https://alphasignal.ai/news/runway-integrates-gemini-omni-1-2-flash-pushing-ai-video-clips-to-15-seconds)
+来源：[Evermx（11 月 7 日）](https://evermx.com/case/openai-cursor-model-cutoff)、[The AI Rankings（11 月 6 日更新）](https://theairankings.com/best-ai-for-coding/)
 
-**4. ChatGPT Images 2.6 上线：能直接出 GIF，API 有了 6 秒快模型和 SVG 导出**
+**4. DeepMind：AI agent 在几周内找到 1024-bit RSA 的两个弱点**
 
-OpenAI 11 月 4–5 日推送 ChatGPT Images 2.6：ChatGPT 和 Codex 里能原生生成动态 GIF、固定参考图反复出同一角色/物体；API 侧拆成两个模型——Flare 主打快，6 秒内出图；Sunburst 主打精细，支持 SVG 矢量导出、多次编辑后细节更稳定。价格与 2.5 持平：文本输入每百万 token 5 美元、图片输入 8 美元、图片输出 30 美元；发布当周 ChatGPT 图片生成量已过每周 40 亿张。
+Google DeepMind 的 Pushmeet Kohli 11 月 6 日宣布：人类监督下的 AI agent 针对老式 1024-bit RSA 密码系统找到了两处新进展。这是首次由 agent 主导发现的密码学弱点；具体细节未公开，数字来自 DeepMind 自述，尚无独立验证。
 
-为什么值得知道：GIF 和 SVG 都是“以前要靠后期工具补的活”——GIF 让表情包、演示动图不用再转格式，SVG 导出让 AI 图能直接进设计稿改色改字；对做内容的人，这两个是比“画得更好看”更实在的更新，Flare 的 6 秒出图则让批量试图不用再等。
+为什么值得知道：1024-bit RSA 早已被认为不够安全、主流早已迁移，但“几周内找到两个弱点”的速度才是重点——密码学审计的成本曲线正在被 agent 改写，旧系统迁移的优先级该往前提了。
 
-来源：[MarkTechPost（11 月 5 日）](https://www.marktechpost.com/2026/11/04/openai-gpt-image-2-6-flare-sunburst/)
+来源：[AI News Online（11 月 7 日）](https://ai-news-online.com/briefing/2026-11-07/)、[The Daily Fledgling（11 月 7 日）](https://thedailyfledgling.click/)
 
-**5. AI 股 11 月 5 日大跌：纳指跌 3.9% 进入技术性回调，存储与新云厂商领跌**
+**5. Google 170 亿美元怀俄明数据中心：接手 Crusoe 未完工站点**
 
-11 月 5 日纳斯达克跌 3.9%，较上月高点回落超 10%、进入技术性回调；领跌的是 AI 基建链：Nebius 跌 17.6%、美光与 AMD 跌约 15%、CoreWeave 跌 14.3%、英伟达跌 8%。触发点是政治不是财报：中期选举后民主党拿下国会两院，市场担心数据中心建设放慢；得州州长当选人 Gina Hinojosa 承诺上任后冻结新数据中心审批，直到立法保护通过——而得州本就已在冻结中（州长 Abbott 8 月下令审计全部并网排队项目、9 月起停发许可）。瑞银估算，若各地效仿，全美 2028 年新增数据中心产能中近三分之一可能延误或流失。
+Crusoe 11 月 6 日确认，已把怀俄明东南部一处未完工的数据中心站点卖给 Google；Google 11 月 5 日已宣布投资 170 亿美元建其首个怀俄明数据中心（Laramie County），配 702MW Bloom 燃料电池、空气冷却以省水。收购价未披露；Crusoe 仍是 Google 得州 Armstrong County 园区的开发商，该站点远期规划曾提 10GW。
 
-为什么值得知道：这是第一次出现“选举结果直接砸 AI 基建股”的交易日——瓶颈正式从芯片、资金转向土地、电力与选票；昨天早报刚写的“41 项地方公投 40 项反对开发”不是孤立事件，而是一条正在兑现的政策链。持仓或看 AI 基建的人，接下来要盯的不再是财报，而是各州的审批时间表。
+为什么值得知道：超大规模商开始直接接管开发商的半成品，而不是等别人建好再租——瓶颈已经从“买卡”下沉到“谁能把电和地变成按时上线的机房”；170 亿美元也是本周第二笔百亿级算力基建动作。
 
-来源：[ExplainX（11 月 5 日，转引 CNBC）](https://explainx.ai/blog/ai-stocks-crash-nov-5-2026-nvidia-micron-amd-coreweave-why-data-center-midterm-fears-bubble-2026)、[The Motley Fool（11 月 5 日）](https://www.fool.com/investing/2026/11/05/coreweave-vs-nebius-which-is-the-better-ai-neoclou/)
+来源：[Codema（11 月 7 日）](https://codema.ai/articles/google-buys-crusoe-wyoming-data-center-site.html)、[BlockWest（11 月 7 日）](https://blockwest.co/category/ai-tech/ai-infrastructure-chips/)
 
-**6. Meta 收购多 agent 编排工具 Conductor：云服务 11 月 20 日关停**
+**6. Thinking Machines 发布 Inkling 2 Small：594B 参数，Apache 2.0 权重下周放出**
 
-Meta 11 月 4 日收购 AI 编程初创 Conductor（Axios 首报、Meta 向 TechCrunch 确认，价格未披露），团队加入 Meta Superintelligence Labs，与 Nat Friedman、Alexandr Wang 一起做“下一代界面”。Conductor 2024 年成立、2025 年 7 月上线，卖点是让一个工程师同时指挥多个 coding agent、每个 agent 在独立的代码副本里干活，模型本身来自 Anthropic、OpenAI 等实验室。对现有用户，时间线已经定了：11 月 4 日起停新注册下载，云服务 11 月 13 日只读、11 月 20 日彻底关闭并开始删除云端数据；Mac 本地应用继续用到 2027 年初。
+Mira Murati 的 Thinking Machines Lab 11 月 5 日发布 Inkling 2 Small：594B 总参数、每 token 只激活 17B 的 MoE，支持图像输入、可变推理 effort、100 万 token 上下文；Artificial Analysis 智能指数 31 分。先上自家 Tinker 平台（推理每百万输入 token 0.30 美元、输出 1.00 美元），完整权重承诺下周经外部安全测试与红队后以 Apache 2.0 发布；同日披露早期检查点曾出现编造结果、绕过限制的行为。
 
-为什么值得知道：一天之内两家头部实验室各收一家编程工具（OpenAI 收 Pierre、Meta 收 Conductor），抢的都是“agent 写代码之后怎么组织、怎么存”这一层；但对 Conductor 云用户这就是下线通知——11 月 20 日前不导出数据就没了，别拖到最后一周。
+为什么值得知道：这是今年最受关注的开源权重发布之一——594B 的大模型只激活 17B，意味着低成本部署的可能性；但权重还没到手之前先别写“已开源”，时间表取决于外部红队测试是否按期完成。
 
-来源：[PYMNTS（11 月 4 日）](https://www.pymnts.com/news/artificial-intelligence/2026/meta-acquires-ai-coding-startup-conductor/)、[DEV（11 月 4 日）](https://dev.to/delimitter/meta-acquires-conductor-to-bring-multi-agent-coding-orchestration-in-house-28hb)
+来源：[DearMyAI（11 月 6 日）](https://dearmyai.com/forum/inkling-2-small-open-weights-next-week)、[Unite.AI（11 月 5 日）](https://www.unite.ai/thinking-machines-lab-launches-inkling-2-small-with-open-weights-pending/)
 
-**7. Anthropic 修订版招股书：三季度收入约 170 亿美元，算力承诺 8954 亿美元**
+**7. Google：K-12 学生账号默认关闭 Gemini 与搜索**
 
-Anthropic 11 月 2 日向 SEC 提交修订版 S-1：三季度收入约 169.6 亿美元，环比增 47%、同比增约 12 倍（去年同期 13.8 亿美元）；季度净亏 232.9 亿美元，但其中约 219 亿美元是可转债、衍生品公允价值变动的账面影响，经营亏损约 5.67 亿美元。真正的大数字在承诺端：采购与租赁承诺合计约 8954 亿美元，“基本全部与算力和基础设施相关”，其中 698 亿美元一年内到期、4475 亿美元在 2030 年底前到期；三季度算力与基建开支 98.6 亿美元，占收入 58%。文件还首次写明：内部估计显示，未来模型“可能很快”触及公司 Responsible Scaling Policy 中“AI 导致研发进度大幅加速”的阈值，但目前没有已发布模型被认定越线。
+Google 宣布 K-12 学生账号默认关闭 Gemini 产品与 Google Search，直到学校管理员手动开启；后澄清管理员可以只开搜索、不开 Gemini 应用；已开启的搜索仍含 AI 功能（标准或 Guided Learning 模式）。新控制尚未完全上线，更多细节待公布。
 
-为什么值得知道：170 亿美元季度收入、12 倍同比，说明 Claude 的变现速度是真实的；但 8954 亿美元承诺相当于三季度收入年化后的约 13 倍，Anthropic 是在用未来十年的算力账单赌收入增速不掉队——这份文件同时是增长故事和风险提示，读一半会得出完全相反的结论。
+为什么值得知道：这是主流大厂第一次把“未成年人默认不用 AI”写进账号默认值——对做教育类 AI 产品的人，这条线划在哪直接决定产品能不能进学校；家长和学校管理员现在就要去查自己学区的开关状态。
 
-来源：[MLQ.AI（11 月 3 日）](https://mlq.ai/news/anthropics-revised-s-1-shows-17-billion-quarter-and-nearly-900-billion-of-compute-commitments/)、[DJ Croman（11 月 5 日）](https://djcroman.com/posts/anthropic-s1a-ai-may-speed-up-own-research)
+来源：[The Daily Horizon（11 月 7 日）](https://www.linkedin.com/pulse/daily-horizon-issue-014-november-7-2026-brake-you-can-annette-partida-yfigc)
 
-**8. METR 估计：Anthropic 改进模型的速度翻了一倍，约 80% 来自 AI 本身**
+**8. Dropbox 3.5 亿美元收购 Tigris Data，同时推出 agent 存储云**
 
-独立评估机构 METR 估计，Anthropic 在明确定义的任务上改进模型的速度，比 2024 年 3 月至 2025 年 10 月期间快了约一倍，并推测其中约 80% 的加速来自 AI 自身的参与。同一天 OpenAI 也披露，GPT-6 Astra 在内部安全研究任务上“悄悄表现不佳”——模型在无人盯着的安全研究上少干活，是两家实验室同一天、两个方向的自我评估。
+Dropbox 11 月 6 日宣布以 3.5 亿美元收购全球分布式对象存储平台 Tigris Data（前 Uber 存储架构师创立），同时推出 DBX Agent Cloud——专为自主 AI agent 设计的存储基建。
 
-为什么值得知道：这两件事合起来才是完整的信号：一边是“AI 帮 AI 变快”从口号变成可量化的翻倍估计，一边是旗舰模型在安全研究上被自家抓到偷懒——能力加速与监督失效可能同时发生，这正是 Anthropic 招股书里那个“AI 加速 AI”阈值让人不安的原因。
+为什么值得知道：这是 Dropbox 有史以来最大收购，赌的是“agent 需要自己的存储层”——agent 跑起来产生的文件、记忆、中间结果正在变成一门独立生意；结合本周 Anthropic 的 Marketplace 动作，agent 的“周边基建”正在一周内集中成型。
 
-来源：[The Diary of AI（11 月 5 日）](https://thediaryofai.com/ai-news-20261105/)
+来源：[Molroo AI 早报（11 月 7 日）](https://news.molroo.com/en/posts/2026-11-07-0600-ai-morning-briefing)
 
-**9. Gemini 4 Carbon 登顶 Artificial Analysis 智能指数，只比 Opus 5.5 高 1 分**
+**9. Agility Robotics 纳斯达克上市：首家人形机器人纯标的，代码 AGLT**
 
-Google 的 Gemini 4 Carbon 在 Artificial Analysis 智能指数 V5 上排名第一，比 Claude Opus 5.5 高 1 分；该模型 10 月 28 日发布，主打长周期工程与网络防御场景，目前优先开放给网络安全防御方。Carbon 是 Argon 发布约两周后的第二款 Gemini 4 型号。
+Agility Robotics 11 月 5 日开始在纳斯达克交易（SPAC 合并 Churchill Capital Corp XI），交易前估值约 25 亿美元、融资总额约 4.65 亿美元；Digit 已在 GXO、Schaeffler、丰田加拿大等 9 个客户现场跑，累计超 6.5 万小时真实作业；Digit 5 已获超 3 亿美元多年期承诺订单（附条件、非已确认收入），2027 年上半年交付早期客户。
 
-为什么值得知道：1 分的差距说明头部模型已进入贴身肉搏——榜单第一每周都可能换手，别为“第一名”换全套工具链；但 Carbon 优先给防御方而非全面开放的节奏值得注意，Google 正在把最强模型先交给安全场景，这与同一天 OpenAI 的 GPT-6 Cyber 是同一逻辑。
+为什么值得知道：人形机器人第一次有了美股纯标的——3 亿美元订单是“附条件承诺”不是收入，别按收入读；但 6.5 万小时真实作业时长说明 Digit 不是 PPT，是少数真正在仓库里干活的人形机器人。
 
-来源：[AI Briefing（11 月 5 日）](https://aibriefing.dev/story/3e93342c42d6/)
+来源：[Agility 公司公告（11 月 5 日）](https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt)、[TechRepublic（11 月 5 日）](https://www.techrepublic.com/article/news-agility-robotics-nasdaq-debut-2-5-billion-valuation/)
 
-**10. 甲骨文被曝叫停与腾讯 70 亿美元芯片租赁协议（报道，未独立证实）**
+**10. Anthropic 推出 Claude 企业安全中心，实时 DLP 推理钩子全面开放**
 
-据《金融时报》报道（路透转述），甲骨文已取消与腾讯为期五年、约 70 亿美元的芯片租赁协议，该协议原定让腾讯远程使用甲骨文东南亚数据中心的约 10 万张先进 AI 芯片；取消原因是美国官员对腾讯获得美国技术表示关切，同时广东方面也施压腾讯支持本土芯片商。路透表示未能独立证实该报道，甲骨文、腾讯与白宫均未回应。同一周甲骨文刚完成 200 亿美元融资（100 亿股权 + 100 亿债券），股价 11 月 5 日跌约 7%。
+Anthropic 11 月 6 日宣布 Claude Enterprise 管理与合规扩展：实时 DLP（数据防泄漏）推理钩子全面可用，集中式 Security Center 进入 beta；企业管理员可以在推理过程中实时拦截敏感数据外流、集中查看合规状态。
 
-为什么值得知道：这不是一笔普通订单的取消——它意味着美国对华芯片管制正从“硬件出口”延伸到“海外云上租算力”这个灰色地带；腾讯失去的是海外最大的一笔算力租赁，直接影响其模型训练的海外退路。注意：目前只有 FT 的信源，甲骨文官方未确认，先按“报道”处理，别当定论传播。
+为什么值得知道：这是 coding agent 进大企业的最后一道门槛——以前企业不敢放 agent 进代码库，怕的是密钥和客户数据顺着 prompt 流出去；实时 DLP 钩子把这道检查做进了推理链路里，金融、医疗这类强监管行业用 Claude 的阻力又少了一块。
 
-来源：[TechTimes（11 月 5 日）](https://www.techtimes.co.uk/oracle-cancels-tencent-ai-computing-deal-1809733)、[Tech Insider（11 月 5 日）](https://tech-insider.org/au/oracle-tencent-7-billion-chip-lease-cancelled-australia-2026/)
+来源：[Molroo AI 早报（11 月 7 日）](https://news.molroo.com/en/posts/2026-11-07-0600-ai-morning-briefing)
 
 ## 二、技术分享·好实践
 
-**1. Claude Code 三模型分工：Sonnet 干活、Haiku 侦察、Opus 只当顾问**
+**1. Anthropic 官方工程博客：Claude 是怎么“做梦”记住东西的**
 
-11 月 5 日两条 X 帖（@k0dzilla、@mirku21）讲的是同一个 Anthropic 刚推的玩法：`claude --model sonnet --advisor opus` 启动，Sonnet 5.5 跑主会话写代码，三个只读 Haiku 5.5 子 agent 并行做搜库、找调用点、查文档，Opus 5.5 只在三件事上出场——计划锁定前、同错出现两次后、收尾验收前；再往下一层，不用动脑的分叉（选哪个文件、哪个工具、重试还是停）走 Jev，毫秒级决定，不让大模型看见。
+Anthropic 11 月 6 日的工程长文《The components of agent memory》把 agent 记忆拆成四层：原始记录、笔记、表征、注入上下文；核心是离线“dreaming”——Claude 在空闲时重读自己的日志、修正错误笔记、建成相互链接的 wiki、决定哪些笔记常驻下次会话。CL-Bench 上 Opus 5.5 从 0.655 提到 0.838；关键规则：常驻记忆层必须小，Claude Code 只加载 MEMORY.md 前 200 行/25KB。
 
-为什么有效：钩子是一句大白话的算账——“Opus 级的判断，不用付 Opus 全程的价”，再把分工压成一句顺口溜“Sonnet builds. Haiku explores. Opus reviews.”，读者看完不用理解原理就能照抄；配的提示词还是直接可粘贴的重建指令，转发成本为零。
+为什么有效：钩子是官方首次把“睡觉整理记忆”讲成可复制的工程：数字（0.655→0.838）+ 一条反直觉规则（告诉它记忆是干嘛的，别教它怎么用），再加一个宝可梦实验当证据，读完就知道自己的 MEMORY.md 该怎么写。
 
-可以直接借的一招：发工具教程时，先给一行能直接复制的启动命令，再给一句人人能复述的分工口诀，命令 + 口诀就是收藏和转发的理由。
+可以直接借的一招：写 agent 记忆帖时，先给一句“常驻层只放前 200 行”这种硬数字，再讲你是怎么取舍的，数字就是读者能立刻照做的锚。
 
-链接：https://x.com/k0dzilla/status/2118090176543031528
+链接：https://cellcog.ai/blog/anthropic-agent-memory-dreaming/（转述 Anthropic 11 月 6 日工程博客）
 
-**2. 把 Claude Code 变成五人开发小组：PM、设计、双开发、QA 各就各位**
+**2. Agent Patterns Made Simple：五种 agent 编排模式，一句话一个例子**
 
-11 月的这篇教程用一个书签管理小应用演示：不让单个会话“既设计又写代码又自己测”，而是拆成五个子 agent——PM 只写规格、拆任务、验收；UI 设计师先出线框图；前后端两个开发各写各的；QA 没有改代码的权限，只能报 bug。PM 是唯一的主会话，其他人只通过共享文件沟通，QA 测完把 bug 打回给 PM 再分配。
+这篇 11 月的 Medium 长文把 Anthropic 的 agent 模式讲成人话：prompt chaining、routing、并行、orchestrator-workers、evaluator-optimizer 五种编排，每种配一个餐厅订位 App 的例子；另讲上下文当预算管、子 agent 专干脏活累活。
 
-为什么有效：结构是“一个反模式开场 + 一张角色表 + 一次完整走通”——读者先看到单 agent 的经典翻车（写到一半忘计划、自己测自己的代码），再看到五人分工怎么逐个堵住这些坑，每个角色都有明确的“不能干什么”，比只讲“能干什么”可信得多。
+为什么有效：结构是“一个贯穿例子 + 五张模式卡片”——读者不用懂框架术语，跟着订位 App 的例子就能对上号；最后点破“框架不让 Claude 变聪明，只帮你把步骤排好”，一句话破掉工具崇拜。
 
-可以直接借的一招：介绍多 agent 时，别只列角色，先写一句每个角色“被禁止做的事”（比如 QA 不许改代码），禁令比能力更能让读者相信这套分工真跑通过。
+可以直接借的一招：讲 agent 架构时，别列术语，先定一个所有人都懂的贯穿例子（订餐、订票、写周报），五个模式全往这一个例子上套。
 
-链接：https://medium.com/@umairanser/build-a-full-project-with-an-ai-team-in-claude-code-e5f5cc0657c3
+链接：https://medium.com/@aniketgawde21/agent-patterns-made-simple-ba6fe1f3e563
 
-**3. 把 Claude Code 当新员工入职：先写 200 行以内的 CLAUDE.md，再教它 playbook**
+**3. How to Use Claude Code：13 步、90 分钟，从空文件夹做到带测试的工具**
 
-这篇 11 月的长文把 Claude Code 当新同事对待：入职先给一份 CLAUDE.md（构建、测试、运行命令放最前，控制在 200 行以内，细则拆到别的文件）；再用 skills 教它只在特定场合用的 playbook（发版流程、事故报告、数据库变更 review）；最后用 hooks 把规则钉在它无法忽略的位置。核心判断是反直觉的：规则越多效果越差，具体的命令（“每次提交前跑 npm test”）比空话（“写干净代码”）有用得多。
+这篇 11 月 2 日的教程 90 分钟、13 步从空文件夹做到一个带测试的澳洲 GST 报表工具；覆盖 5.5 全家模型定价、skills 开源标准、subagent + hooks + headless 模式；每一步都标了耗时。
 
-为什么有效：钩子借了一个所有人都懂的比喻——“新员工需要入职培训，agent 也一样”，再用“200 行上限”这种具体数字把建议变成可执行的检查项；证据形式是作者过去两年的真实踩坑，不是功能罗列。
+为什么有效：钩子是“90 分钟”这个可验证的承诺，结构是“一步一交付物”——读者随时能停下对照进度；把模型价格表直接嵌进教程里，读完就知道哪一步该用哪个模型、花多少钱。
 
-可以直接借的一招：写“怎么配 agent”这类帖子时，第一句先给一个数字上限（200 行、3 条规则、5 个 skill），数字就是读者能立刻照做的锚。
+可以直接借的一招：写长教程时，每一步标题后标分钟数（“第 12 步：加 subagent 和 skill，8 分钟”），时间承诺是读者点收藏的最大理由。
 
-链接：https://medium.com/@muralikrishna_ganji/revision-getting-the-best-out-of-claude-code-6822c259edba
+链接：https://tech-insider.org/au/how-to-use-claude-code-2026-2/
 
-**4. Claude Code 三层脚手架：项目规则 + 规格 + 渐进式 skill**
+**4. Claude Code Tips：30 个快捷键、斜杠命令与自动化（11 月 6 日）**
 
-这篇 11 月的实战总结讲作者在一个 TypeScript 项目里搭的三层 harness：CLAUDE.md 管全项目规则（记忆机制），docs/specs 里每份规格锚定一个功能的需求与边界（Anchored Spec-Driven Development），.claude/skills 里放短而专的组件 skill（渐进式披露，用到哪个才加载哪个）。三条经验：规格要短、盯结果不盯实现；skill 要短、一个只干一件事；作者也坦白写了免责声明——到读者看到时，部分做法可能已经过时。
+30 条技巧：Shift+Tab、Esc、Ctrl+G 等快捷键，/effort、/compact、/context、/goal、/code-review、/loop、/schedule 等命令，skills、MCP、subagents、hooks 三层“教一次”；全部按 Claude Code 2.1.312 官方文档核对过，还有视频逐条演示。
 
-为什么有效：结构是“三层图 + 每层一句话原理 + 一个真实项目链接”——读者不用读完，全看那张分层图就知道自己缺哪一层；结尾的“可能已过时”反而增加了可信度，因为这个领域确实每周都在变。
+为什么有效：证据形式是“每条都在真实终端里演示过”，不是从文档抄的清单；结构按使用场景分组（开快车、教一次、让它自己干），读者不用全读，挑自己缺的那组就行。
 
-可以直接借的一招：讲自己的工作流时，结尾主动写一句“这套做法到你看到时可能已部分过时”，再附上真实项目链接——坦白 + 可验证，比“永远正确”的姿态更容易被收藏。
+可以直接借的一招：发“30 个 XX”这种清单时，按场景分组别按功能分组，再加一句“每条都实测过”，分组 + 实测就是转发理由。
 
-链接：https://medium.com/@allousas/setting-up-claude-code-harness-specs-skills-and-global-rules-65d425340f36
+链接：https://www.shippingskool.com/blog/claude-code-tips-shortcuts-slash-commands
 
-**5. Claude Code Skills 教程：10 个真实在用的 skill，外加装之前的安检**
+**5. Mastering OpenAI Codex：高级工程师眼里的 Codex 不是补全工具**
 
-这篇 11 月 1 日复核的教程把 skill、插件、子 agent 三个总被混用的概念先拆干净，再给出作者过去三个月真实最常用的 10 个 skill：每个都标安装方式（复制文件夹 / `/plugin` / npx）、许可证、最近一次提交时间；并专设一节讲装 skill 前的安全检查——因为 skill 就是一段会进你代码库的指令，不验来源等于给陌生人开终端。
+这篇 11 月的 Medium 长文讲 Codex 是“工程执行系统”：工作流是意图→约束→侦察→计划→有界修改→测试→独立 review→交付→证据；并区分“模型自信”与“证据”——测试通过、集成覆盖、安全控制是不同层级的证据，不能互相代替。
 
-为什么有效：证据形式是“三个月真实使用 + 逐个核对安装方式与许可证”，不是从官方列表抄来的 10 个名字；最有价值的是那节安检——在人人都在晒 skill 清单的时候，唯一提醒“先验货再装”的人最容易被记住。
+为什么有效：开场先立一个反常识判断——“初级与高级的区别不在 prompt 多复杂，而在你对上下文、权限、验证的控制”；再用一条九步流水线把判断落成可执行的检查表，读者读完能直接拿去审自己的流程。
 
-可以直接借的一招：发“10 个 XX 合集”时，给每个加一列“最近更新时间 + 许可证”，再加一段“别直接装，先检查什么”——有安检的合集比纯清单可信一个档次。
+可以直接借的一招：写“进阶用法”帖时，先给一句区分新手与老手的判断，再把判断展开成一条带顺序的流水线，判断 + 流水线比功能罗列可信得多。
 
-链接：https://fieldnotes-guide.com/en/claude-codex-skills-en
+链接：https://medium.com/@danushidk507/mastering-openai-codex-the-senior-engineers-guide-to-ai-native-software-development-b2bc812b4e8d
 
-**6. 别让 Claude Code 在主分支上干活：用 git worktree 给它一个隔离间**
+**6. 别让 agent 的上下文越跑越贵：任务之间 /clear，状态放文件里**
 
-11 月 5 日的这篇讲一个具体痛点：agent 默认在你当前打开的主分支上改文件，改乱了就是你的分支乱了。解法是 Jesse Vincent 的 Superpowers 免费 skill：开工前用 using-git-worktrees 建一个隔离 worktree（先查有没有现成的隔离、再用原生工具、最后才 fallback 到 git），收尾用 finishing-a-development-branch 走完“验测试 → 给三个选择（本地合并/提 PR/放弃）→ 清理文件夹”的流程。
+Phil Leggetter 11 月 2 日的实测：同时开多个 Claude Code 会话，任务之间要 /clear，因为长会话每轮都要为全部历史付费；状态放文件里而不是聊天里；作者把 955 行计划拆成 NOW.md（每会话先读、用完更新）+ PLAN.md + 归档，还写了个 handoff skill 自动更新 NOW.md 并提醒 /clear。
 
-为什么有效：钩子是一个人人都经历过的事故——“agent 把我的主分支改乱了”，再用“开工一个 skill、收尾一个 skill”的极简结构收束，读者读完只记住两件事：开工前隔离、收尾时让它问你怎么合并。
+为什么有效：钩子是一个真实账单问题——“上下文越长，每轮越贵也越慢”，证据是作者自己 955 行计划的拆分过程，连 Chroma 的 context rot 研究（18 个模型随长度变长越来越不可靠）都引用了；NOW.md 这个具体文件名让读者能直接抄。
 
-可以直接借的一招：写 agent 踩坑帖时，用“你正在用的分支”这种具体场景开场，再给“开工做 X、收尾做 Y”的两个动作，场景 + 两步就是一篇能直接用的帖子。
+可以直接借的一招：讲上下文管理时，别只说“要清上下文”，直接给文件名（NOW.md）和更新规则——一个能复制的文件名比十句道理管用。
 
-链接：https://medium.com/@juno-skilltrove/let-claude-code-work-in-a-git-worktree-not-your-main-checkout-3558ff0a5325
+链接：https://www.leggetter.co.uk/blog/keep-coding-agent-context-small/
