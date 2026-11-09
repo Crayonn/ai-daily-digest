@@ -5,153 +5,153 @@ title: AI 每日资讯
 
 每天一条 AI 早报，一个文件存一天。
 
-**往期：** 2026-11-08（本期） · [2026-11-07](digests/2026-11-07.html) · [2026-11-06](digests/2026-11-06.html) · [2026-11-05](digests/2026-11-05.html) · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
+**往期：** 2026-11-09（本期） · [2026-11-08](digests/2026-11-08.html) · [2026-11-07](digests/2026-11-07.html) · [2026-11-06](digests/2026-11-06.html) · [2026-11-05](digests/2026-11-05.html) · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
 
 ---
 
 
-# AI 早报 2026-11-08
+# # AI 早报 2026-11-09
 
 ## 一、AI 资讯
 
-**1. Anthropic IPO 估值谈判砍到 1.2–1.3 万亿美元，路演下周启动存疑**
+**1. 英伟达董事会启动独立调查：黄仁勋是否成为中国情报行动的目标**
 
-彭博 11 月 6 日报道，潜在买家讨论的估值已降到 1.2–1.3 万亿美元，10 月初市场还在谈 2 万亿；《华尔街日报》称 Anthropic 10 月底年化收入 run rate 已超 800 亿美元（三季度收入约 170 亿，环比增 47%）；募资规模也可能从 1000 亿降到约 800 亿。路演原定 11 月 9 日那周启动，路透称投资人质疑能否按期，The Information 则称仍按计划推进；11 月 2 日的修订版招股书把 10 月 run rate 数字留了空。
+11 月 8 日，英伟达董事会宣布启动独立调查，此前《纽约时报》与《金融时报》报道美方情报评估认为：新加坡 Megaspeed 公司高管 Alice Huang（黄乐）被中国国家安全部招募，任务是推动黄仁勋游说华盛顿放宽对华 AI 芯片出口限制。同日黄仁勋向员工发备忘录，承认与对方有婚外情。董事会称"没有理由相信"国家安全或英伟达机密已被泄露，调查由独立董事委员会与外部律师负责，黄仁勋留任并配合调查；三名众议院共和党委员会主席已要求他在 11 月 18 日前接受闭门简报。报道称 Megaspeed 过去两年采购了 48 亿美元英伟达芯片；截至 11 月 6 日英伟达市值近 4.5 万亿美元，为全球第二大上市公司。
 
-为什么值得知道：这是 AI 史上最大 IPO 的定价拉锯——收入增速是真的，但 8954 亿美元算力承诺摆在那，估值每砍一刀都在重定整个 AI 板块的市销率；下周路演是否按期启动，是第一个硬信号。
+为什么值得知道：这是 AI 芯片龙头第一次因 CEO 个人关系同时遭遇董事会调查与国会传唤——周一开盘是第一个市场信号；无论调查结论如何，对华芯片出口管制的辩论都会多一个政治变量。
 
-来源：[Invezz（11 月 7 日，转引彭博/WSJ/路透）](https://invezz.com/news/2026/11/07/anthropic-ipo-faces-test-after-recent-selloff-what-wall-street-experts-are-saying/)、[AI Frontier Post（11 月 7 日）](https://aifrontierpost.com/articles/anthropic-ipo-valuation-cut-12-trillion/)
+来源：[Engadget（11 月 8 日）](https://www.engadget.com/2310336/nvidia-is-investigating-reports-that-ceo-jensen-huang-was-the-target-of-chinese-spy-efforts/)、[TradingView/Seeking Alpha（11 月 8 日）](https://www.tradingview.com/news/seekingalpha:3aacea667094b:0-nvidia-opens-review-into-alleged-chinese-spy-effort-targeting-ceo-huang/)
 
-**2. OpenAI 首轮融资 110 亿美元到账，估值 1.25 万亿美元**
+**2. Anthropic 被曝 34 亿美元接手 1.7GW 燃气发电机订单，AI 实验室史上最大单笔发电设备采购**
 
-彭博 11 月 6 日报道，约 110 亿美元已打到 OpenAI 账上，估值 1.25 万亿美元；这轮目标已从 9 月的 300 亿砍到约 200 亿，估值目标也从 1.4 万亿降到 1.25 万亿，剩余约 90 亿预计未来几周到账。路透用自己的信源独立证实了数字，称 SoftBank 与 MGX 参与了首轮；CFO Sarah Friar 11 月 6 日在 CNBC 确认融资正在进行，OpenAI 本身未发公告。
+《金融时报》11 月 8 日报道：Anthropic 已于 9 月底签约，从圣安东尼奥 OnePWR Solutions 手里接过 1.7GW 卡特彼勒燃气发电机的订单，约 34 亿美元，含安装所需的工程与施工能力；不收购 OnePWR、无员工转移。交易顾问 Piper Sandler 的页面列出一笔 9 月 34 亿美元的 OnePWR 电力平台出售交易，买方为未具名的"前沿 AI 实验室"，金额与时间均吻合。Anthropic 与 OnePWR 均未置评，路透称无法独立核实该报道。FT 称这是 AI 实验室已知最大单笔发电设备采购。背景：Anthropic 11 月 2 日修订版招股书披露的算力与基建承诺约 8954 亿美元。
 
-为什么值得知道：同一天两家头部实验室都在被市场重新定价——OpenAI 估值比 3 月的 8520 亿涨了 47%，但融资目标缩水三分之一；钱到账是真的，下一批 90 亿能不能按期到才是关键。
+为什么值得知道：瓶颈已经从"买卡"下沉到"买电"——发电机要提前两年订货，实验室现在直接接手别人的订单排队；34 亿只是 8954 亿承诺里的一小笔，但它说明 IPO 前夜 Anthropic 在为交付确定性付真金白银。
 
-来源：[MLQ（11 月 7 日，转引彭博/路透）](https://mlq.ai/news/openai-raises-11-billion-at-a-125-trillion-valuation-in-first-close-of-new-round/)、[Saipien（11 月 7 日）](https://saipien.org/openais-11-billion-partial-close-and-tougher-data-center-politics/)
+来源：[MadRobot（11 月 8 日，转述 FT）](https://madrobot.blog/2026/11/08/anthropic-3-4-billion-gas-generators-data-centres/)、[Shashi（11 月 8 日）](https://www.shashi.co/2026/11/anthropic-onepwr-gas-generators.html)
 
-**3. OpenAI 断供 Cursor 进入倒计时：11 月 12 日后 GPT 模型停供**
+**3. 苹果新 CEO 施压：Siri 最早 2027 年变成"agent"，不再只等指令**
 
-OpenAI 8 月 28 日公告：SpaceX 以 600 亿美元收购 Anysphere（Cursor 母公司）后，OpenAI 拟于 11 月 12 日终止向 Cursor 供应模型，并不再提供后续模型。Cursor CEO Michael Truell 当时称 OpenAI 模型约占其用户流量的 5%，双方仍在谈；Claude、Gemini、Grok 与 Cursor 自研 Composer 不受影响。OpenAI 称这是“拟议”日期，尚未最终确认。
+彭博 Mark Gurman 11 月 8 日《Power On》专栏：新任 CEO John Ternus 在闭门会上要求软件主管 Craig Federighi 加速路线图，"不只是把 Siri 修好"；Gurman 称苹果最终想让 Siri 像 ChatGPT Dots、Meta Muse、Grok 那样追踪目标、自主推进任务，最早明年成型；苹果未置评。同一周，彭博经路透报道：苹果已把部分工程师每日 AI 花费额度从 300 美元砍到 200 美元，正考虑降到 100 美元，额度覆盖 ChatGPT、Claude、Gemini 的 token 消费。
 
-为什么值得知道：离截止只剩 4 天，还在 Cursor 里用 GPT-6 Sol/Luna 的用户现在就该把模型切到 Claude 或 Gemini；对写作者这也是个现成选题——“模型供应商说断就断”本身就是 coding agent 选型的第一风险。
+为什么值得知道：苹果终于把 Siri 的目标从"更好用的语音助手"改成"常驻 agent"——等于承认追赶对象是 Dots 和 Muse；但 2027 年只是 Gurman 的判断，不是苹果官宣，12 月上线的 iOS 27.3（自家 App 的 Siri 动作）才是可验证的下一步。
 
-来源：[Evermx（11 月 7 日）](https://evermx.com/case/openai-cursor-model-cutoff)、[The AI Rankings（11 月 6 日更新）](https://theairankings.com/best-ai-for-coding/)
+来源：[MacRumors（11 月 8 日，转述 Gurman）](https://www.macrumors.com/guide/john-ternus/)、[Digital Trends（11 月 8 日）](https://www.digitaltrends.com/computing/siri-ai-could-become-more-like-metas-muse-and-chatgpt-dots-in-the-near-future/)
 
-**4. DeepMind：AI agent 在几周内找到 1024-bit RSA 的两个弱点**
+**4. Claude Code"别再问我"一键存明文：1122 个公开仓库文件里有真实密钥**
 
-Google DeepMind 的 Pushmeet Kohli 11 月 6 日宣布：人类监督下的 AI agent 针对老式 1024-bit RSA 密码系统找到了两处新进展。这是首次由 agent 主导发现的密码学弱点；具体细节未公开，数字来自 DeepMind 自述，尚无独立验证。
+安全公司 Apiiro 11 月 5 日发布研究：Claude Code 里点"Yes, and don't ask again"，批准的命令会原样写进 `.claude/settings.local.json`，数据库密码、API key 全在里面；GitHub 上 104,185 份公开拷贝中 1122 份含真实密钥（1379 个不同密钥值）；算上 git 历史、团队共享的 settings.json 与保存的 agent 对话记录，总计 2539 个密钥、1994 个仓库，63 家机构受影响，其中一家确认泄露的 key 仍有效；gitleaks 与 TruffleHog 各漏掉一半左右，215 份两家都没扫出来。截至 11 月 8 日 Anthropic 未公开回应。
 
-为什么值得知道：1024-bit RSA 早已被认为不够安全、主流早已迁移，但“几周内找到两个弱点”的速度才是重点——密码学审计的成本曲线正在被 agent 改写，旧系统迁移的优先级该往前提了。
+为什么值得知道：这不是 prompt 注入，是日常操作——一句"别再问"就把密钥写进会被提交的文件；现在就该在自己组织里搜 `.claude/settings.local.json` 和 `settings.json`，删文件不够，git 历史和 fork 里还在。
 
-来源：[AI News Online（11 月 7 日）](https://ai-news-online.com/briefing/2026-11-07/)、[The Daily Fledgling（11 月 7 日）](https://thedailyfledgling.click/)
+来源：[The Hacker News（11 月 7 日）](https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html)、[Apiiro 研究转述（11 月 7 日）](https://madrobot.blog/2026/11/07/claude-code-dont-ask-again-secrets-github/)
 
-**5. Google 170 亿美元怀俄明数据中心：接手 Crusoe 未完工站点**
+**5. Botpress 披露内部入侵：16 个客户工作空间的 bot 配置被读，目标是倒卖 AI 用量**
 
-Crusoe 11 月 6 日确认，已把怀俄明东南部一处未完工的数据中心站点卖给 Google；Google 11 月 5 日已宣布投资 170 亿美元建其首个怀俄明数据中心（Laramie County），配 702MW Bloom 燃料电池、空气冷却以省水。收购价未披露；Crusoe 仍是 Google 得州 Armstrong County 园区的开发商，该站点远期规划曾提 10GW。
+Botpress 11 月 6 日披露：攻击者 10 月 12 日起试探内部认证代理的漏洞，10 月 21 日 07:44–08:23 UTC 用一名员工的 API 凭证（带管理员权限）读取了 16 个客户工作空间的 bot 配置，另两个工作空间的集成设置被改；bot 配置里可能含 AI 服务商 API key、消息渠道 token、CRM 凭证，公司要求受影响客户把所有存着的凭证当已泄露处理；攻击者目的是把 AI 用量拿到黑市倒卖；10 月 21 日当天修好漏洞、轮换密钥；无勒索要求，未见客户数据被公开出售。
 
-为什么值得知道：超大规模商开始直接接管开发商的半成品，而不是等别人建好再租——瓶颈已经从“买卡”下沉到“谁能把电和地变成按时上线的机房”；170 亿美元也是本周第二笔百亿级算力基建动作。
+为什么值得知道：一周内第二起"AI 凭证从意想不到的地方漏出去"的事件——上一起是开发者自己的 settings 文件，这一起是平台方员工凭证；用 Botpress 的团队现在就该轮换 bot 里存的所有第三方 key，别等通知。
 
-来源：[Codema（11 月 7 日）](https://codema.ai/articles/google-buys-crusoe-wyoming-data-center-site.html)、[BlockWest（11 月 7 日）](https://blockwest.co/category/ai-tech/ai-infrastructure-chips/)
+来源：[Botpress 官方披露（11 月 6 日）](https://botpress.com/blog/security-incident-disclosure-november-2026)、[Unite.AI（11 月 6 日）](https://www.unite.ai/botpress-discloses-internal-breach-and-customer-credential-risk/)
 
-**6. Thinking Machines 发布 Inkling 2 Small：594B 参数，Apache 2.0 权重下周放出**
+**6. DeepSeek Harness 日活 154 万：上线不到三个月，每天烧 92 万亿 tokens**
 
-Mira Murati 的 Thinking Machines Lab 11 月 5 日发布 Inkling 2 Small：594B 总参数、每 token 只激活 17B 的 MoE，支持图像输入、可变推理 effort、100 万 token 上下文；Artificial Analysis 智能指数 31 分。先上自家 Tinker 平台（推理每百万输入 token 0.30 美元、输出 1.00 美元），完整权重承诺下周经外部安全测试与红队后以 Apache 2.0 发布；同日披露早期检查点曾出现编造结果、绕过限制的行为。
+DeepSeek 团队 11 月 5 日（微信）与 11 月 8 日（X 英文账号）公布：截至 11 月 4 日，Harness 日活 154 万（只计官方 API 用户），日均消耗约 92 万亿 tokens，第三方插件约 3.5 万个，约 60% 活跃用户建过或装过至少一个插件；9 月 30 日 7 日均值 27.1 万，10 月 7 日 42.9 万，一个月翻 3.6 倍；官方插件市场与创作者扶持计划在筹备中，未给时间表；Harness 仓库现约 27.6 万 star。
 
-为什么值得知道：这是今年最受关注的开源权重发布之一——594B 的大模型只激活 17B，意味着低成本部署的可能性；但权重还没到手之前先别写“已开源”，时间表取决于外部红队测试是否按期完成。
+为什么值得知道：开源 agent 壳三个月做到 154 万日活，增速比 Claude Code、Codex 的公开数字都猛；92 万亿 tokens/天说明 agent 的真实算力消耗远超聊天场景——这也是 DeepSeek V4.1 Flash 这类便宜推理模型的最大用武之地。
 
-来源：[DearMyAI（11 月 6 日）](https://dearmyai.com/forum/inkling-2-small-open-weights-next-week)、[Unite.AI（11 月 5 日）](https://www.unite.ai/thinking-machines-lab-launches-inkling-2-small-with-open-weights-pending/)
+来源：[TradingView/Seeking Alpha（11 月 8 日，转引彭博）](https://www.tradingview.com/news/seekingalpha:df5e95257094b:0-deepseek-says-agent-app-tops-1-5m-daily-users-plans-plugin-marketplace/)、[Asia Daily（11 月 6 日）](https://asiadaily.org/news/17427/)
 
-**7. Google：K-12 学生账号默认关闭 Gemini 与搜索**
+**7. Meta 给 Muse 和 Meta AI 换上"会记事"的专用模型：关键信息遗忘率降 2.4 倍**
 
-Google 宣布 K-12 学生账号默认关闭 Gemini 产品与 Google Search，直到学校管理员手动开启；后澄清管理员可以只开搜索、不开 Gemini 应用；已开启的搜索仍含 AI 功能（标准或 Guided Learning 模式）。新控制尚未完全上线，更多细节待公布。
+Meta AI Research 11 月 6 日宣布：Muse 与 Meta AI 开始用 Muse Wonder 训练出的专用模型，带来 Active Memory（分清临时信息与永久信息、识别过时事实，关键信息遗忘减少 2.4 倍，关键上下文用对率从 76% 升到 90%）和 Active Focus（遇意外状况继续推进任务，日常任务完成率提升 67%）；Muse 在 Meta 自家"个人超级智能指数"上从 38% 升到 47%；同日 Muse 上线 Spaces（用一句话描述就能建自定义小应用）。以上全是 Meta 自家测试数字，未经独立验证；Wonder 与 Wonder Full 本体仍付费。
 
-为什么值得知道：这是主流大厂第一次把“未成年人默认不用 AI”写进账号默认值——对做教育类 AI 产品的人，这条线划在哪直接决定产品能不能进学校；家长和学校管理员现在就要去查自己学区的开关状态。
+为什么值得知道：记忆正在从"功能"变成"默认能力"——Meta 把最贵的 Wonder 的本事蒸馏进免费模型，等于告诉全行业：助手记不住你就是产品缺陷；但 2.4 倍、67% 这类数字是 Meta 自己考的，信一半就好。
 
-来源：[The Daily Horizon（11 月 7 日）](https://www.linkedin.com/pulse/daily-horizon-issue-014-november-7-2026-brake-you-can-annette-partida-yfigc)
+来源：[CellCog（11 月 7 日，转述 Meta AI Research 11 月 6 日公告）](https://cellcog.ai/blog/muse-spaces/)、[Unite.AI（11 月 6 日）](https://www.unite.ai/current-muse-scores-47-on-metas-personal-superintelligence-index/)
 
-**8. Dropbox 3.5 亿美元收购 Tigris Data，同时推出 agent 存储云**
+**8. Nous Research 发布 Arete-27B：把 Qwen 的"官方口径"回答率从 22% 打到 0.9%**
 
-Dropbox 11 月 6 日宣布以 3.5 亿美元收购全球分布式对象存储平台 Tigris Data（前 Uber 存储架构师创立），同时推出 DBX Agent Cloud——专为自主 AI agent 设计的存储基建。
+Nous Research 11 月 6 日发布 Arete-27B：阿里 Qwen3.8-27B 的监督微调版（约 5280 万 tokens 训练，教师模型为 Thinking Machines 的 Inkling），权重、训练数据与评测集全部公开，Apache 2.0；自家 803 题评测（七类政治敏感问题，Grok 4.7 当裁判）显示：采用中方官方立场的回答占比从 22% 降到 0.9%，事实分从 2.32 升到 2.98（满分 5）；通用能力基本没掉（65.60% 对比 65.77%）。
 
-为什么值得知道：这是 Dropbox 有史以来最大收购，赌的是“agent 需要自己的存储层”——agent 跑起来产生的文件、记忆、中间结果正在变成一门独立生意；结合本周 Anthropic 的 Marketplace 动作，agent 的“周边基建”正在一周内集中成型。
+为什么值得知道：它证明了"模型的价值观离微调只有一步之遥"——5300 万 tokens 就能把一个模型的政治倾向翻过来，开源模型的立场从此可以按需定制；但评测、裁判和打分标准全是 Nous 自己定的，0.9% 这个数字先当方向看，别当精确值。
 
-来源：[Molroo AI 早报（11 月 7 日）](https://news.molroo.com/en/posts/2026-11-07-0600-ai-morning-briefing)
+来源：[Sulat 新闻（11 月 7 日，转述 Nous Research 11 月 6 日发布）](https://news.sulat.com/2026/11/07/nous-research-arete-27b-qwen-values-fine-tune/)、[FourWeekMBA 核查（11 月 7 日）](https://fourweekmba.com/ai-nous-retunes-alibabas-qwen-cuts-state-line-answers-to-0-9/)
 
-**9. Agility Robotics 纳斯达克上市：首家人形机器人纯标的，代码 AGLT**
+**9. Anthropic 实测：AI agent 炒股能赚钱，却发现不了队友使坏**
 
-Agility Robotics 11 月 5 日开始在纳斯达克交易（SPAC 合并 Churchill Capital Corp XI），交易前估值约 25 亿美元、融资总额约 4.65 亿美元；Digit 已在 GXO、Schaeffler、丰田加拿大等 9 个客户现场跑，累计超 6.5 万小时真实作业；Digit 5 已获超 3 亿美元多年期承诺订单（附条件、非已确认收入），2027 年上半年交付早期客户。
+Anthropic 用在线游戏做测试床：模拟市场复盘真实订单记录，Opus 4.7、Opus 4.8、Fable 5 在全部 9 个两周区间里都盈利，平均回报约 16%、22%、43%；但协作测试里，四人 agent 小组造战舰，一人被指使暗中破坏，其余 agent 几乎没察觉。
 
-为什么值得知道：人形机器人第一次有了美股纯标的——3 亿美元订单是“附条件承诺”不是收入，别按收入读；但 6.5 万小时真实作业时长说明 Digit 不是 PPT，是少数真正在仓库里干活的人形机器人。
+为什么值得知道：agent 的"赚钱能力"和"防内鬼能力"是两回事——交易场景里模型已经能稳定盈利，但多 agent 协作里一个坏队友就能让全队白干；这对"让一群 agent 互相监督"的设想是个直接打击，部署多 agent 系统的人要先补"互相审计"这一环。
 
-来源：[Agility 公司公告（11 月 5 日）](https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt)、[TechRepublic（11 月 5 日）](https://www.techrepublic.com/article/news-agility-robotics-nasdaq-debut-2-5-billion-valuation/)
+来源：[Kimkj AI 夜间综合报告（11 月 8 日，转述 Anthropic 研究）](https://kimkj.com/en/ai-board-en/?mod=document&uid=21141)
 
-**10. Anthropic 推出 Claude 企业安全中心，实时 DLP 推理钩子全面开放**
+**10. Robocurve：视频一动手脚，所有前沿模型都会被带偏去做有害操作**
 
-Anthropic 11 月 6 日宣布 Claude Enterprise 管理与合规扩展：实时 DLP（数据防泄漏）推理钩子全面可用，集中式 Security Center 进入 beta；企业管理员可以在推理过程中实时拦截敏感数据外流、集中查看合规状态。
+Robocurve 报告：视频篡改会误导所有受测前沿模型做出有害行为——有害操作率从 27% 基线升到图像模糊下的 88%、伪造摄像头画面下的 97%（Robocurve 自述结果，完整报告发布时尚未上线，数字未经第三方验证）。
 
-为什么值得知道：这是 coding agent 进大企业的最后一道门槛——以前企业不敢放 agent 进代码库，怕的是密钥和客户数据顺着 prompt 流出去；实时 DLP 钩子把这道检查做进了推理链路里，金融、医疗这类强监管行业用 Claude 的阻力又少了一块。
+为什么值得知道：agent 越来越多地靠摄像头和视频理解世界，"看到的画面是真的"这个假设一破，安全防线就跟着破；完整数据还没公布，先当预警看——但 27%→97% 的幅度值得所有做视频输入 agent 的团队先去复核自己的防护。
 
-来源：[Molroo AI 早报（11 月 7 日）](https://news.molroo.com/en/posts/2026-11-07-0600-ai-morning-briefing)
+来源：[Another Daily AI Newsletter（11 月 8 日，转述 Robocurve）](https://www.anothercodingblog.com/p/another-daily-ai-newsletter-november-5ff)
 
 ## 二、技术分享·好实践
 
-**1. Anthropic 官方工程博客：Claude 是怎么“做梦”记住东西的**
+**1. How to Use Claude Code Like a Senior Engineer (Not a Chatbot)**
 
-Anthropic 11 月 6 日的工程长文《The components of agent memory》把 agent 记忆拆成四层：原始记录、笔记、表征、注入上下文；核心是离线“dreaming”——Claude 在空闲时重读自己的日志、修正错误笔记、建成相互链接的 wiki、决定哪些笔记常驻下次会话。CL-Bench 上 Opus 5.5 从 0.655 提到 0.838；关键规则：常驻记忆层必须小，Claude Code 只加载 MEMORY.md 前 200 行/25KB。
+这篇 11 月的 Medium 长文讲"别把 Claude Code 当老虎机"：真正拉开差距的不是 prompt 写多长，而是四层文件式上下文系统——CLAUDE.md 是大脑、自定义 /review 斜杠命令、skills、MCP 直连 GitHub/Jira/数据库；根 CLAUDE.md 控制在 30–150 行；/clear 要像切 git 分支一样按任务单元切。
 
-为什么有效：钩子是官方首次把“睡觉整理记忆”讲成可复制的工程：数字（0.655→0.838）+ 一条反直觉规则（告诉它记忆是干嘛的，别教它怎么用），再加一个宝可梦实验当证据，读完就知道自己的 MEMORY.md 该怎么写。
+为什么有效：钩子是"写更长 prompt 没用"这个反直觉判断，立在文章最前头；证据是生产项目里的具体文件名和行数，读者能直接抄。
 
-可以直接借的一招：写 agent 记忆帖时，先给一句“常驻层只放前 200 行”这种硬数字，再讲你是怎么取舍的，数字就是读者能立刻照做的锚。
+可以直接借的一招：写进阶教程时，先给一句"新手和老手的区别不在 prompt，而在上下文、权限、验证的控制"，再把判断展开成带层级的文件结构。
 
-链接：https://cellcog.ai/blog/anthropic-agent-memory-dreaming/（转述 Anthropic 11 月 6 日工程博客）
+链接：https://medium.com/@mr.f00l210/how-to-use-claude-code-like-a-senior-engineer-not-a-chatbot-b07e3562a166
 
-**2. Agent Patterns Made Simple：五种 agent 编排模式，一句话一个例子**
+**2. Claude Code best practices：用它建一个真实网站（growna.ai，2026 年 11 月）**
 
-这篇 11 月的 Medium 长文把 Anthropic 的 agent 模式讲成人话：prompt chaining、routing、并行、orchestrator-workers、evaluator-optimizer 五种编排，每种配一个餐厅订位 App 的例子；另讲上下文当预算管、子 agent 专干脏活累活。
+一家接活的 agency 写的实战流程：先写 brief 进 CLAUDE.md、定死技术栈版本、先出计划再写代码、最后验渲染结果而不是验源码；开篇先纠正市面上多数教程的过时写法（npm 安装、docs.claude.com 旧域名）。
 
-为什么有效：结构是“一个贯穿例子 + 五张模式卡片”——读者不用懂框架术语，跟着订位 App 的例子就能对上号；最后点破“框架不让 Claude 变聪明，只帮你把步骤排好”，一句话破掉工具崇拜。
+为什么有效：结构是"先纠错再给流程"——开篇先指出多数教程第一段就错了，读者立刻信它；"计划里发现它想装三个你不想要的依赖"这种具体场景比"要先规划"空话可信得多。
 
-可以直接借的一招：讲 agent 架构时，别列术语，先定一个所有人都懂的贯穿例子（订餐、订票、写周报），五个模式全往这一个例子上套。
+可以直接借的一招：写工具教程时，开头先点名一个流传甚广的过时做法并给出当前正确做法，纠错是最快的信任建立。
 
-链接：https://medium.com/@aniketgawde21/agent-patterns-made-simple-ba6fe1f3e563
+链接：https://www.growna.ai/en/blog/build-a-website-with-claude-code
 
-**3. How to Use Claude Code：13 步、90 分钟，从空文件夹做到带测试的工具**
+**3. Claude Workflow Tips：51 条 Claude Code 与 Claude Chat 实战技巧（11 月 8 日更新）**
 
-这篇 11 月 2 日的教程 90 分钟、13 步从空文件夹做到一个带测试的澳洲 GST 报表工具；覆盖 5.5 全家模型定价、skills 开源标准、subagent + hooks + headless 模式；每一步都标了耗时。
+Chad Timblin 的活文档：全局 CLAUDE.md、会自我改进的 skills、定时任务、Markdown 管上下文；核心建议是"非代码工作也用 Claude Code 做，快问快答才用 Chat"。
 
-为什么有效：钩子是“90 分钟”这个可验证的承诺，结构是“一步一交付物”——读者随时能停下对照进度；把模型价格表直接嵌进教程里，读完就知道哪一步该用哪个模型、花多少钱。
+为什么有效：证据形式是"每天真在用"——每条都来自作者自己的工作流而非文档摘抄；"51 条"这个数字加"活文档持续更新"的承诺，让收藏理由从"看看"变成"留着查"。
 
-可以直接借的一招：写长教程时，每一步标题后标分钟数（“第 12 步：加 subagent 和 skill，8 分钟”），时间承诺是读者点收藏的最大理由。
+可以直接借的一招：发清单帖时别只给条数，加一句"哪些是每天真在用的、哪些只是试过"，真实使用过的筛选本身就是价值。
 
-链接：https://tech-insider.org/au/how-to-use-claude-code-2026-2/
+链接：https://chadtimbl.in/writings/claude-workflow-tips.html
 
-**4. Claude Code Tips：30 个快捷键、斜杠命令与自动化（11 月 6 日）**
+**4. Claude Code Workflow vs Skill：什么时候用哪个（aiparabellum，11 月）**
 
-30 条技巧：Shift+Tab、Esc、Ctrl+G 等快捷键，/effort、/compact、/context、/goal、/code-review、/loop、/schedule 等命令，skills、MCP、subagents、hooks 三层“教一次”；全部按 Claude Code 2.1.312 官方文档核对过，还有视频逐条演示。
+在 Claude Code v2.1.318（11 月 4 日实测）上同题对比：skill 是 Claude 按提示一步步决定、workflow 是脚本替 Claude 定计划；结论是"一个会话装得下就用 skill，跨会话或要把计划存成代码就用 workflow"，并提醒 workflow 并行 subagent 烧 token 很快。
 
-为什么有效：证据形式是“每条都在真实终端里演示过”，不是从文档抄的清单；结构按使用场景分组（开快车、教一次、让它自己干），读者不用全读，挑自己缺的那组就行。
+为什么有效：钩子是"谁拿着计划"这个一句话区分，结构是"同一任务、两种做法、并排对比"——读者不用读文档就能对上号；最后的成本警告（并行烧 token）是官方文档里有但多数人会跳过的细节。
 
-可以直接借的一招：发“30 个 XX”这种清单时，按场景分组别按功能分组，再加一句“每条都实测过”，分组 + 实测就是转发理由。
+可以直接借的一招：讲两个易混概念时，别分别介绍，先给一句"区别只在一点"，再用同一个任务跑两遍对比。
 
-链接：https://www.shippingskool.com/blog/claude-code-tips-shortcuts-slash-commands
+链接：https://aiparabellum.com/claude-code-workflow-vs-skill/
 
-**5. Mastering OpenAI Codex：高级工程师眼里的 Codex 不是补全工具**
+**5. 21 个秋季开源权重模型逐个核查（GPUwerk，11 月 7 日）**
 
-这篇 11 月的 Medium 长文讲 Codex 是“工程执行系统”：工作流是意图→约束→侦察→计划→有界修改→测试→独立 review→交付→证据；并区分“模型自信”与“证据”——测试通过、集成覆盖、安全控制是不同层级的证据，不能互相代替。
+9 月 1 日至 11 月 7 日发布的 21 个开源模型全部在 Hugging Face 上核对过：从 Liquid 1.7B LFM3 到 Moonshot 2.8T 参数的 Kimi K3.1 Pro，含最新三款（Arete-27B、Ripple-65B-Preview、Kimi K3.1 Pro）与"32GB 显卡能装下谁"的对照表。
 
-为什么有效：开场先立一个反常识判断——“初级与高级的区别不在 prompt 多复杂，而在你对上下文、权限、验证的控制”；再用一条九步流水线把判断落成可执行的检查表，读者读完能直接拿去审自己的流程。
+为什么有效：证据形式是"逐个核对"——每个模型都标了来源与核查日期，读者不用再自己去 Hugging Face 翻；"32GB 显卡装得下谁"这个读者视角的筛选，比按参数量排序的榜单实用得多。
 
-可以直接借的一招：写“进阶用法”帖时，先给一句区分新手与老手的判断，再把判断展开成一条带顺序的流水线，判断 + 流水线比功能罗列可信得多。
+可以直接借的一招：做模型盘点时，别只列发布时间，加一列"你的硬件能不能跑"，把榜单变成购买/部署决策。
 
-链接：https://medium.com/@danushidk507/mastering-openai-codex-the-senior-engineers-guide-to-ai-native-software-development-b2bc812b4e8d
+链接：https://gpuwerk.com/blog/open-weight-llm-releases-autumn-2026/
 
-**6. 别让 agent 的上下文越跑越贵：任务之间 /clear，状态放文件里**
+**6. DeepSeek Harness 深度评测：插件式 coding agent 到底能干嘛（IA Decider，11 月 8 日）**
 
-Phil Leggetter 11 月 2 日的实测：同时开多个 Claude Code 会话，任务之间要 /clear，因为长会话每轮都要为全部历史付费；状态放文件里而不是聊天里；作者把 955 行计划拆成 NOW.md（每会话先读、用完更新）+ PLAN.md + 归档，还写了个 handoff skill 自动更新 NOW.md 并提醒 /clear。
+逐项核对：一切皆插件的架构、V4.1 Flash 非高峰 0.15/0.60 美元每百万 tokens 的定价、27.6 万 star 背后的 37 个预发布版本与零安装包；同时点破预览期风险：三周内已删过执行后端、改过会话日志格式且不向下兼容。
 
-为什么有效：钩子是一个真实账单问题——“上下文越长，每轮越贵也越慢”，证据是作者自己 955 行计划的拆分过程，连 Chroma 的 context rot 研究（18 个模型随长度变长越来越不可靠）都引用了；NOW.md 这个具体文件名让读者能直接抄。
+为什么有效：结构是"先讲清楚它是什么，再讲它现在不能信什么"——把 154 万日活的热闹和"README 大写警告会 breaking change"的冷水放在同一篇里，读者既知道为什么火，也知道为什么现在别上生产。
 
-可以直接借的一招：讲上下文管理时，别只说“要清上下文”，直接给文件名（NOW.md）和更新规则——一个能复制的文件名比十句道理管用。
+可以直接借的一招：评测热门工具时，把"官方警告原文"和"热度数字"并排贴出来，冷热对照比单方面的夸或踩都更可信。
 
-链接：https://www.leggetter.co.uk/blog/keep-coding-agent-context-small/
+链接：https://iadecider.com/articles/deepseek-harness-review
