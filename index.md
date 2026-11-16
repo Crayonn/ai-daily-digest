@@ -5,152 +5,120 @@ title: AI 每日资讯
 
 每天一条 AI 早报，一个文件存一天。
 
-**往期：** 2026-11-14（本期） · [2026-11-13](digests/2026-11-13.html) · [2026-11-12](digests/2026-11-12.html) · [2026-11-11](digests/2026-11-11.html) · [2026-11-10](digests/2026-11-10.html) · [2026-11-09](digests/2026-11-09.html) · [2026-11-08](digests/2026-11-08.html) · [2026-11-07](digests/2026-11-07.html) · [2026-11-06](digests/2026-11-06.html) · [2026-11-05](digests/2026-11-05.html) · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
+**往期：** 2026-11-16（本期） · [2026-11-15](digests/2026-11-15.html) · [2026-11-14](digests/2026-11-14.html) · [2026-11-13](digests/2026-11-13.html) · [2026-11-12](digests/2026-11-12.html) · [2026-11-11](digests/2026-11-11.html) · [2026-11-10](digests/2026-11-10.html) · [2026-11-09](digests/2026-11-09.html) · [2026-11-08](digests/2026-11-08.html) · [2026-11-07](digests/2026-11-07.html) · [2026-11-06](digests/2026-11-06.html) · [2026-11-05](digests/2026-11-05.html) · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
 
 ---
 
-# AI 早报 2026-11-14
+# AI 早报 2026-11-16
+
+周末消息较少，本期多为 11 月 12–15 日一周内的重要动态，均按发生日期如实标注。
 
 ## 一、AI 资讯
 
-**1. Cerebras 签下微软为第三家超大规模客户，但对 OpenAI 的 750 MW 交付落后**
+**1. OpenAI 融资 150 亿美元、估值 1.25 万亿美元，Q3 一季烧掉 109 亿美元**
 
-11 月 12 日，Cerebras 发布 Q3 财报：核心收入 2.309 亿美元、同比增 70% 创纪录，全年指引上调至 9.4–9.6 亿美元；微软签约成为第三家超大规模客户（继 AWS、Oracle），10 月签约、收入从 2027 年 Q1 起算；已签约数据中心容量 700 MW（2027 年底前交付），未履行义务 261 亿美元。同一场电话会承认：对 OpenAI 的 750 MW 照付不议合同交付落后，原因是土地、电力与厂房而非芯片；90 天以上延迟任一方可取消对应部分，Cerebras 估计今年不到 5% 的承诺兆瓦面临取消风险，预计 2027 年下半年赶上。
+CNBC 11 月 12 日引述信源报道，OpenAI 本轮融资 150 亿美元、投前估值 1.25 万亿美元，约为原目标 300 亿美元 / 1.4 万亿美元的一半；其中约 110 亿美元已于 11 月 6 日首关到账，软银与阿布扎比 MGX 被报道为参与方；CFO Sarah Friar 在电视采访中确认 1.25 万亿美元为投前估值。同期披露 Q3 收入约 100 亿美元（环比 +50%），经营亏损扩大至 109 亿美元；预计 2027 年 IPO。公司未就融资官宣。
 
-为什么值得知道：芯片新势力第一次同时拿到三家超大规模客户，推理芯片的竞争不再是"英伟达 vs 其他"，而是"谁能按时交出兆瓦"；OpenAI 那单的延迟也说明，2026 年算力真正的瓶颈已经从芯片变成了电和地。
+为什么值得知道：估值较 3 月的 8,520 亿美元（投后）高约 47%，但融资额砍半——市场对"烧钱换增长"的定价正在收紧；Q3 一季烧掉 109 亿美元，算力采购是最大头，烧钱速度本身就是下一轮融资的倒计时。
 
-来源：[Data Center Dynamics（11 月 13 日）](https://www.datacenterdynamics.com/en/news/cerebras-secures-microsoft-as-a-customer/)、[Silicon Sideline（11 月 13 日）](https://siliconsideline.com/blog/cerebras-microsoft-deal-openai-delays)、[BadSignal（11 月 12 日）](https://www.badsignal.ai/?tab=news&story=cerebras-q3-2026-record-revenue-microsoft-deal)
+来源：[CNBC 11 月 12 日报道转载（ChipDispatch）](https://chipdispatch.com/articles/openai-raises-15-billion-at-a-1-25-trillion-valuation)、[AI Bubble Monitor（11 月 12 日）](https://www.aibubblemonitor.com/news/openai-funding-15-billion-half-original-target)
 
-**2. Fermi：未具名超大规模客户预付 2 亿美元，推进德州 600 MW 园区；与 TensorWave 的租约终止**
+**2. 美国牵头 Pax Silica：多国签署《旧金山宣言》，共建 AI 供应链"受保护清单"**
 
-11 月 12 日，Fermi 在 Q3 财报中披露：一家未具名的投资级超大规模客户同意预付 2 亿美元、另付 1,500 万美元前期工程款，推进德州 Project Matador 600 MW 园区（2027 年起），目前尚无正式租约；同一份财报称，8 月与 AMD 支持的 TensorWave 签的租约已经终止。
+11 月 15 日，美国与日本、澳大利亚、以色列、英国、韩国、印度、卡塔尔、阿联酋等签署《旧金山宣言》（San Francisco Declaration on the Secure Foundations of Enduring Prosperity），建立半导体、关键矿产、能源等 AI 相关关键技术与供应链的联合保护清单，意在降低对华依赖；德国、瑞典、荷兰与欧盟委员会预计下周签署。目前以《金融时报》报道转述为主，未见美国国务院官方通稿全文，清单细节以官方发布为准。
 
-为什么值得知道：客户还没签租约就先付 2 亿美元，等于用现金投票"电比合同先到"；另一边 TensorWave 的租约说断就断，说明这轮算力建设里，拿得到电的园区和拿不到电的，命运完全是两回事。
+为什么值得知道：这是美国把 AI 竞争从芯片出口管制升级为多边供应链联盟的标志性动作，与第 2 条的 Blackwell 指纹争议前后呼应，后续可能影响芯片、算力与关键矿产的出口与采购规则。
 
-来源：[Compute World 简报（11 月 13 日，引 Fermi Q3 8-K）](https://compute.world/brief)
+来源：[Newsmax 转述《金融时报》（11 月 15 日）](https://www.newsmax.com/newsfront/AI-chip-accord/2026/11/15/id/1276369)、[Inside AI 综述（11 月 15 日）](https://americalisten.com/latest-ai-news-november-2026/)
 
-**3. NAVER 把 20 MW 的 2027 年算力卖给一家美国推理公司，约 2 万亿韩元**
+**3. 四家非营利组织起诉五大 AI 公司，要求法院冻结前沿模型开发**
 
-11 月 12 日，NAVER 签约向一家美国推理公司出售 20 MW 的 2027 年算力，合同额约 2 万亿韩元（约 15 亿美元）；NAVER 计划 2027 年交付 55 MW、2028 年达到 200 MW。
+11 月 12 日，Public Citizen、Heat Initiative、Irreplaceable Education Fund、Alliance for Secure AI 在旧金山高等法院起诉 Anthropic、Google、Meta、OpenAI 与 SpaceX 的 AI 部门（SpaceXSI），依据加州《不正当竞争法》与公共妨害理论，要求禁令：禁止开发或部署比 11 月 12 日当日各家最强系统更强的模型，并禁止用 AI 自主开展 AI 研发。诉状 63 页，大量引用各家高管自己关于失控风险的公开表态作为证据；目前无任何冻结生效、无开庭日期、被告未回应。这是 9 月 18 日付费用户起诉"非法合谋放缓开发"之后的第二起相关诉讼，方向完全相反。
 
-为什么值得知道：韩国的算力也开始直接卖给美国推理公司——推理需求已经大到要跨国买电；15 亿美元买 20 MW，等于每兆瓦约 7,500 万美元，推理算力的价格锚又立了一个。
+为什么值得知道：首次有人要求法院而非立法机构给前沿 AI 设能力上限；若立案推进，Anthropic（11 月 19 日上市在即）与 OpenAI 的下一代模型节奏都可能被卷入诉讼风险。
 
-来源：[Compute World 简报（11 月 13 日）](https://compute.world/brief)
+来源：[Tapestry（11 月 13 日）](https://tapestry.news/tech/ai-freeze-lawsuit/)、[DailyMech（11 月 13 日）](https://dailymech.com/articles/nonprofits-sue-ai-labs-freeze-frontier-models.html)
 
-**4. 研究称六个中国模型权重带 Blackwell"指纹"，约 1.2 万块卡、成本超 5 亿美元**
+**4. OpenAI 第二次解散独立机器人团队，押注"通用模型就是机器人大脑"**
 
-11 月 12 日，Unemployment Labs（前 OpenAI 研究员 Alex DePue）发布报告：DeepSeek-V4-Flash、DeepSeek-V4-Pro、Kimi K3、Kimi K3.1-Pro、MiniMax-M3、Ling-3.1-flash 六个中国模型权重的随机种子模式与英伟达 Blackwell 芯片的 148/152 核特征吻合；估计五次最终训练约需 1.2 万块 Blackwell、成本超 5 亿美元。报告同时强调：该方法只能证明是哪种硬件初始化了权重，不能证明芯片的位置、归属或是否违规；AMD MI300X 也能配出 148/152 单元，研究者称已排除这一可能（对 DeepSeek-V4-Flash 确定排除，其余五模型基本排除）。
+Fortune 11 月 13 日独家报道并获 OpenAI 发言人确认：独立机器人团队解散，研究人员并入首席研究官 Mark Chen 领导的主研究团队，应用机器人与硬件人员并入 Greg Brockman 领导的 Applied 部门；OpenAI 未发官方博客、未公布受影响人数。理由是英伟达 10 月 14 日的一项研究：GPT-6 Astra 在模拟抓取基准 RoboLab-120 上零机器人专项训练拿到 74.8% 成功率，远高于最优专用机器人模型的 51.0%。OpenAI 称并非放弃机器人，人形机器人演示仍以 2027 年为目标。OpenAI 员工 Michelle Fradin 对"解散"的表述有异议，称是并入主研究团队。
 
-为什么值得知道：这是第一次有人用技术证据而非传闻，把"中国实验室是否在用 Blackwell"这个问题摆上台面；但证据的边界也很清楚——它证明的是"用过什么卡"，不是"卡从哪来"，接下来商务部拟议的"远程算力"新规会不会落地，才是真正决定成本的那只手。
+为什么值得知道：OpenAI 2020 年解散过一次机器人团队、2024 年重建，这次是路线宣言——机器人不再是独立学科，只是前沿模型的一个应用；与本期第 7 条 Runway 开源专用机器人模型形成鲜明对照。
 
-来源：[EL7.AI（11 月 13 日）](https://el7.ai/en/news/2026-11-13-openai-researcher-claims-chinese-labs-used-banned-nvidia-blackwell-chips-for-ai-)、[Oossa（11 月 13 日）](https://oossa.com/en/researcher-finds-nvidia-blackwell-fingerprints-in-six-chinese-ai-models)
+来源：[Dev.to 转述 Fortune（11 月 14 日）](https://dev.to/paullovelace/openai-disbanded-its-robotics-team-gpt-6-astra-is-the-robot-now-3678)、[AI Frontier Post（11 月 15 日）](https://aifrontierpost.com/articles/openai-disbands-robotics-team-gpt-6-astra/)
 
-**5. AMD 发布 288GB HBM4 的 MI450X，MI455X 跑 DeepSeek-R1 每卡 21,333 tokens/秒**
+**5. Gemini 4 Carbon 登顶 MathArena 数学榜，但解一道题的成本是 GPT-6.1 Sol 的约 15 倍**
 
-11 月 12 日，AMD 发布 Instinct MI450X 加速器：288GB HBM4；同时公布 MI455X 的 DeepSeek-R1 推理数据——特定离线式配置下每 GPU 21,333 tokens/秒（AMD 自测，非独立对照）。William Blair 同日把 AMD 从 Market Perform 上调至 Outperform，股价涨 6.1%；AMD 称数据中心 AI 收入将在 2026 年 Q4 超过服务器 CPU 业务。
+独立数学基准 MathArena 运营者 11 月 13 日在 X 宣布：Google Gemini 4 Carbon（high 推理档）以 85.4% 预期成绩登顶，Claude Fable 5.2 以 82.8% 第二，OpenAI GPT-6.1 Sol 以 80.6% 跌至第三；这是"很久以来"首次由非 OpenAI 模型领跑该榜。代价巨大：解一道题一次的成本 Carbon 为 15.70 美元、Fable 5.2 为 40.20 美元，Sol 仅 1.07 美元；三者置信区间有重叠，且因成本原因 Carbon 只跑了 ArXivLean 一项评估、其余分数为统计估计。The Decoder 11 月 14 日报道。
 
-为什么值得知道：288GB 显存 + 两万 tokens/秒的推理数，是 AMD 第一次在"推理经济学"上拿出能跟英伟达同台比的数字；但数字是 AMD 自己在特定配置下测的，买之前先看第三方复测，别直接当采购依据。
+为什么值得知道：榜首易主说明 Google 顶级模型在硬推理上追上来了，但性价比完全反转——日常用 Sol 仍便宜一个数量级，选模型先看任务、别只看榜首。
 
-来源：[Tech Current（11 月 13 日）](https://teccurrent.com/articles/daily-brief-2026-11-13/)、[Ad-hoc News（11 月 13 日）](https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/amd-s-second-route-into-the-ai-data-center-runs-through-other-companies-chips/70502273)
+来源：[The Decoder（11 月 14 日）](https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/)、[AI Oriens（11 月 14 日）](https://ai-oriens.com/en/news/gemini-4-carbon-matharena/)
 
-**6. DeepSeek V4.1 Flash 官方价 11 月 1 日已翻倍，11 月 13 日渠道价同步跳升**
+**6. 美团 LongCat-2.5 开源权重：1.6 万亿参数 MoE，全程用国产芯片训练**
 
-DeepSeek 11 月 1 日已把 V4.1 Flash 官方价翻倍：输入 0.15→0.30 美元/百万 token、输出 0.60→1.20 美元/百万 token（峰时价，非峰时半价）；V4 Pro 同步翻倍至输入 1.32 美元、输出 3.96 美元。11 月 13 日，OpenRouter 的标价跟进跳升：V4.1 Flash 输入从 0.051 美元涨到 0.30 美元、输出从 0.567 美元涨到 1.20 美元，等于渠道价与官方价对齐。
+美团 11 月 2 日发布 LongCat-2.5，11 月 9–10 日在 Hugging Face 放出 MIT 协议权重：总参数 1.6 万亿、每 token 激活约 480 亿，多模态原生 agent 模型，上下文 100 万 token；官方称训练全程使用国产芯片，部署指南针对 194 块华为昇腾 Atlas A2 芯片；托管 API 限时价 0.30 美元/百万输入 token、1.20 美元/百万输出 token。厂商自测成绩：Terminal-Bench v2.1 得 88.4 分，接近 Claude Opus 5（89.1）与 GPT-5.6 Sol（88.8）；但 BF16 权重约 3.56TB，个人基本无法自托管。
 
-为什么值得知道："DeepSeek 最便宜"这个标签正式失效了——V4.1 Flash 峰时输入价 0.30 美元，已经和 Kimi K2.5 一个价位；还在用 DeepSeek 当平替的人，该按新价重算账单了，尤其峰时与非峰时差一倍，错峰调用直接省一半。
+为什么值得知道：这是首个万亿级参数、明确"国产芯片训练 + MIT 开源"的 agent 模型，价格只有前沿闭源模型零头，对开源 agent 生态与国产算力路线都是实质信号。
 
-来源：[Stork（11 月 1 日，官方价目实读）](https://www.stork.ai/newsletter/2026-11-01-deepseek-just-doubled-v4-pro-api-prices)、[Overfeed（11 月 13 日，OpenRouter 标价）](https://overfeed.news/reports/2026-11-13-api-prices)、[BetterClaw（11 月 5 日核查）](https://www.betterclaw.io/blog/deepseek-v4-1-flash-agents)
+来源：[AIFOD（11 月 15 日）](https://af.net/realtime/meituan-releases-open-weight-1-6t-moe-model-longcat-2-5/)、[Techies Journal（11 月 12 日）](https://www.techiesjournal.com/meituan-longcat-2-5-open-model-chinese-accelerators/11672/)
 
-**7. SpaceX 计划投超 740 亿美元，在德州与亚利桑那建两座 AI 超算园区**
+**7. Runway 开源机器人模型 Praxis-1：27B 参数、Apache 2.0，可商用**
 
-11 月 12 日，SpaceX 披露计划投资超 740 亿美元建两座美国 AI 超算园区：德州超 240 亿美元（自发电设计）、亚利桑那约 500 亿美元（仍需县批准）。这只是计划投资，不是已建成或已花掉的钱；能否落地取决于发电、并网、许可与融资。
+Runway 11 月 11 日开放 Praxis-1 权重与推理/微调代码（Apache 2.0，含商用）：27B 参数 MoE 扩散 Transformer，同时预测未来 1.6 秒视频与机器人动作；在英伟达模拟基准 RoboLab-120 上 1200 次试验成功率 46.2%，为"世界动作模型"类别第一，但总榜排第五，且全部成绩由 Runway 自测、未经独立验证。权重 54.4GB（BF16），默认需单块 80GB 显存；4-bit 量化版 17.5GB，RTX 5090 路径尚属实验性、未闭环验证。GitHub、Hugging Face（原生支持 LeRobot）与 vLLM-Omni 均可获取。
 
-为什么值得知道：继 xAI 之后，SpaceX 也亲自下场建算力——740 亿美元的量级说明，头部玩家已经不满足于"租算力"，开始"自己造电、自己建园"；但亚利桑那那 500 亿还没拿到县批准，数字先打个折再看。
+为什么值得知道：9 月发布时只给合作伙伴，这次是机器人基础模型第一次"权重+代码+商用许可"全开放，与 OpenAI 解散机器人团队同周发生，两条路线正面相撞。
 
-来源：[The Neuron（11 月 13 日）](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/)
-
-**8. OpenAI 推出 Daybreak Red Team 与 Defense Factory：agent 替你渗透测试、替你打补丁**
-
-11 月 12 日，OpenAI 在 Cyber at the Frontier 发布 Daybreak 安全平台的两款新品：Red Team（早期访问，须申请）——agent 持续对 Web 应用做授权渗透测试，验证上报的漏洞、测试补丁是否有效；Defense Factory（ChatGPT 内预览插件）——agent 扫仓库、追踪漏洞根因、准备带测试的可合并补丁，工程师审批后才进生产。底层是 OpenAI 的网络安全模型 GPT-6 Cyber；未公布定价与独立评测结果。
-
-为什么值得知道：攻防两边同时 agent 化——红队 agent 找漏洞、蓝队 agent 打补丁，安全工作第一次有了"闭环"的样子；但补丁质量没有第三方数据，先在非生产仓库试点，别直接放进主分支流程。
-
-来源：[Times of AI（11 月 13 日）](https://timesof.ai/2026/11/openai-daybreak-red-team-defense-factory-agent-pen-testing)、[SiliconReport（11 月 13 日）](https://www.siliconreport.com/openai-introduces-daybreak-security-tools-to-test-and-fix-web-apps)
-
-**9. Claude Meetings 上线 beta：Claude 进 Google Meet 开会，边聊边做文档**
-
-11 月 12 日起，Anthropic 在 Team 与 Enterprise 计划上 beta 推出 Claude Meetings：Claude 以可见参与者身份加入 Google Meet，记笔记、答问题、会中直接做文档与白板；只保留文字记录与屏幕描述，不存音频；笔记与文字记录 beta 期免费，会中产出物免费至 2027 年 2 月 10 日；Team 默认开启、Enterprise 默认关闭；零数据留存、HIPAA、客户自管密钥的组织暂不可用；目前仅支持 Google Meet，其他平台称"即将推出"，未给时间。
-
-为什么值得知道：会议记录员这个活，Claude 终于从"会后总结"走到了"会中干活"——文档白板现场做出来，等于开完会活也干了一半；但 Team 计划默认就开着，管理员最好先检查一下组织设置，别让它进了不该进的会。
-
-来源：[Just Being Resourceful（11 月 13 日，以 Anthropic 帮助中心为准）](https://justbeingresourceful.com/2026/11/13/anthropic-adds-claude-meetings-to-google-meet/)、[Vanja.io（11 月 13 日）](https://vanja.io/claude-meetings/)
-
-**10. Claude 认证故障约 2 小时：claude.ai、Claude Code 登录失败，API 未受影响**
-
-11 月 13 日，Anthropic 状态页 09:58 UTC（北京时间 17:58）记录重大故障：用户无法登录 claude.ai、Claude Code、开发者 Console 与 Claude Cowork；11:05 UTC 部署修复，11:58 UTC 标记解决，历时约 2 小时；API（api.anthropic.com）全程未受影响；原因未公布。同一天微软 365 故障进入第二天，Anthropic 未把两者挂钩。
-
-为什么值得知道：模型本身没坏，坏的是"登录这扇门"——用 API key 调模型的开发者全程没感觉，靠账号登录的用户全被锁在外面；这也是本周第二起头部 AI 服务故障（前有微软 365），登录层正在成为新的单点故障。
-
-来源：[MadRobot（11 月 13 日，引 Anthropic 状态页）](https://madrobot.blog/2026/11/13/claude-down-sign-in-outage-november-13/)、[AI Frontier Post（11 月 13 日）](https://aifrontierpost.com/articles/claude-authentication-outage-nov-13-2026/)
+来源：[Runway 官方（11 月 11 日）](https://runway.com/news/company-news/praxis-1-is-now-available)、[AI Frontier Post（11 月 11 日）](https://aifrontierpost.com/articles/runway-praxis-1-open-weight-robot-model/)
 
 ## 二、技术分享·好实践
 
-**1. Flavio Copes：怎么写一个 Agent Skill——从你已经做过的工作出发**
+**1. Addy Osmani：〈Your coding agents made you a manager〉——X 长文，2026-11-08**
 
-[flaviocopes.com](https://flaviocopes.com/agent-skills/)
+[讨论页（AICoder 转载）](https://m.aicoder.com/news/news-20261108-x-discussion-addy-osmani-coding-agents-made-you-a-manager-claude-code-practices)
 
-讲了什么：Flavio 11 月 8 日的文章：Agent Skill 就是一个带 SKILL.md 的文件夹，agent 只看 name 与 description 决定要不要加载；写 skill 最差的办法是问模型要"最佳实践"，正确办法是从你已经做过的工作出发——他现场新建了一个 release-readiness skill（发布前检查 Mac 应用、写 GO/NO-GO 报告），并用 claude -p 做真实激活测试：哪些提示词该触发、哪些不该触发。他自己有 46 个 skill，写作 skill 三周内被加载 139 次。
+讲了什么：用 coding agent 的工程师其实已经在当经理，文中按影响力排了 10 条管理习惯，第一条是给 agent 一个能跑出通过/失败结果的检查方式（测试、构建、截图），并要求它拿出结果当证据。作者为 Anthropic Claude Code 团队的 Addy Osmani。
 
-为什么有效：全文用一个真实新建的 skill 从零跑到验证，读者看完能照抄流程；"46 个 skill、139 次加载"这两个数让方法显得是真在用，不是纸上谈兵。
+为什么有效：钩子是一句身份翻转——"你不是在写代码，你是在管人"，把枯燥的工具技巧重构成读者已有经验的管理学，收藏数（1,528）远超点赞（964），说明大家是当清单存下来用的。
 
-可以直接借的一招：写 skill 前先录屏做一遍工作，再把录屏交给 Claude，让它按录屏写 skill——说不出来的流程，录下来就有了。
+可以直接借的一招：发帖时先给读者一个新身份（"你已经是经理了"），再把方法论按"影响力排序"列出来，读者会本能地收藏对照。
 
-**2. Alex Rusin：10 条 Claude Code 经验，逐条对照 11 月文档勘误**
+**2. Grok Bot 团队 Lauren：11 条"如何建好 bot 并管好一队 bot"——X 帖，2026-10-31**
 
-[blog.alexrusin.com](https://blog.alexrusin.com/ai-assisted-coding-tips-fact-checked/)
+[explainx.ai 全文](https://www.explainx.ai/blog/grok-bot-guide-create-high-quality-bots-manage-team-skills-routines-tips-2026)
 
-讲了什么：作者把 NDC Copenhagen 2026 演讲《10 tips to level up your AI-assisted coding》写成文字版，并对照 11 月的现行文档逐条 fact-check：大部分成立，错的当场标出来——比如演讲里 context: fork 的方向讲反了（实际是隔离子 agent、看不到对话历史）；还补了每条对应的确切命令与配置，如 /context 看上下文占用、skill 压缩后每 skill 保留 5,000 token、上限 25,000 token。
+讲了什么：不讲提示词，讲管理——bot 要少而精、每个只干一件事、教会它把流程写成 skill 自我沉淀、重复步骤沉淀为脚本、按实习生方式 onboarding、routine 最密一小时一次。Grok Bot 团队工程师 Lauren 经 x.ai 账号发布，一日内 90 万+浏览、Garry Tan 转发。
 
-为什么有效：不是复述演讲，是"演讲 + 勘误"——fact-check 标注本身就是信任状；读者不用再猜哪条已经过期。
+为什么有效：结构上全是反直觉的减法（"别养一群 bot，养三四个好的"），每条都配一个"什么不该做"的边界，结尾还留了个钩子——"让你的 bot 来读这篇帖子、帮你改进你的团队"，帖子本身就是一次产品演示。
 
-可以直接借的一招：转述他人经验时，逐条核对现行文档，错的标出来比全对更可信；勘误就是你的原创价值。
+可以直接借的一招：写教程时每条建议都补一句"它绝不能做什么"，边界感比功能清单更让人信任、更值得转发。
 
-**3. NxCode：Claude Code 新手教程（2026 年 11 月版，11 月 9 日更新）**
+**3. Iliya Oblakov：〈How I run Claude Code and Codex as writer and reviewer, with a forced verdict line〉——Dev.to，2026-11-10**
 
-[www.nxcode.io](https://www.nxcode.io/resources/news/claude-code-tutorial-beginners-guide-2026)
+[dev.to](https://dev.to/iliyaoblakov/how-i-run-claude-code-and-codex-as-writer-and-reviewer-with-a-forced-verdict-line-2n49)
 
-讲了什么：按当前版本重写的新手教程：默认模型 Opus 5.5、1M 上下文，Shift+Tab 切换权限模式、Plan Mode 先出计划再动手、CLAUDE.md 保持 200 行以内、/init 初始化、subagent 与 agent teams（实验性，默认关闭）。开头就写明"2026 年 11 月 9 日更新，按当前 Claude Code 重写"，并标了各档计划价格（Pro $20/月起）。
+讲了什么：Claude Code 写代码、Codex 在只读沙箱里审，每次评审必须以 `Verdict: ACCEPT` 或 `Verdict: CHANGES REQUIRED` 一行结尾才算有效，缺这行或崩溃都算评审失败；两引擎定期互换写审角色，共用一份 CLAUDE.md/AGENTS.md 规则。
 
-为什么有效：新手教程最大的敌人是过期，这篇把"更新日期 + 按当前版本"写在最前面，读者第一眼就知道能不能信；每条建议都对应一个具体操作，不是空泛的"多用 agent"。
+为什么有效：整篇只有一个核心机制——"强制结论行"，所有细节（沙箱、600 词上限、每条发现带严重程度和复现路径）都服务于让机器可判定结果，读者看完不用理解全套流程，复制三行配置就能跑起来。
 
-可以直接借的一招：写教程先报版本号与核查日期，过期内容宁可删不留；"更新于某日"是全文最值钱的一行。
+可以直接借的一招：分享工作流时，提炼一个"机器可判定的硬规则"当标题和记忆点（比如强制结论行），比罗列十条软建议更容易被照抄。
 
-**4. Mstimaj：怎么写自己的 Claude Skill——先给最小定义，再讲唯一关键点**
+**4. Adrian Hall：〈How to Add Tools to the Agent〉——博客，2026-11-06**
 
-[mstimaj.com](https://mstimaj.com/human-algorithm/how-to-write-your-own-claude-skill/)
+[blog.adrianhall.uk](https://blog.adrianhall.uk/posts/2026/2026-11-06-coding-agent-part-3.html)
 
-讲了什么：11 月 11 日的文章：skill 就是一个文件夹 + 一个 SKILL.md，文件夹在 ~/.claude/skills/ 里；文件顶部两行 name 与 description 决定 Claude 会不会主动用它；description 写"research stuff"这种空话，skill 会永远躺在文件夹里没人用。文章还给了"写不出来就录屏"的办法：把做一遍工作的屏幕录下来交给 Claude。
+讲了什么：不用框架、手写 agent 循环，讲透工具的本质——工具就是"让模型改写自己的上下文"：给 agent 加了查时间和读 Cloudflare 文档两个工具，并演示了工具描述写得含糊就会调错、报错信息要写给模型看才能自我纠正。这是"从零写一个 coding agent"系列第 3 篇。
 
-为什么有效：把"写 skill"从工程活降维成"写两行 + 录个屏"，零门槛；全文只钉一个关键点——description 决定触发，读者读完立刻能动手。
+为什么有效：用一张"模型—工具—上下文"的时序图把抽象概念一次讲清，再配一个故意很傻的例子（查时间）隔离干扰，最后落到安全细节（模型传的路径不可信、只允许固定域名）——读者既看懂原理又拿到能直接抄的代码。
 
-可以直接借的一招：教新概念时，先给最小定义（文件夹 + 一个文件），再讲唯一关键点（description 决定触发）；定义越小，上手越快。
+可以直接借的一招：讲技术原理时，先用一个"傻到不可能出错"的最小例子隔离概念，再上真实用例；读者先懂、后信、最后才抄代码。
 
-**5. WhatTrending：AI Repo 加速度报告——别看总数，看谁正在起势**
+**5. AI Frontier Post：〈Hands-on with Anthropic's official Agent Skills〉——博客，2026-11-10**
 
-[whatstrending.ai](https://whatstrending.ai/repos/weekly)
+[aifrontierpost.com](https://aifrontierpost.com/articles/anthropic-official-agent-skills-tutorial/)
 
-讲了什么：11 月 13 日更新的周报：用自家每日 star 快照测 814 个 AI repo 的"加速度"——不是总数排名，是相对自己上周的提速。morluto/rea 仍是最快，每天 2,851 star（一周 +14,253）；加速最猛的是 anthropics/skills：从每天 400 star 提到 984 star；10 个最快的 repo 一周共涨 74,217 star，占全部 814 个 repo 涨幅的 33%。
+讲了什么：实测 Anthropic 官方开源的 skills 仓库（anthropics/skills，当周 GitHub 涨星 22,371、一周新增最多）：在沙箱里真跑了一遍 docx/xlsx/pptx/pdf 四个文档 skill，做出一份带定价表的简报包，并如实记录哪里翻车——比如表格宽度算错导致超出页边、必须渲染出来肉眼检查。
 
-为什么有效：不用总数排名，用"相对自己上周的加速度"排名，抓的是正在起势的项目；"占全部涨幅 33%"这一个数，就把头部集中的程度钉死了。
+为什么有效：证据形式是"全程真跑 + 晒翻车现场"，连版本号（docx 9.15.3、openpyxl 3.1.2）都写死，读者能逐行复现；开头先报仓库的星数暴涨（190,998 stars），用热度当钩子，再用实测细节留住人。
 
-可以直接借的一招：报趋势时报"加速度"不报"总量"，起势的项目才值得早跟；总数是存量，加速度才是信号。
-
-**6. LLM Digest：一周 40 篇文章提炼成 5 个变化，每条钉一个数字**
-
-[www.llm-digest.com](https://www.llm-digest.com/weekly)
-
-讲了什么：11 月 7–13 日的周报：40 篇文章提炼成 5 个变化——Claude Fable 5.2、Gemini 4 Carbon、Gemini Decisions API 三天连发；agent 记忆在 3 个后台任务里 2 个泄密、原生 RAG 一个不漏；后端 skills 把关键错误从 150 次里的 25 次压到 2 次；vLLM 在一块 Vera Rubin NVL72 上每用户 387 tokens/秒。
-
-为什么有效：周报不堆新闻，按"这周变了什么"分组，每组钉一个可复述的数字；"25/150 → 2/150"这种对比，读者看一眼就记住。
-
-可以直接借的一招：做周报时别按时间列新闻，按"这周变了什么"分组，每组钉一个数字；没有数字的变化，先别写。
+可以直接借的一招：评测热门仓库时，别只翻译 README，挑一个最小任务真跑一遍，把第一次翻车和修正过程原样晒出来——"我踩过的坑"比"它能干什么"更值得收藏。
