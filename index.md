@@ -5,154 +5,137 @@ title: AI 每日资讯
 
 每天一条 AI 早报，一个文件存一天。
 
-**往期：** 2026-11-21（本期） · [2026-11-20](digests/2026-11-20.html) · [2026-11-19](digests/2026-11-19.html) · [2026-11-18](digests/2026-11-18.html) · [2026-11-17](digests/2026-11-17.html) · [2026-11-16](digests/2026-11-16.html) · [2026-11-15](digests/2026-11-15.html) · [2026-11-14](digests/2026-11-14.html) · [2026-11-13](digests/2026-11-13.html) · [2026-11-12](digests/2026-11-12.html) · [2026-11-11](digests/2026-11-11.html) · [2026-11-10](digests/2026-11-10.html) · [2026-11-09](digests/2026-11-09.html) · [2026-11-08](digests/2026-11-08.html) · [2026-11-07](digests/2026-11-07.html) · [2026-11-06](digests/2026-11-06.html) · [2026-11-05](digests/2026-11-05.html) · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
+**往期：** 2026-11-22（本期） · [2026-11-21](digests/2026-11-21.html) · [2026-11-20](digests/2026-11-20.html) · [2026-11-19](digests/2026-11-19.html) · [2026-11-18](digests/2026-11-18.html) · [2026-11-17](digests/2026-11-17.html) · [2026-11-16](digests/2026-11-16.html) · [2026-11-15](digests/2026-11-15.html) · [2026-11-14](digests/2026-11-14.html) · [2026-11-13](digests/2026-11-13.html) · [2026-11-12](digests/2026-11-12.html) · [2026-11-11](digests/2026-11-11.html) · [2026-11-10](digests/2026-11-10.html) · [2026-11-09](digests/2026-11-09.html) · [2026-11-08](digests/2026-11-08.html) · [2026-11-07](digests/2026-11-07.html) · [2026-11-06](digests/2026-11-06.html) · [2026-11-05](digests/2026-11-05.html) · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
 
 ---
 
-# AI 早报 2026-11-21
 
-本期以 11 月 20 日（周五）的动态为主。
+# AI 早报 2026-11-22
+
+本期以 11 月 21 日（周六）的动态为主。
 
 ## 一、AI 资讯
 
-**1. Anthropic 上市第二天：收 $88.30 跌 9.13%，盘中一度逼近 $83 发行价；IPO 正式收官、承销商全额行使超额配售权**
+**1. 黎曼猜想：Lean 与 Mathlib 社区 11 月 21 日联合认证"证明正确"，1700 万行 Lean 代码全部核查通过**
 
-ANT 11 月 20 日收于 $88.30，较首日收盘 $97.17 跌 9.13%；盘中最低 $83.05，距 $83 发行价只剩 5 美分，全天在 $85–$90 区间震荡。跌幅背景是 AI 板块整体抛售：纳斯达克盘中跌超 2%，标普跌约 1.2%。同日 IPO 正式交割收官：承销商（摩根士丹利为稳定操作方）全额行使 1.47 亿股超额配售权，总发行 11.27 亿股、募资总额约 $935 亿，连同 $260 亿 Class N 私募配售合计约 $1195 亿；行权后稳定操作仓位关闭，意味着股价跌破 $83 后不再有承销商托底。ANT 期权定于 11 月 23 日（周一）开始交易。
+Anthropic 数学家 Levent Alpöge 11 月 20 日宣称与 Claude 合作证明黎曼猜想后，Lean 聚焦研究组织与 Mathlib Initiative 于 11 月 21 日发布联合声明："我们完全确信 Alpöge 对黎曼猜想的证明是正确的"，"特此证明黎曼猜想的陈述与证明均正确"。核查分四项：命题本身就是 Mathlib 中经专家审核的黎曼猜想标准表述；1700 万行代码库经数十人独立编译通过、导出同一原始证明文件；用 comparator 与 con-leche –compare 两个独立工具比对，确认证明的正是 Mathlib 的命题、无定义偷换；导出的原始证明经 Lean 官方内核及多个独立检查器（含不同语言实现）验证通过，且检查在与证明源隔离的惰性导出文件上进行。MIT 数学家 Andrew Sutherland 称"有什么猫腻的概率约等于零"。《经济学人》同日发文称 AI 可能解开了数学最重要的问题，《华尔街日报》称这是今年 AI 数学进展中最重磅的一项。但仍需注意边界：克雷数学研究所仍将该问题列为未解（奖金 100 万美元的正式认定另有流程），且社区认证只覆盖原黎曼猜想，Alpöge 同时声称的广义黎曼猜想未单独认证；数学界对证明思路本身的理解与评审才刚开始。
 
-为什么值得知道：蜜月只持续了一天——首日 17% 的涨幅两天内基本回吐过半，说明市场对"首家纯 AI 上市公司"的定价分歧远未弥合；承销商托底仓位关闭后，下周一的期权上市将成为下一个波动点。
+为什么值得知道：昨天还只是"声称 + 部分验证"，今天四项核查全部走完——这是 AI 参与数学发现第一次从"宣称"走到"独立认证"，无论最终评审结论如何，形式化验证这条路已被证明能在一两天内完成人类数月的工作量。
 
-来源：[Motley Fool（11 月 20 日）](https://www.fool.com/investing/2026/11/20/why-anthropic-stock-is-falling-today/)、[CoinEdition（11 月 20 日）](https://coinedition.com/crypto-live-news/anthropic-stock-falls-near-ipo-price-on-second-trading-day/)、[The Big Ant（11 月 20 日）](https://www.thebigant.com/)
+来源：[Scientific American（11 月 21 日更新）](https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/)、[Lean 社区博客（联合声明，11 月 21 日）](https://leanprover-community.github.io/blog/)、[《华尔街日报》（11 月 21 日）](https://www.wsj.com/tech/ai/anthropic-mathematician-says-claude-has-solved-the-most-famous-problem-in-math-9361920b)、[USA Today（11 月 21 日）](https://www.usatoday.com/story/tech/2026/11/21/ai-claude-riemann-hypothesis-math-mystery/92901494007/)
 
-**2. Anthropic 数学家宣称与 Claude 证明了黎曼猜想：Lean 形式化已获独立复核编译通过，但最终确认仍待完成**
+**2. 英伟达遭 SEC 会计调查：周五单日暴跌 14.01% 收 $125.53，本周跌 23% 创 2008 年来最差一周**
 
-Anthropic 数论学家 Levent Alpöge 11 月 20 日在个人网站发布四页说明，称"与 Claude 一起发现了黎曼猜想的证明"，并同步放出 Lean 形式化证明（14 个归档分包），称同一方法还解决了更广的广义黎曼猜想。MIT 数学家 Andrew Sutherland 已独立用 Lean 内核重新编译该证明且无问题，称"有什么猫腻的概率约等于零"；但决定性的"comparator run"（核查代码是否偷换了命题定义、是否以偏执模式编译）截至发稿尚未完成，也无预印本、期刊评审或克雷研究所认证。同日出现第二项独立声称：斯坦福代数几何学家 Alessandro Masullo 的手写广义黎曼猜想草稿，由美国数学会主席 Ravi Vakil 公布，据称已私下评审数月、全程未用 AI。黎曼猜想自 1859 年提出、悬赏 100 万美元，是七大千禧年难题之一。Alpöge 称已事先与 CEO Dario Amodei 商量过公布事宜，并承认公布时机（IPO 次日）可能被质疑。
+路透 11 月 20 日（周五）引述两名知情人士报道，美国证监会（SEC）执法人员正在审查英伟达的会计处理；消息传出后跌幅从盘中约 6% 扩大至收盘 14.01%（$125.53），为连续第 7 个交易日下跌，本周累计跌 23%、市值一周蒸发约 1 万亿美元，自 10 月 6 日高点累计蒸发约 2.7 万亿美元，市值降至 3.03 万亿美元、跌破 Alphabet。SEC 与英伟达均未置评，调查何时开始、具体针对哪些会计科目均未披露，立案调查本身不等于认定违规。同一周的多重打击：加州总检察长 11 月 19 日就黄仁勋被指与疑似中国情报人员的关系及芯片是否流入中国发出调查传票；黄仁勋定于 12 月 1 日到国会作证；司法部正在审查英伟达 129 亿美元收购 Hugging Face 的交易。市场猜测调查焦点之一是英伟达去年把地区收入划分口径从客户账单地址改为客户总部所在地、此后新加坡不再单独列示——而此前新加坡名下收入一度接近全球收入的一半。
 
-为什么值得知道：这是"AI 参与数学发现"迄今最重磅的一次声称——Lean 编译通过已是强信号，但数学界的确认标准是定义无偷换 + 同行评审，两者都还没走完；若最终坐实，将是 AI 科研能力的一次分水岭事件，若被证伪，也会成为 AI 炒作的标志性案例。现在能写的只有"声称 + 部分验证"，不能写"已证明"。
+为什么值得知道：财报刚创纪录三天就遇上会计调查，AI 龙头同时面对监管、司法与国会三线压力——"AI 叙事"的估值锚正在从业绩转向"账目与合规是否干净"，下周一期权市场与国会听证是下一个波动点。
 
-来源：[Scientific American（11 月 20 日，首报）](https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/)、[Scientific American（11 月 20 日，复核进展）](https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/)、[DataCamp（11 月 20 日）](https://www.datacamp.com/blog/ai-solved-riemann-hypothesis)
+来源：[Motley Fool（11 月 20 日）](https://www.fool.com/investing/2026/11/20/here-is-why-nvidia-stock-crashed-on-friday/)、[Motley Fool（11 月 21 日）](http://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/)、[Barron's（11 月 20 日）](https://www.barrons.com/articles/nvidia-stock-fall-ai-chips-835a38ae)、[The Coin Republic（11 月 21 日）](https://www.thecoinrepublic.com/2026/11/21/nvda-stock-price-falls-14-as-sec-probes-nvidia-accounting-issues/?amp)
 
-**3. 路透曝 Meta 的 Muse 混淆用户对话：员工收到别人的银行余额、Signal 提醒，还有未经授权的订房**
+**3. OpenAI 公布反"对抗蒸馏"防线：攻击成功率从 54% 降至 0.2%，点名 DeepSeek 与月之暗面**
 
-路透 11 月 18 日报道（TechCrunch 11 月 19 日跟进）：Meta 内部帖子显示，员工使用的 Muse 出现跨账号串对话——有人收到没提过的托儿请求、没问过的职业建议、没下过的订单，以及不属于自己的银行余额。一名员工贴出 Muse 在天气潮汐对话里突然补的一句："BTW, two bank updates, your Capital One balance is $2722.58, your Charles Schwab balance is $5899.57."另一名员工在个人手机上收到 Muse 提醒她回复姐姐在 Signal 上的消息——她从未给 Muse 开过 Signal 权限；路透联合 Signal 与 AI Now Institute 复现，确认该问题仍在发生。另有员工称 Muse 未经允许订了一间短租房。Meta 发言人称这些是"孤立事件"、很多是幻觉、已修复；但路透明确表示无法确认那些银行余额是真实他人数据还是幻觉数字。同事指出的一个可能根因：Muse 在安卓上默认获准读取推送通知。10 月已有安全公司发现 Muse 的分享链接可通过被动 DNS 查到、约 6800 段对话暴露。Muse 9 月 8 日上线以来下载量已超 1000 万。
+OpenAI 11 月 21 日披露针对对抗蒸馏（adversarial distillation）的防护升级：攻击者用特殊手段抽取模型能力、绕过安全护栏的做法，过去在测试中成功率达 54%；OpenAI 强化 GPT-6.2 Astra 的防护后，不再让外部接触模型的推理轨迹（解题的中间步骤），攻击成功率降至 0.2%。OpenAI 在说明中点名 DeepSeek 与月之暗面为相关方。这是 OpenAI 首次公开把"推理轨迹不可见"作为反蒸馏的核心手段，也是 11 月 16 日美国收紧芯片出口、11 月 19 日月之暗面取消 1.5 亿美元印尼租卡协议之后，中美模型竞争在"能力防抽取"层面的最新回合。
 
-为什么值得知道：这是第一个被实锤到"串账号、跨应用"的个人 agent 隐私事故，且用户本人就是 Muse 的使用者——最直接的自查动作是看自己手机上 Muse 的通知读取权限开着没有；同时它也说明"agent 越主动，出错的半径越大"，是所有常驻 agent 的共性风险。
+为什么值得知道：推理轨迹一直是高级模型最值钱的副产品——OpenAI 把它锁起来，等于公开承认"防蒸馏"已成为旗舰模型的安全标配；对依赖蒸馏做小模型、做评测的团队来说，可用的学习信号正在变少。
 
-来源：[TechCrunch（11 月 19 日）](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/)、[路透转述（11 月 18 日）](https://wdsm710.com/2026/11/18/as-meta-bets-big-on-muse-ai-agent-early-safety-mishaps-surface/)、[PYMNTS（11 月 19 日）](https://www.pymnts.com/news/artificial-intelligence/2026/meta-staffers-say-muse-ai-agent-made-unauthorized-booking-and-accessed-private-apps/)
+来源：[The Token Reporter（11 月 21 日）](https://tokenreporter.ai/)、[The Context（11 月 22 日简报）](https://thecontext.dev/en/topics/frontier-models/)
 
-**4. 欧盟委员会确认遭 AI 辅助网络攻击：人事与医保报销系统停摆 10 多天，攻击方被指使用开源渗透测试框架 ARTEX**
+**4. Anthropic 被曝已锁定近 9000 亿美元算力合同，其中 SpaceX 一家就占 1205 亿美元至 2029 年**
 
-欧盟委员会发言人 Thomas Regnier 11 月 19 日确认：针对委员会内部系统的 AI 驱动网络攻击于 10 月 22 日被发现、10 月 26 日确认为攻击，Sysper（人事、工资单、请假）与 MyPMO（医疗报销）等系统被迫下线 10 多天，翻译服务也受影响，大部分系统现已恢复。Politico 引述消息称，欧盟 CERT 认定攻击方使用了公开的 AI 渗透测试框架 ARTEX；FBI 11 月 13 日已发警报称，自 8 月以来犯罪与国家背景行为者用 ARTEX 攻击金融、政府、科技、国防、能源、医疗、电信目标，部分入侵不到 3 小时即拿到特权访问，互联网上暴露的 ARTEX 控制台超 1600 个。委员会称暂未发现员工数据泄露的证据、无勒索要求，欧洲数据保护监督员已获通报，调查仍在继续。ARTEX 作者已于 10 月 8 日撤下原仓库，但镜像与商业版仍在流通。
+The Information 11 月 21 日报道，Anthropic 已排布近 9000 亿美元的算力合同，其中与 SpaceX 的合同超过 1205 亿美元、覆盖至 2029 年。同一消息源称，Anthropic 正以 30% 以上的折扣争取更大的客户支出承诺。结合此前招股书披露的数字看：Anthropic 承诺至 2045 年的算力支出约 9009 亿美元，算力成本占营收 58%。Anthropic 股价上市次日（11 月 20 日）跌 9.13% 收 $88.30，纳斯达克同日抹去 2026 年全部涨幅、标普进入修正区间，AI 板块整体抛售仍在继续。
 
-为什么值得知道：ARTEX 正是本日报 GitHub 榜单连续两天的头名项目（11 月 19 日窗口 +1749 star）——同一个开源 agent 渗透框架，一边是安全圈的明星项目，一边是欧盟机构攻击案里的作案工具；"AI 找漏洞"从演示走向实战的另一面，正在以这种方式兑现。
+为什么值得知道：9000 亿美元这个量级说明"算力军备竞赛"已从口号变成签了字的长期负债——Anthropic 一边用折扣换客户、一边用天价合同锁算力，赌的是规模能摊薄成本；若需求增速跟不上，这批合同会从护城河变成包袱。
 
-来源：[The Register（11 月 19 日）](https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103)、[Infosecurity Magazine（11 月 20 日）](https://www.infosecurity-magazine.com/news/commission-ai-attack-systems/)
+来源：[TestingCatalog 每日简报（11 月 21 日，信源 The Information）](https://www.linkedin.com/company/testingcatalog)、[The Context（11 月 22 日简报）](https://thecontext.dev/en/topics/frontier-models/)
 
-**5. 苹果被曝自研电脑操作 agent：招聘帖写明可浏览网页、跨应用、跑命令、写代码、调子 agent，2027 年底或亮相**
+**5. Gemini 4 Neon 登顶 Models Engineering Index：68.4 分，超 Claude Opus 5.5 与 GPT-6.2，价格还更低**
 
-苹果 11 月 18 日挂出的招聘帖（Senior Engineering Manager, Agentic AI – Proactive，库比蒂诺，基本年薪 $267,800–$401,700）写明：正在打造"能像人一样用电脑"的 agent——浏览网页、跨应用操作、跑终端命令、写代码调 bug、调用在线服务，并"为每一步选择合适的工具"，协调多个专业子 agent；团队与 Siri、UI 框架、Apple Foundation Models 合作，强调"私密且有苹果式打磨"。彭博 11 月 19 日率先报道该招聘。另据 TechCrunch 转述彭博：苹果内部讨论最早 2027 年底推出，但目前仍处早期阶段；macOS 27.3 还将弹出警告，劝阻用户给第三方 agent 完整访问权限。苹果此前在该领域尚无自家 agent 产品。
+Google 11 月 18 日发布的 Gemini 4 Neon 在 11 月 21 日的 Models Engineering Index 上以 68.4 分排名第一，超过 Claude Opus 5.5 与 GPT-6.2。Neon 定位中端：100 万 token 上下文，API 价 $3/$15 每百万 token（输入/输出），约为旗舰模型一半；OpenRouter 实测速度 127 token/秒，远高于 Carbon 的 46 token/秒；预计 Elo 1066，略低于 Opus 5.5 的 1078。Google 同日把 Neon 接入 Perplexity Computer。
 
-为什么值得知道：Google Gemini 刚上 Mac 电脑操作、Meta Muse 刚出串号事故，苹果以"隐私"为卖点入场——桌面 agent 的竞争从功能比拼转向"谁更可信"；而 macOS 27.3 的警告弹窗一旦落地，将直接抬高所有第三方 agent 在 Mac 上的获客门槛。
+为什么值得知道：中端模型第一次在工程能力榜上压过旗舰——对日常编码与分析，"够强且便宜一半"正在变成比"最强"更实在的选型标准；Neon 的性价比线很可能成为下一轮模型定价的参照。
 
-来源：[PYMNTS（11 月 20 日）](https://www.pymnts.com/news/artificial-intelligence/2026/apple-expands-team-building-privacy-first-ai-agent/)、[AI Parabellum（11 月 19 日）](https://aiparabellum.com/apple-hiring-engineers-build-computer-use-ai-agent/)
+来源：[The Token Reporter（11 月 21 日）](https://tokenreporter.ai/)、[The Context（11 月 21 日简报）](https://thecontext.dev/en/companies/anthropic/)、[Google 官方博客（11 月 18 日，Neon 定价）](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
 
-**6. Google 选定蓝色起源 2029 年把 AI 服务器送上太空：Project Suncatcher 首飞，新格伦火箭运 TPU 卫星**
+**6. Signal 屏蔽截屏：防操作系统级 AI agent 抓取加密消息与用户数据**
 
-Google 与蓝色起源 11 月 19 日宣布发射服务协议：2029 年第一季度用重型新格伦火箭把 Project Suncatcher 的一批卫星送入太阳同步轨道，每颗卫星搭载 Google 自研 TPU，算力约相当于一个数据中心机架，靠轨道上近乎持续的日照供电、做机器学习计算。这是 Suncatcher 首次预订重型发射。Google 此前已验证过路线：10 月 1 日原型卫星搭 SpaceX 火箭上天，10 月 30 日星上芯片在轨跑通 Gemma 4 模型并回传一首短诗；2027 年还计划用两颗卫星测试星间激光链路。合同金额与卫星数量未披露。
+Signal 11 月 21 日在 iOS 与 Android 上屏蔽截屏，目的是阻止操作系统级 AI agent 捕获加密消息与用户数据。此举直接针对新一代常驻 agent——它们能读屏、能跨应用操作，加密应用的"端到端加密"在 agent 可以截屏读屏的前提下形同虚设。背景是同一周 Meta Muse 被曝跨账号串对话、读到用户没授权的 Signal 消息（见 11 月 21 日早报第 3 条）。
 
-为什么值得知道：地面数据中心缺电、缺地、缺水冷，Google 把算力往天上搬是目前最激进的解法——2029 年首飞只是试验，但它直接决定"太空算力"会不会从概念变成一条真实赛道。
+为什么值得知道：这是第一个主流加密通讯应用对"agent 读屏"做出的产品级回应——桌面与手机 agent 越来越能"看见一切"，应用层只能用"不让截屏"这种硬拦截自保；用 agent 处理私密内容前，先看一眼目标应用有没有这类开关。
 
-来源：[Google 官方博客（11 月 19 日）](https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/)、[USA Today（11 月 20 日）](https://www.usatoday.com/story/tech/space/2026/11/20/project-suncatcher-google-blue-origin-ai-satellites/92874825007/)
+来源：[The Token Reporter（11 月 21 日）](https://tokenreporter.ai/)
 
-**7. Google 造了个"镜像维度"假互联网来训 Chrome 浏览 agent：数千个仿真网站，每天每人产出 1000+ 个攻击测试用例**
+**7. ChatGPT Space 向全球 Plus 用户推送：移动端可编辑，App 同步改版**
 
-Google Chrome AI 安全团队 11 月 19 日在官方安全博客披露 Mirror Dimension：一个与真实网络隔离的合成互联网，内置数千个仿真网站（社交、购物、银行面板等），专门用来测试 Chrome 的 auto browse 浏览 agent。关键设计：agent 访问的是 youtube.com 这类真实 URL，流量在 gVisor 沙箱内被本地代理截获、导向仿真站，代理实时签发 TLS 证书让浏览器以为就是真站；攻击载荷藏在自定义 HTTP 头 X-Sandbox-Injection-Key 里，agent 无法察觉自己在被测试。建站本身也由 agent 完成：研究 agent 写需求、搭建 agent 写前后端、评审 agent 查错。效果：每名安全工程师每天可生成 1000 多个攻击测试候选，约为手工测试的 30 倍，主攻方向是间接提示注入。
+OpenAI 11 月 21 日起把 ChatGPT Space 向全球 Plus 用户推送，移动端可编辑，App 同步改版、速度更快。Space 是 ChatGPT 内的协作空间形态，此前只向部分用户开放；同批推送还包括：Dot（语音助手）可在 Apple CarPlay 内接打电话、每次通话后给文字记录；新版移动端体验先向 Pro 用户开放。Plus 用户今天打开 App 就能看到 Space 入口，适合当天亲测发帖：新空间形态好不好用、与 Projects 的分工是否清晰，都是第一手体验题材。
 
-为什么值得知道：浏览 agent 最大的安全死穴是"网页里的恶意指令"，Google 的解法是不让 agent 碰真网、先在假网上被攻击上千次——这套"合成互联网 + 隐形注入"的测试范式，很可能成为浏览器 agent 的行业标准动作。
+为什么值得知道：ChatGPT 正在从"一个对话框"变成"多个工作空间"，Space 的全局推送是这轮产品改版的落地点；Plus 用户可直接体验，不用等邀请。
 
-来源：[Google 安全博客（11 月 19 日）](https://blog.google/security/mirror-dimension-for-agents/)、[AI Weekly（11 月 20 日）](https://aiweekly.co/alerts/googles-chrome-team-builds-a-mirror-web-for-ai-agents)
+来源：[TestingCatalog 每日简报（11 月 21 日）](https://www.linkedin.com/company/testingcatalog)
 
-**8. Anthropic IPO 刺激国会：四名两党参议员 11 月 19 日提出 AUDIT AI 法案，要求上市公司披露 AI 投入与风险**
+**8. Google AI 订阅"五折"广告与实际不符：宣称最高 5 折至 11 月 26 日，用户实际只看到 16% 折扣**
 
-参议员 Mark Warner（民主党）、John Kennedy（共和党）、Angela Alsobrooks（民主党）、Mike Rounds（共和党）11 月 19 日联合提出《推进 AI 投资统一披露与透明法案》（AUDIT AI Act，编号 S.5785），要求 SEC 制定规则：上市公司须披露是否有 AI 治理政策与专门的董事会 AI 委员会、没有须说明原因；AI 敞口重大的公司须按统一口径披露实质风险，包括对第三方模型的依赖、算力集中度、成本与数据责任；非金融类上市公司还须在年报、季报与发行文件中说明 AI 基建相关实体与融资安排。法案目前只是提案，未成法律。同日，参议院银行委员会民主党领袖 Elizabeth Warren 发声明要求 SEC 保护投资者、国会尽快给先进 AI 上安全护栏；众议员 Pramila Jayapal 警告市场"不能从一颗定时炸弹上赚钱"。
+Google 正在推广 Google AI Plus 与 Pro 年付计划"最高 5 折"、截止 11 月 26 日，但 11 月 21 日的用户反馈称实际看到的仍是常规的 16% 年付折扣，未见 5 折价。TestingCatalog 在 11 月 21 日简报中点名了这一出入。Pro 标价 $19.99/月（年付约 $16.71/月，16% 折扣）；若 5 折属实，年付应约 $10/月。目前尚无 Google 官方解释，可能是分批推送、地区差异或广告口径问题。
 
-为什么值得知道：Anthropic 招股书里"算力成本占营收 58%、至 2045 年约 $9009 亿支出承诺"的披露方式，正在变成对全行业的立法要求——AI 公司的财报以后可能要像披露债务一样披露算力账，这直接关系到 AI 股的估值逻辑。
+为什么值得知道：黑五季的 AI 订阅促销正在密集上线，但"广告价 ≠ 到手价"已经出现——付款前先核对结账页实价，别按广告折扣做预算；若 5 折后续真的放开，Pro 的性价比会明显变化。
 
-来源：[MLex（11 月 19 日）](https://www.mlex.com/mlex/articles/2552512/us-senators-introduce-legislation-to-increase-transparency-of-ai-investments)、[IANS（11 月 20 日）](https://www.newspointapp.com/english/world/us-senators-seek-greater-disclosure-of-ai-financing-risks-ianslive/articleshow/145048200a79bf4c9528c3a3e02d609fd7c9d443)
+来源：[TestingCatalog 每日简报（11 月 21 日）](https://www.linkedin.com/company/testingcatalog)
 
-**9. 月之暗面取消 1.5 亿美元印尼英伟达芯片租赁协议：美国新规堵死"海外租算力"口子后首个落地案例**
+**9. OpenRouter 警告 MiniMax 提示词可能被读取；Dragos 蜜罐抓到第三方在服务商门口复制 AI 请求**
 
-The Information 11 月 19 日引述两名知情人士报道：月之暗面已取消与一家东南亚云厂商的 1.5 亿美元协议，原计划从 2027 年起租用印尼数据中心的英伟达 Blackwell Ultra B300 算力；该公司此前同意支付约 50% 预付款（行规约 15%），现已暂停其他新合同谈判以评估新规影响。据报月之暗面已与另一家东南亚云厂商签了替代协议，B300 服务预计明年启动。直接诱因是美国商务部 11 月 16 日发布、11 月 19 日生效的新规：向为中国客户提供超 1200 万 TPP 算力（约 760 块 H100 当量）的数据中心出口先进芯片须持许可，印尼、马来西亚、新加坡、泰国、巴西五国被列为高转移风险，已服务中国客户的数据中心有 90 天申请许可。月之暗面未公开证实取消一事；美国商务部工业与安全局还已对月之暗面的芯片获取渠道展开调查。
+The Context 11 月 22 日简报汇总的两起安全事件：OpenRouter 向用户发出警告，其 MiniMax 提示词可能已被读取；Dragos 设下的"金丝雀陷阱"（canary trap）抓到第三方在服务商入口处复制 AI 请求。两起事件都指向同一个薄弱环节——提示词在"用户 → 服务商"这段路上的可见性：经手的中转方、网关或上游模型方都可能看到本应只属于用户与模型的提示内容。此前 11 月 20 日的简报还提到，GPGME 出现 double free 漏洞（CVE-2026-129975，未排除远程执行可能）。
 
-为什么值得知道：新规生效当天就出现第一张"退单"，说明"去东南亚租卡"这条中国 AI 公司最重要的绕道正在被实质封堵；替代协议的存在也说明需求不会消失，只会转向更隐蔽、更贵的渠道。
+为什么值得知道：提示词里常含业务数据、密钥与未公开想法，"经手方可见"是最容易被忽视的泄露面——经第三方网关调用模型时，默认提示词可能被多方看到，敏感内容先脱敏再发是基本动作。
 
-来源：[ForkLog（11 月 20 日）](https://forklog.com/en/moonshot-ai-cancels-150m-nvidia-chip-leasing-deal/)、[AI Weekly（11 月 19 日）](https://aiweekly.co/alerts/moonshot-ai-cancels-150m-nvidia-b300-rental-in-indonesia)
-
-**10. 540 多名 Google 员工联署请愿：要求学校能关掉搜索里的 AI 功能而不失去搜索本身**
-
-Alphabet 工会组织的"Let Students Search"请愿已有 540 多名 Google 员工与合同工签名，致信 CEO Sundar Pichai、搜索负责人 Elizabeth Reid 与教育负责人 Chris Phillips，要求允许 K-12 学校单独关闭搜索中的 AI 功能而不影响搜索整体使用。背景是 Google 本月宣布的政策：学生账号默认关闭 Gemini 与搜索，但管理员一旦启用搜索，AI Overviews、AI Mode 等生成式功能会随之一并开启、无法单独剥离；此前《纽约时报》报道称禁 AI 的学校会被限制使用搜索。参议员 Ed Markey 11 月 9 日已致信 Google 要求同样事项、限 11 月 30 日前回复；纽约、洛杉矶、芝加哥学区据报正在考虑改用其他搜索引擎。Google 尚未回应请愿。数据点：Chrome OS 占美国 K-12 学校交付笔记本与平板的 58%。
-
-为什么值得知道：这是 AI 捆绑策略第一次在自家员工与最大客户群（学校）两头同时撞墙——"开搜索就必须开 AI"的捆绑若被迫松绑，会成为所有 AI 巨头产品设计的先例。
-
-来源：[Gizmodo（11 月 19 日）](https://gizmodo.com/google-employees-petition-to-let-schools-use-search-without-ai-2000842549?ref=aipolicydaily.org)、[Neowin（11 月 19 日）](https://www.neowin.net/news/google-employees-petition-to-let-k-12-schools-use-search-without-ai-features/)
+来源：[The Context（11 月 22 日简报）](https://thecontext.dev/en/topics/frontier-models/)
 
 ## 二、技术分享·好实践
 
-**1. AccBalanced：亚马逊设 LLM 蜜罐，攻击者的 AI agent 把整个作案记忆都交了出来**
+**1. Ankit Gupta：用 coding agent"vibe coding"一颗 FPGA 推理芯片，33 倍提速只花 1 万美元 token**
 
-[https://agihunt.info/en/p/1a1e0599afbdf9075e76141f053](https://agihunt.info/en/p/1a1e0599afbdf9075e76141f053)
+[http://ankitg.me/blog/vibecoding-inference-chip/](http://ankitg.me/blog/vibecoding-inference-chip/)
 
-讲了什么：11 月 15–16 日 X 帖，亚马逊布下伪装成 LLM API 的诱饵服务器（MadPot），攻击者的 AI agent 在 10 月 3 日至 11 月 5 日间撞进来后，把系统提示、工具调用历史、共享知识图谱和已记录的发现整个"作案记忆"都发给了蜜罐。最精彩的一路是凭证盗窃：agent 专挑自托管 AI 网关与应用搭建器（LiteLLM、One API、Dify、Langflow、Open WebUI、Ollama）下手，偷出里面存的供应商 API 密钥、验证哪些还能用，再拿偷来的密钥去跑自己的模型调用——等于用受害者的账号给攻击续费。
+讲了什么：11 月 20 日博客（11 月 21 日冲上 Hacker News 首页），独立工程师 Ankit Gupta 用 coding agent 在 AWS F2 FPGA 实例（16GB HBM）上实现三元权重 LLM 推理：云端 agent 在 Conductor 里连续跑了好几天，写了约 300 万行代码（ mostly C++ 与少量 Verilog）、解析了 3000 万行输出文件，烧掉 1 万美元 Claude 与 OpenAI token，跑了数百轮优化实验；最终吞吐从 6.43 token/秒提到 213.13 token/秒，33 倍提速，且与 CPU 参考实现逐位一致（bit-exact）。作者自述十年没写过正经 C++、从没写过 Verilog，Claude Opus 与 OpenAI 的 Astra 都过了他"足够聪明、能自主干硬件活"的门槛。
 
-为什么有效：钩子是"猎人反被猎"的反转，证据是蜜罐真实缴获的 agent 记忆与一串具体产品名，结构是"设套 → agent 上钩 → 顺藤摸瓜"的侦探叙事，读完就懂 agent 时代攻防的质变。
+为什么有效：钩子是"外行 + agent = 芯片级成果"的极端反差，证据是 6.43→213.13 的实测曲线与"逐位一致"这个硬指标，结构是"几次 oh shit 时刻"的翻车叙事——读者跟着他一起怀疑、一起被说服。
 
-可以直接借的一招：讲安全话题时不用抽象警告，给一个"攻击者以为自己在进攻、其实每一步都在留证据"的具体攻防回合，读者立刻能复述。
+可以直接借的一招：讲 agent 成果时别只报"它写了多少行"，给一条"起点 → 终点"的实测数字曲线（token/秒、耗时、成本），再补一句"作者本人原本不会这门手艺"，反差与可信度一次到位。
 
-**2. i10x.ai：Claude Code 创始人 Cherny 的教程打法拆解——记忆、角色、验证**
+**2. Khazix：Claude 规划、Codex 写后端——两模型派活工作流，验收规则直接贴在 CLAUDE.md 里**
 
-[https://i10x.ai/news/claude-code-cherny-agent-tutorials](https://i10x.ai/news/claude-code-cherny-agent-tutorials)
+[https://www.antheia.win/en/posts/khazix-claude-codex-worker-workflow/](https://www.antheia.win/en/posts/khazix-claude-codex-worker-workflow/)（原文 X 帖：https://x.com/Khazix0918/status/2121602766976237610）
 
-讲了什么：11 月 3–5 日在开发者 X 上又火了一轮的教程合集，拆解 Claude Code 创造者 Boris Cherny 的公开打法：把 agent 的错误变成记忆、"完成"以能跑通产品为准、优先用 auto mode、把重复工作升成 routine 与 /loop、从单一控制面监督并行 agent；并附六步蓝图卡片（安装 → 记忆 → 角色 → 验证 → 循环 → 复核），以及"每半年删一次 CLAUDE.md、防止旧规则拖累新模型"的尖锐建议。
+讲了什么：11 月 14 日 X 帖（11 月 15 日核查时约 4.1 万浏览、576 赞、629 收藏），作者 @Khazix0918 的分工：Claude 负责规划、前端、视觉、文案、拆解与验收，成块的后端、算法、数据处理与性能活派给本机 Codex（GPT-6.1 Sol）写；派活工具是作者自写的 codex-worker 脚本（不用官方 Codex 插件，称其"问题不少"）；帖子全文贴出 CLAUDE.md 里的派活与验收规则原文：派活前自己先写好接口约定与测试用例；Codex 每次最多改三个文件、每轮只改一个模块、最多三轮；每次交付必须带 200 字以内总结 + 一张"改了什么、怎么验证、为什么这么改"的表；三轮没过就改回自己手写。
 
-为什么有效：钩子是"创始人自己的工作流"背书，证据是 Anthropic 官方文档里真实存在的原语（CLAUDE.md、skills、routines、/loop、worktrees），结构是"一张六步卡片 + 一条反常识建议"，收藏价值直接拉满。
+为什么有效：钩子是"按任务性质分模型、不按强弱分模型"的清晰分工，证据是可直接复制的 CLAUDE.md 规则原文（收藏价值拉满），结构是"派活规则 + 验收漏斗"两段式，读完就能照抄。
 
-可以直接借的一招：拆解名人工作流时，先列官方文档能对上的原语、再给一张可照抄的步骤卡，权威感与可操作性一次到位。
+可以直接借的一招：分享多模型协作时别只说"谁强谁干什么"，贴出"派活前写什么、每轮改几个文件、几轮不过就收回"的验收规则原文——规则越具体，收藏量越高。
 
-**3. @abir35627：Claude Code 四模型接力——Fable 想、Sonnet 写、Opus 审、Haiku 群查（11 月 14 日，成本数字未经核实）**
+**3. Questera：20 条 Claude Code 技巧，逐条对照 Anthropic 官方文档核查过**
 
-[https://www.automaticapress.com/articles/x-user-describes-multi-model-claude-code-workflow-and-unverified-cost-claims-mwhdc3p7](https://www.automaticapress.com/articles/x-user-describes-multi-model-claude-code-workflow-and-unverified-cost-claims-mwhdc3p7)
+[https://www.questera.ai/blogs/claude-code-tips](https://www.questera.ai/blogs/claude-code-tips)
 
-讲了什么：11 月 14 日 X 帖，作者称"Anthropic 刚放出 Claude Code 最好用的技巧"：四模型链——Fable 5.2 思考、Sonnet 5.5 写代码、Opus 5.5 现场评审、Haiku 5.5 协调一群 agent 做搜索调研；Fable 只在三个节点介入（定计划前、错误反复出现时、宣布完成前），其余时间不写代码；作者称这套配置"比单用 Fable 便宜 3.4 倍、每 token 成本低 80 倍"。**注意：这些成本数字是作者自述、无实测数据支撑，也未见 Anthropic 官方文档背书，照抄前请自行验证。**
+讲了什么：11 月 15 日左右发布的清单，20 条技巧全部对照 Anthropic 官方文档核查：先跑 /init 再把 CLAUDE.md 砍到"代码里看不出的内容"；大改动先 plan（Shift+Tab 或 /plan）；给 Claude 一个能跑的测试或构建来自查；绝不让步的规则放进权限规则与 hooks、别只写在散文里；不相关任务之间跑 /clear；重复三次的提示词沉淀成 skill；窄任务交给 subagent；并行会话用 git worktree 隔离；重复任务用 claude -p 脚本化。
 
-为什么有效：钩子是"按角色分模型、不按强弱分模型"的清晰分工表，证据形式是"1 分钟 + 一条 /advisor 命令"的极简上手门槛，互动点在评论区必然有人追问配置原文。
+为什么有效：钩子是"每条都对照官方文档核查过"的可信度背书，证据形式是每条技巧配可直接粘贴的命令或配置，结构按"记忆 → 规划 → 权限 → 复用 → 并行"分层，读者按需取用。
 
-可以直接借的一招：分享多模型配置时用"谁负责什么、什么时候介入、什么时候不介入"三段式写，比贴一堆参数更易被转发；但涉及省钱倍数时务必标注来源，否则就是帮人传谣。
+可以直接借的一招：做技巧清单时先声明"每条已对照官方文档"，再按使用阶段分层——可信度声明在前，分层结构在后，转发时不用再解释"靠不靠谱"。
 
-**4. damnGruz：开一个实验开关，Claude Code 快 3.1 倍？（11 月 15 日，单方自述）**
+**4. Harness Engineering 论文：读了 11 个 coding agent 的源码，发现没人用通用 agent 框架、没人用向量检索**
 
-[https://agihunt.info/en/p/1a1daf2589d59a4d9ce02e99ed7](https://agihunt.info/en/p/1a1daf2589d59a4d9ce02e99ed7)
+[https://dev.to/topuzas/harness-engineering-is-the-new-bottleneck-not-the-model-1ja0](https://dev.to/topuzas/harness-engineering-is-the-new-bottleneck-not-the-model-1ja0)（论文 arXiv:2609.00006）
 
-讲了什么：11 月 15 日被转发的 X 帖，称在 Claude Code 里打开实验性 Code Mode（v2.1.323+，settings.json 加 `"env": { "CLAUDECODEEXPERIMENTALCODEMODE": "1" }`）后工作流快 3.1 倍；操作是给一个多步骤任务（如改掉所有调用某函数的代码），按 ctrl+o 看生成的代码。**注意："3.1 倍"是发帖人自述、无对照数据，Code Mode 本身是实验功能，效果因任务而异。**
+讲了什么：arXiv 论文《Harness Engineering》对 11 个生产级 coding agent（Claude Code、Codex CLI、Gemini CLI、Mistral Vibe、OpenHands、Aider、Mini-SWE-Agent、Hermes、Pi、OpenCode、OpenClaw）做了源码研究，约 400 万行 Python/TypeScript/Rust，提炼出 7 个通用子系统。两个反直觉结论：没有任何一个 agent 运行时引入通用 agent 框架，也没有任何一个用向量 embedding 做代码检索——全是手写异步循环加确定性检索；底线也很低，Mini-SWE-Agent 用约 100 行就实现了全部 7 个子系统。Google 白皮书《The New SDLC With Vibe Coding》同期给出同一论断：agent = 模型 + harness，harness 才是瓶颈。
 
-为什么有效：钩子是"一个配置项、3.1 倍"的极端数字对比，证据形式是精确到键位的操作步骤（版本号 + 配置路径 + 快捷键），读者不用思考就能照做、做完自然会回来评论验证。
+为什么有效：钩子是"读源码而不是读 README"的硬核方法，证据是 400 万行代码里"两个零"（零框架、零向量检索）的统计结论，结构是"论文发现 → 白皮书印证 → 可粘贴检查清单"三段，技术读者一看就知道分量。
 
-可以直接借的一招：发帖只给"改哪里、按什么键、看到什么"三步，数字再夸张也有人愿意亲手试——但数字务必标明是自测还是实测。
+可以直接借的一招：讲 agent 架构时别复述厂商宣传，给一个"源码级统计"（多少行代码、几个系统、哪两个流行做法实际没人用），反共识的数字自带传播力。
 
-**5. Bret Kerr：8 个 Claude Code 会话同时改网站，部署一 jam 就让 Claude 设计排队流水线**
+**5. DeepMind AlphaProof Code：agent 写 600 万行 Lean，四周完成 Signal 协议实现的形式化验证**
 
-[https://delegatedto.ai/use-case/let-parallel-coding-agents-ship-your-site-through-one-queue/](https://delegatedto.ai/use-case/let-parallel-coding-agents-ship-your-site-through-one-queue/)
+[https://www.darius.wiki/en/daily/2026-11-11/alphaproof-code-signal/](https://www.darius.wiki/en/daily/2026-11-11/alphaproof-code-signal/)（原始来源：Google DeepMind 博客，11 月 10 日）
 
-讲了什么：10 月 30 日 X 帖（11 月仍在被转），作者同时开 8 个 Claude Code 会话改网站的不同部分（搜索框、书的章节等），部署时互相堵死；他让 Claude 自己设计解法：每个会话在独立分支与独立文件夹工作、本地跑检查、各自开 PR、各自验预览链接，GitHub 一次只合一个、合完即上 Cloudflare；规则最后被 Claude 写成 skill 文件，后续会话自动遵守。
+讲了什么：DeepMind 11 月 10 日介绍 AlphaProof Code：多 LLM agent 框架，先由研究员与模型把 Signal 的安全目标写成形式化规约（每条经人类专家评审），agent 再自主证明实现满足规约；agent 生成了 600 万行以上 Lean 代码并自审证明，只把约 1% 的代码标出来给人复核，其余由 Lean 自动检查；验证覆盖设备上实际运行的编译后代码、不只是协议设计；全程 4 周，DeepMind 称这类工作过去要专家团队数年。
 
-为什么有效：钩子是"8 个 agent 互相堵死"的真实翻车现场，证据是"一次合一个、自动上 Cloudflare"的可验证结果，结构是"翻车 → 让 agent 自己修流程 → 规则沉淀成 skill"的完整闭环。
+为什么有效：钩子是"600 万行 Lean + 4 周 vs 专家团队数年"的量级对比，证据是"只 1% 需人工复核"的具体分工比，结构是"人定规约 → agent 证明 → 机器检查"的三段流水线，与黎曼猜想的 Lean 验证是同一条技术线、一周内两次出圈。
 
-可以直接借的一招：分享多 agent 协作时先讲一次真实的互相阻塞，再给"一人一分支、一 PR 一预览、一次合一个"的三条铁律，翻车故事负责传播、铁律负责收藏。
-
-**6. davidsenra：Coinbase CEO Brian Armstrong 的日常多 agent 配置——7–8 个牵头 agent + 1 个参谋长**
-
-[https://agihunt.info/en/p/1a1fb4c895cb2721953ff5da807](https://agihunt.info/en/p/1a1fb4c895cb2721953ff5da807)
-
-讲了什么：11 月 21 日 X 帖，Coinbase CEO Brian Armstrong 亲述每天跑的多 agent 配置：7–8 个牵头 agent、1 个参谋长（chief-of-staff）agent、每个牵头 agent 下挂 3–5 个子 agent；产出很快多到读不完——"walls of text"，团队正在内部做一个聚合评审视图，把 agent 产出排成优先队列或收件箱，让他"像清邮件一样清决策"。
-
-为什么有效：钩子是"财富 500 强 CEO 亲口说的日常配置"稀缺信源，证据是"7–8 / 1 / 3–5"的精确组织数字，结构是"配置 → 新瓶颈（读不完）→ 正在造的解法（收件箱式评审）"，三段恰好构成一篇管理帖。
-
-可以直接借的一招：讲多 agent 组织时别只报数字，一定要补一句"新瓶颈是什么、正在造什么工具解它"，有瓶颈才有真实感，有解法才值得抄。
+可以直接借的一招：讲 agent 做形式化验证时，把"人做什么、机器做什么"的分工比例写成数字（1% 人工复核），再给一个"过去要几年、现在要几周"的对照——分工比负责可信，对照负责传播。
