@@ -5,146 +5,154 @@ title: AI 每日资讯
 
 每天一条 AI 早报，一个文件存一天。
 
-**往期：** 2026-11-25（本期） · [2026-11-24](digests/2026-11-24.html) · [2026-11-23](digests/2026-11-23.html) · [2026-11-22](digests/2026-11-22.html) · [2026-11-21](digests/2026-11-21.html) · [2026-11-20](digests/2026-11-20.html) · [2026-11-19](digests/2026-11-19.html) · [2026-11-18](digests/2026-11-18.html) · [2026-11-17](digests/2026-11-17.html) · [2026-11-16](digests/2026-11-16.html) · [2026-11-15](digests/2026-11-15.html) · [2026-11-14](digests/2026-11-14.html) · [2026-11-13](digests/2026-11-13.html) · [2026-11-12](digests/2026-11-12.html) · [2026-11-11](digests/2026-11-11.html) · [2026-11-10](digests/2026-11-10.html) · [2026-11-09](digests/2026-11-09.html) · [2026-11-08](digests/2026-11-08.html) · [2026-11-07](digests/2026-11-07.html) · [2026-11-06](digests/2026-11-06.html) · [2026-11-05](digests/2026-11-05.html) · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
+**往期：** 2026-11-26（本期） · [2026-11-25](digests/2026-11-25.html) · [2026-11-24](digests/2026-11-24.html) · [2026-11-23](digests/2026-11-23.html) · [2026-11-22](digests/2026-11-22.html) · [2026-11-21](digests/2026-11-21.html) · [2026-11-20](digests/2026-11-20.html) · [2026-11-19](digests/2026-11-19.html) · [2026-11-18](digests/2026-11-18.html) · [2026-11-17](digests/2026-11-17.html) · [2026-11-16](digests/2026-11-16.html) · [2026-11-15](digests/2026-11-15.html) · [2026-11-14](digests/2026-11-14.html) · [2026-11-13](digests/2026-11-13.html) · [2026-11-12](digests/2026-11-12.html) · [2026-11-11](digests/2026-11-11.html) · [2026-11-10](digests/2026-11-10.html) · [2026-11-09](digests/2026-11-09.html) · [2026-11-08](digests/2026-11-08.html) · [2026-11-07](digests/2026-11-07.html) · [2026-11-06](digests/2026-11-06.html) · [2026-11-05](digests/2026-11-05.html) · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
 
 ---
 
-# AI 早报 2026-11-25
+# AI 早报 2026-11-26
 
-本期以 11 月 24 日（周二）的动态为主。
+本期以 11 月 25 日（周三）的动态为主，另补几条 11 月 23–24 日未及收录的重要消息。
 
 ## 一、AI 资讯
 
-**1. Anthropic 推出 Claude Ship：AI 不只写代码，还能审 PR、修 bug、按规则批准合并**
+**1. 黄仁勋 11 天后复职英伟达 CEO，股价单日涨超 30%**
 
-Anthropic 11 月 23 日推出 Claude Ship，面向 GitHub 托管的 Team 与 Enterprise 客户：Code Review（代码评审）正式可用，PR Steward（修 CI 失败、合并冲突、评审意见）与 Claude Approvals（按仓库内政策文件批准常规改动）为 beta。Anthropic 称自家 Claude Code 团队 6 月至 9 月合并 PR 数量翻倍、回滚减少 40% 以上。
+英伟达董事会 11 月 23 日一致投票恢复黄仁勋的总裁、CEO 与董事职务，此前他 11 月 12 日因涉及国家安全调查辞职；调查结论为他不构成国家安全风险。股价单日涨超 30%，CNN 称这是英伟达史上第三大单日涨幅，《世界报》称单日市值增加超 9,000 亿美元。黄仁勋 11 月 24 日在全员会上道歉并称在接受治疗，12 月初将赴国会就芯片出口案作证。另：9 月宣布的 129 亿美元收购 Hugging Face 交易，临时 CEO Colette Kress 在 11 月 17 日财报会上确认继续推进，预计 2027 年上半年完成（需监管批准）。
 
-为什么值得知道：这是首次把"代码评审→修复→批准"整条链交给 agent，瓶颈从写代码转向了评审；用 Claude Team/Enterprise + GitHub 的团队今天就能试评审和修 CI。
+为什么值得知道：11 天罢免又复职＋30% 反弹，是 AI 板块情绪的风向标；英伟达重回市值第二（仅次于苹果），也与下文的芯片转运审查直接相关。
 
-来源：[Shelly Palmer（11 月 24 日）](https://shellypalmer.com/2026/11/claude-ship-ships/)、[AI Briefing（11 月 24 日）](https://www.aibriefing.dev/)
+来源：[CNN（11 月 23 日）](https://www.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-ceo?cid=external-feeds_iluminar_meta)、[Le Monde（11 月 24 日）](https://www.lemonde.fr/en/economy/article/2026/11/24/jensen-huang-s-spectacular-comeback-at-nvidia-under-pressure-from-trump-and-markets_6787686_19.html)
 
-**2. OpenAI 把对话调优版 GPT-6.2 Sol 推送到 ChatGPT 聊天页，GPT-5.6 Sol/Terra 定于 12 月 23 日退役**
+**2. Claude artifact 一键变桌面应用：装完就有独立图标和窗口，还能要系统权限**
 
-OpenAI 11 月 23 日起向 Plus、Pro、Business、Enterprise 用户全球推送对话调优版 GPT-6.2 Sol 到 ChatGPT 聊天页，该模型上周才先在 Work 和 Codex 上线；OpenAI 称其图像理解测试达 71.7%。同时 GPT-5.6 Sol 与 GPT-5.6 Terra 定于 12 月 23 日退役。
+Anthropic 11 月 24 日推出 "Install as app"（beta）：Claude 生成的 artifact 点一下就能装成 Mac/Windows 桌面应用，独立图标、独立窗口，不用打包签名、不用另配 API key；应用可调用 Claude 与已接的连接器，artifact 一改应用自动更新。三档权限：默认只限浏览器能力；App 权限可发通知、监听全局快捷键、常驻菜单栏；最高档"完全访问"可不经确认运行程序、读写删文件——Anthropic 明确表示安装前不审核应用，只给自己或同组织的人做的应用开完全访问。全计划可用，需 Claude 桌面端 6.28899.0+；Docs、Slides、Sheets 类 artifact 暂不支持。
 
-为什么值得知道：模型换代周期进一步缩短，日常聊天页无需设置就能用上新模型，老模型退役日已定，依赖旧模型输出风格的用户要提前适应。
+为什么值得知道：这是 Claude 从聊天助手变"应用商店"的关键一步，今天就能把每天用的小工具（计时器、看板、改名器）装成独立应用；但完全访问权限的风险是真实的，别给来路不明的应用开。
 
-来源：[AI Briefing（11 月 24 日）](https://www.aibriefing.dev/)、[OpenAI 官方（GPT-6.2 介绍）](https://openai.com/index/introducing-gpt-6-2-astra-sol/)
+来源：[Claude 官方（11 月 24 日）](https://claude.com/resources/articles/install-as-app?ref=testingcatalog.com)、[MacRumors（11 月 25 日）](https://www.macrumors.com/2026/11/25/claude-install-artifacts-desktop-apps/)
 
-**3. 谷歌搜索 AI Mode 接入 Wallet，Drive 与 Gemini 应用随后跟进，搜索开始读你的消费与文档**
+**3. DeepSeek 约 150 亿美元融资、估值约 860 亿美元，筹备科创板 IPO（11 月 19–20 日见报）**
 
-谷歌 11 月 23 日宣布，搜索 AI Mode 的 Personal Intelligence 从 Gmail、日历、照片扩展到 Wallet（即日起可选接入）、Drive 与 Gemini 应用（未来几周），AI Mode 可据此给出省钱、信用卡权益建议和结合文档的个性化回答；谷歌强调只读、不能动钱，且均为自愿接入。
+据 Caixin 与 The Information 援引工商登记的报道，DeepSeek 第二轮外部融资约 1,000 亿元人民币（约 150 亿美元），估值约 860 亿美元，引入 30 多家投资者，包括腾讯与宁德时代；登记变更完成于 11 月 17 日。创始人梁文锋持股降至 67.4%，按估值计身家约 550 亿美元。DeepSeek 已聘中信证券筹备上海科创板上市，招股书预计 2026 年底前递交。注意：DeepSeek 本身未确认金额与估值，数字以工商登记与媒体报道为准。
 
-为什么值得知道：搜索正从"查全网"变成"懂你个人上下文"，谁手里有更多个人数据、谁的答案就更贴身，代价是把消费记录和文档交给搜索框。
+为什么值得知道：这是中国 AI 公司迄今最大的一笔私募融资，估值 5 个月内从约 500 亿涨到约 860 亿美元；若科创板上市成行，将是第一家在国内上市的头部大模型公司。
 
-来源：[Google 官方博客（11 月 23 日）](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/)、[TechCrunch（11 月 23 日）](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/)
+来源：[Wasl Tech（11 月 24 日）](https://wasl.tech/deepseek-15-billion-funding-86-billion-valuation/)、[AI Briefing（11 月 25 日）](https://aibriefing.dev/story/9de35ee4d11e/)
 
-**4. Anthropic 股价 11 月 24 日跌破 83 美元发行价，上市首日狂热四天内逆转**
+**4. xAI 改租算力：Anthropic 每月约 31 亿美元合同占其收入过半，Grok 5 仍未发布**
 
-Anthropic 11 月 19 日首日开盘 111.50 美元、收于 97.17 美元，11 月 24 日盘前跌至约 82 美元、当日收 81.91 美元（跌 6.54%），跌破 83 美元发行价；路透称其 IPO 募资 93.5 亿美元为史上最大。
+xAI 已转向"租重于建"：把数据中心容量租给其他实验室，其中与 Anthropic 的算力合同约每月 31 亿美元，占 xAI 收入一半以上。同一时期，xAI 解散了 60 人的 Grok Imagine 团队，Grok 5 在多次跳票后仍未发布。
 
-为什么值得知道：史上最大 IPO 四天就破发，市场开始用"算力与基建承诺 vs 实际收入"给 AI 实验室算账，估值过高与烧钱模式的担忧正在公开市场逐日兑现。
+为什么值得知道：曾以"最大算力"为卖点的 xAI 转做二房东，说明算力竞赛的烧钱速度连马斯克也扛不住；而 Anthropic 一边上市、一边成了 xAI 最大的金主，行业分工正在重排。
 
-来源：[Reuters（11 月 24 日）](https://www.reuters.com/business/anthropic-breaks-below-83-ipo-price-debut-rally-unravels-2026-11-24/)、[Motley Fool（11 月 24 日）](https://www.fool.com/investing/2026/11/24/anthropic-stock-just-broke-below-its-usd83-ipo-price-is-it-a-bargain-buy/)
+来源：[AI Briefing（11 月 25 日）](https://www.aibriefing.dev/)、[BrandWagon（11 月 25 日）](https://brandwagonco.com/2026/11/25/ai-this-week-what-b2b-leaders-need-to-know-november-25-2026/)
 
-**5. Claude 插件统一上线：连接器与技能合进一个插件系统，免费用户也能用**
+**5. 微软披露 Azure APIM Classic 漏洞遭利用窃取密钥：被盗凭证须手动轮换，无 CVE**
 
-Anthropic 11 月 23 日宣布，Claude 应用内的连接器（接外部工具）与技能（教新任务）统一为插件：侧栏 Customize 改为 Plugins，一个页面取代原来的 Skills、Connectors、Plugins 三个标签，目录中有 1 万多个插件可浏览（Anthropic 官方说法）；Free、Pro、Max、Ultra 均已上线，Team 与 Enterprise 随后跟进，11 月 30 日起 Skills 设置将改名 Plugins。
+微软向客户通报，Azure API Management（APIM）Classic 的访问控制漏洞已被利用：未按微软安全建议配置的实例，攻击者可进入管理功能，读取 Named Values 里的密钥、身份提供方与 OpenID Connect 客户端密钥、订阅密钥及直接管理 API 的 token。微软 11 月 18 日发现漏洞、19 日部署缓解措施并轮换了自己控制的密钥，但明确表示被盗的客户凭证不会自动失效，必须手动轮换。挪威国家安全局称该漏洞与针对 Equinor、Skagerak Energi 等能源企业的攻击有关，且影响超出挪威。受影响的是 Classic 的 Developer、Basic、Standard、Premium 档，Consumption 档与全部 v2 档不受影响；目前无 CVE 编号、无公开公告。
 
-为什么值得知道：Claude 正在变成带应用商店的助手，免费用户也能装插件；但企业管理员注意：11 月 30 日起，关掉 Skills 的组织在桌面端也会失去插件。
+为什么值得知道：云服务商的"悄悄修复"不等于你的密钥安全——用过 Azure APIM Classic 的团队今天就该轮换密钥、查日志，而不是等 CVE 出来。
 
-来源：[Claude 帮助中心（11 月 23 日更新）](https://support.claude.com/en/articles/17740565-manage-plugins-skills-and-connectors-from-one-plugins-page)、[Fathom News（11 月 24 日）](https://www.fathom.news/claude-plugins-free-users/)
+来源：[BleepingComputer（11 月 22 日）](https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/)、[ThreatAft（11 月 23 日）](https://www.threataft.com/articles/azure-apim-classic-no-cve-norway-energy-secret-exposure)
 
-**6. OpenAI 与思科开源 Shirudo：让 AI agent 给未打补丁的 Linux 系统临时"打盾"**
+**6. 阿里巴巴 Qwen4-Max（11 月 16 日发布）：2.4T 参数、原生视觉、100 万上下文，API 价 $1.50/$4.50**
 
-OpenAI 与思科 11 月 23 日联合发布开源项目 Shirudo（日语"盾"），AI agent 可用 eBPF 技术给运行中的 Linux 系统写临时防护（shield），在不重启、不停服务的前提下挡住已知漏洞的利用，等正式补丁测好再替换；受控演示中，Codex 生成的 shield 挡住了针对 Elasticsearch 的 Java4Shell 攻击。项目为 BSD 2-Clause 开源，目前处于 pre-release，不建议生产使用。
+Qwen4-Max 是 Qwen4 系列旗舰：2.4 万亿总参数、每 token 激活 71B、另有 3,280 亿 N-gram 嵌入参数，原生视觉、100 万 token 上下文，定位是长程 agent 模型而非聊天模型。API 价 $1.50/$4.50 每百万 token（输入/输出），缓存读 $0.075；阿里称在自有 Work360 评测上单任务平均成本比 Qwen3.8-Max 低约 58%。注意：这是闭源权重模型，只走 QwenCloud API 与 Token Plan，小尺寸开源版未定日期。
 
-为什么值得知道：AI 加速了漏洞发现，补丁速度跟不上，Shirudo 是"先挡住、再慢慢打补丁"的防守新思路；但它本身也依赖 TPM 2.0 与特定内核能力，离直接用还有距离。
+为什么值得知道：旗舰级 1M 上下文 + 原生视觉，输入价只有 Claude Fable 5.2（$8）的约五分之一；做长文档、多图 agent 任务时值得实测对比。
 
-来源：[PR Newswire（11 月 23 日）](https://www.prnewswire.com/news-releases/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai-302948685.html)、[The Hacker News（11 月 24 日）](https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html)
+来源：[阿里云官方博客（11 月 17 日）](https://www.alibabacloud.com/blog/alibaba-cloud-brings-qwen4-max-to-the-enterprise-an-ai-colleague-that-plans-builds-and-delivers-finished-work_603786)、[DataCamp（11 月 16 日）](https://www.datacamp.com/blog/qwen4-max)
 
-**7. 智谱 Z.ai 发布 GLM-5.4：750B 参数"循环 Transformer"，28 层跑两遍，自称可比 2T–3T 参数模型**
+**7. Mistral Large 4 独立评测出炉：Artificial Analysis 得 26 分，远低于 Kolibri-1.1 的 73.2**
 
-Z.ai 11 月 23 日发布 GLM-5.4，750B 参数、28 层共享权重跑两遍的 Loop Transformer 架构，官方称可比 2T–3T 参数模型；首批向 GLM Coding Plan 订阅用户、ZCode 与 Z.ai Chat 开放，API 与开源权重均无日期，且未公布基准分数。
+11 月 24 日发布的独立对比评测（connic）显示，Mistral Large 4 在 Artificial Analysis Intelligence Index v5 高推理档得 26 分，在开源权重模型中排第 7、非中国模型中第一，但远低于 Aleph Alpha Kolibri-1.1 的 73.2，也远低于闭源领头羊 Claude Opus 5.5 的 58.4。Large 4 本身是 1.05 万亿总参数、52B 激活、100 万上下文的 MoE，API 价 $0.70/$2.10 每百万 token。Mistral 已于 10 月 31 日弃用 Medium 3.5 与 Large 3，2027 年 4 月 30 日从 API 退役，Large 4 为指定替代品。
 
-为什么值得知道：这是本周第二款用"层循环"换深度的模型，架构路线正在成趋势；但"可比 2T–3T 模型"目前只是厂商说法，尚未独立验证，别当实测结论用。
+为什么值得知道：厂商自报的 Terminal-Bench 41% 与独立评测的 24.7% 差距不小，"欧洲最强开源模型"的实际位置要看独立榜；还在用 Medium 3.5/Large 3 的用户迁移截止日是 2027 年 4 月 30 日。
 
-来源：[MarkTechPost（11 月 23 日）](https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/)、[Dev.to（11 月 23 日）](https://dev.to/delimitter/zai-releases-glm-54-its-first-loop-transformer-flagship-at-750b-parameters-onf)
+来源：[AF.net（11 月 24 日）](https://af.net/realtime/mistral-large-4-hits-26-on-index-as-kolibri-1-1-posts-73-2-score/)、[Lindy（11 月 3 日核查）](https://www.lindy.ai/blog/mistral-large-4)
 
-**8. OpenAI 称 GPT-6.2 能直接设计蛋白质：322 个迷你结合蛋白中 35 个在湿实验中结合目标，命中率 10.9%**
+**8. AWS Bedrock Trusted Access API 正式可用，Anthropic 企业防护同步预览**
 
-OpenAI 11 月 24 日宣布，其最新模型直接设计了新蛋白质，322 个迷你结合蛋白中有 35 个在实验室湿实验中结合目标靶点，命中率 10.9%；通用大模型仅凭推理与代码、不调用专用生物模型就生成了蛋白设计，Nature 也做了报道。
+AWS 宣布 Bedrock Trusted Access Program API GA：一个接口统一发现、申请、接入各模型厂商的企业级项目。首批两个项目均为 Anthropic 的公开预览：Enterprise Frontier Safeguards（前沿防护）与 Enterprise Data Controls（数据控制），给企业更细的 Claude 用量数据管控。
 
-为什么值得知道：通用模型开始侵入 AlphaFold 等专用工具的地盘，"用自然语言描述想要什么蛋白"离现实近了一步；但这只是概念验证，结合不等于成药，筛选仍靠 Boltz-2 等专用工具。
+为什么值得知道：企业用 Claude 的合规门槛又降一档——数据怎么被处理、由谁控制，开始有厂商级的标准接口，而不是各家自己谈。
 
-来源：[Nature（11 月 25 日）](https://www.nature.com/articles/d41586-026-03836-z)、[AI Weekly（11 月 24 日）](https://aiweekly.co/alerts/openais-gpt-62-hits-109-wet-lab-rate-on-new-minibinders)
+来源：[AI Briefing（11 月 25 日）](https://www.aibriefing.dev/)
 
-**9. DeepMind 用 Gemini 4 agent 团队 + Lean 形式化验证找到更快量子算法，arcsin 环节提速 290 倍**
+**9. 苹果 Siri AI 进 8 个核心应用（11 月 23 日），iOS 27.3 开始测每日用量上限**
 
-Google DeepMind 11 月 24 日宣布，用 Gemini 4 agent 团队设计量子电路，并以 Lean 4 定理证明器验证每项改进正确，而非仅靠测试：聚变模拟成本降 11.8 倍、所需纠错量子比特从 5,650 降至 4,338，光化学模拟便宜 8 倍，Lean 库与已验证解已开源。
+苹果 11 月 23 日在日历、文件、邮件、地图、信息、照片、Safari、天气 8 个自带应用上线 Siri AI，可跨应用理解上下文、连续执行多步操作；Safari 新增 "Ask About Page"（整页读完再回答）。第三方 App Intents 开发者预览同步开放，但仅限内部 TestFlight，App Store 上架要等 2027 年春季，欧盟暂无。iOS 27.3 beta 同时开始测试 Apple Intelligence 每日用量上限：服务端处理类请求按设备计免费额度，iCloud+ 200GB 给 2 倍、2TB 5 倍、6TB 10 倍、12TB 20 倍。
 
-为什么值得知道："AI 搜方案 + 机器证明把关"在科研上有了标志性组合，正确性不再只靠跑测试，而是靠数学证明兜底。
+为什么值得知道：Siri 终于从"语音助手"变成能跨应用干活的 agent；但"免费额度 + 订阅扩容"的模式说明苹果 AI 也开始按量收费，订阅档位会影响用量。
 
-来源：[Google DeepMind 博客（11 月 24 日）](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/)、[arXiv（11 月 24 日）](https://arxiv.org/html/2611.09822)
+来源：[Emergent（11 月 23 日）](https://emergent.sh/news/apple-rolls-out-siri-ai-across-8-apps-opens)、[MacRumors（iOS 27.3 beta 汇总）](https://www.macrumors.com/guide/ios-27-3-beta-features/)
+
+**10. 微软 Ignite：Copilot 不再强制捆绑 M365 订阅**
+
+微软在 Ignite 上宣布，面向新客户的 Copilot 不再要求先有 Microsoft 365 订阅——此前这一门槛被认为让 Copilot 对抗 ChatGPT 与 Claude 企业版时处于劣势。同时推出 Copilot Workspaces、用于追踪 AI 支出的 Agent 365 Business Analytics，以及 Foundry 接入 GPT-6.2 与 Meta 模型。
+
+为什么值得知道：微软放下了"先买 M365 再谈 AI"的捆绑，企业采购 Copilot 的门槛直接降低；对已有 ChatGPT/Claude 企业版的用户，这是一次重新比价的机会。
+
+来源：[AI Briefing（11 月 25 日）](https://www.aibriefing.dev/)、[BrandWagon（11 月 25 日）](https://brandwagonco.com/2026/11/25/ai-this-week-what-b2b-leaders-need-to-know-november-25-2026/)
 
 ## 二、技术分享·好实践
 
-**1. Anthropic 工程师真正怎么用 Claude——别再用"50 条技巧"了（11 月 23 日）**
+**1. 10 条 Claude Code 经验，逐条对过官方文档才敢写（NDC 演讲文字版，11 月核查）**
 
-[https://medium.com/@AdityaZ/claude-maxxing-4510b5c91e1b](https://medium.com/@AdityaZ/claude-maxxing-4510b5c91e1b)
+[https://blog.alexrusin.com/ai-assisted-coding-tips-fact-checked/](https://blog.alexrusin.com/ai-assisted-coding-tips-fact-checked/)
 
-讲了什么：作者对照 Anthropic 官方文档、Claude Code 创造者 Boris Cherny 的做法和约 40 万次真实会话研究，总结出 6 个真正有效的习惯，并点名一批已经过时的"pro tips"。
+讲了什么：作者把 NDC Copenhagen 2026 上 Aleksander Stensby 的演讲"10 个提升 AI 辅助编程的技巧"写成文字版，约 40 个小技巧塞进 10 个桶，并逐条对照 2026 年 11 月的官方文档核查，过时的当场标出。
 
-为什么有效：钩子是"反常识 + 权威背书"——先否定 ALL CAPS、"think harder"等流行玄学，再用"专家验证成功率约 28–33%，新手约 15%"的实测数据立住可信度。
+为什么有效：结构是"演讲精华 + 事实核查"双层——先给 `/context`、`/statusline`、`/compact focus on X`、`/goal`、`/insights` 的速查表，再讲"把每次痛苦调试变成一条永不再犯的规则"的复利工程（compound engineering），读者既能速查又能照做。
 
-可以直接借的一招："给 Claude 一个能跑的检查"——测试、构建、lint 任选其一，让它自己跑"改→跑检查→读报错→修→再跑"的闭环，而不是由你当人工测试员。
+可以直接借的一招：会话结束时让 agent 反思刚才的调试过程、把教训写进规则文件，下次同类错误不再出现；这是整篇性价比最高的习惯。
 
-**2. 用 5 个文本文件搭一支 Claude Code 开发小队（11 月 24 日）**
+**2. Claude Code 工作流：从一个会话到 agent 扇出（11 月 18 日）**
 
-[https://ilearnt.app/en/blog/claude-code-subagents-dev-team](https://ilearnt.app/en/blog/claude-code-subagents-dev-team)
+[https://roughworks.ca/blog/claude-code-workflows/](https://roughworks.ca/blog/claude-code-workflows/)
 
-讲了什么：基于 X 上 Kagi（@Kaggii_）的帖子，把 Claude Code 的 subagent 拆成侦察、规划、开发、测试、评审 5 个角色，每个角色就是一个 Markdown 文件，并给出可直接复制的团队提示词。
+讲了什么：区分"方法"与"功能"两个层面的工作流：单会话循环是计划→构建→验证（最容易被跳过的是"给 Claude 一个能返回通过/失败的检查"）；动态工作流（dynamic workflows）则是把同一循环写成脚本、由几十个 subagent 并行跑。
 
-为什么有效：结构极其清晰——一张角色分工表 + 一段"主会话只当队长、不写代码"的总提示词，读者 5 分钟就能照抄落地。
+为什么有效：证据形式干净——失败故事都是作者自己的（松散的单会话习惯会被扇出放大），并给出"先评审、再由第二个 agent 试图证伪第一个的结论"的流水线形状，概念立刻有了落点。
 
-可以直接借的一招：在总提示词第 3 步强制写"STOP，等我批准 PLAN.md 再动手"，用一次 2 分钟的计划审阅，避免事后审 400 行跑偏的代码。
+可以直接借的一招：验证时"查世界，不只查 diff"——测试、构建、lint 之后，再用真实浏览器截图对照设计稿，或用没写代码的评审 agent 复核一遍。
 
-**3. Loop Engineering：别再给 coding agent 写提示词了，写"循环"让它自己提示自己（11 月 10 日更新）**
+**3. 用 AI coding agent 从开发到上线的真实工作流（11 月 10 日）**
 
-[https://www.explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026](https://www.explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026)
+[https://www.thehasnainizhar.com/blog/dev-to-prod-workflow-with-ai-coding-agents](https://www.thehasnainizhar.com/blog/dev-to-prod-workflow-with-ai-coding-agents)
 
-讲了什么：从 Peter Steinberger 6 月那条 650 万浏览的 X 帖出发，系统讲"循环工程"：用程序/定时任务反复提示 agent，配合校验、技能和护栏，让 agent 在你睡觉时持续干活，并区分了 ralph 循环、/goal、编排循环等 5 个层次。
+讲了什么：作者用 AI coding agent 从零建站的完整流程：仓库先写 agent 友好的 CLAUDE.md（命令、约定、禁区）、大改先批计划、一个任务一个分支一个 PR、验证是 agent 的活不是你的、CI 当守门员、预览环境验完再上生产。
 
-为什么有效：证据形式强——以一条病毒推文为引子，再用 Anthropic"14 天把 claude.ai 提速 3.1 倍"的实测案例和 Boris Cherny"259 个 PR 全部由 Claude Code 写出"的经历收尾，概念立刻有了落点。
+为什么有效：钩子是"心智模型先行"——把 agent 当成"今天刚入职、极聪明但零上下文的工程师"，你的工作从敲代码变成定方向、定完成标准、做评审；每一步都配可复制的配置片段。
 
-可以直接借的一招：循环里必须放一个"能说不的东西"——测试、类型检查或真实报错，没有否决机制的循环只是 agent 在自我认同式空转。
+可以直接借的一招：CLAUDE.md 里只写三样东西——命令、约定、尖锐的禁区，并写清"如何验证一次改动"，而不是"如何做一次改动"。
 
-**4. 这个 GitHub 仓库给你 100+ 个不同工种的 AI Agent（其实是提示词包）（11 月 17 日）**
+**4. AI Agent 小队：什么时候一个小队胜过一个强 agent（11 月 20 日核查）**
 
-[http://dev.to/itshayder/this-github-repo-gives-you-100-ai-agents-for-different-jobs-3dfl](http://dev.to/itshayder/this-github-repo-gives-you-100-ai-agents-for-different-jobs-3dfl)
+[https://vanja.io/agent-crews/](https://vanja.io/agent-crews/)
 
-讲了什么：介绍近期在 X/GitHub 走红的 `msitarzewski/agency-agents`：100 多个分门别类的多页 Markdown 系统提示词（工程、测试、设计、产品等），可软链接进 Claude Code 的 CLAUDE.md 或 Cursor 的 `.cursor/rules/`。
+讲了什么：一个小队胜过单个强 agent 的条件是任务能干净拆分、且有"干活的人之外的人"来检查；给出明天就能搭的第一个小队：只读 explorer（Haiku）、implementer（Sonnet）、持怀疑态度的只读 reviewer（Opus），主会话当队长，并附每人的完整提示词。
 
-为什么有效：先"泼冷水"立人设——开篇就明说这不是新模型、不是新框架，只是一堆 Markdown 文件，反而让后面的"真有用"更可信；再给"按项目阶段换角色"的具体用法，避免堆料感。
+为什么有效：互动设计极强——开篇是一部"AI agent 抢劫小队"的动画短片（队长、侦察、研究员、执行者、评审、验证者），再把电影角色一一映射到 Claude Code 的 subagent 配置，读者看完就想照抄。
 
-可以直接借的一招：不要同时叠加多个人设——规划时用架构师、写代码时切回标准提示、提交前换上 reality-checker 做复核，切换只是一条软链接命令。
+可以直接借的一招：reviewer 的提示词第一句写"先假设这次改动至少含一个 bug，直到有证据反驳"，并强制区分"已确认缺陷"与"怀疑"，而不是让它笼统说"看起来不错"。
 
-**5. 同一个仓库里让 Claude Code 和 Codex 不打架：共享指令 + 每人一个 worktree + 交接文件（11 月 22 日）**
+**5. Agentic Coding 101：一套能直接用的 AI 编程工作流（10 月 6 日）**
 
-[https://www.whatagentscando.com/use-cases/share-context-between-claude-code-and-codex-in-one-repo/](https://www.whatagentscando.com/use-cases/share-context-between-claude-code-and-codex-in-one-repo/)
+[https://harisahmedz.vercel.app/blog/agentic-coding-101](https://harisahmedz.vercel.app/blog/agentic-coding-101)
 
-讲了什么：一位开发者同时跑 Claude Code 和 Codex 时，用一份共享指令文件（CLAUDE.md 与 AGENTS.md 二合一、另一个做软链接）、每个 agent 一个 git worktree、再加一份 HANDOFF.md 记录改了什么、还剩什么、跑哪些命令，解决了两个 agent 互相覆盖和重复问上下文的问题。
+讲了什么：区分自动补全、vibe coding、agentic coding 三种模式，核心论点是"难的不是提示词，是对齐、反馈与评审"；给出 `/grill-me`（开工前逼 agent 反复追问直到设计树每个分支都有答案）、GLOSSARY.md（共享术语表）、纵向切片（vertical slices）等一套做法。
 
-为什么有效：互动设计极简——整篇浓缩成一段可直接粘贴的提示词，读者不用读完长文就能动手试，门槛几乎为零。
+为什么有效：结构极其清晰——一张三模式对照表定调，再按失败模式逐条给解法（"反馈速度就是你的速度上限"），每段都短到能直接抄进自己的工作流。
 
-可以直接借的一招：双 agent 协作先立 HANDOFF.md：谁干完活都必须写"改了什么、还剩什么、验证命令"，而不是让下一个 agent 重新读一遍代码猜上下文。
+可以直接借的一招：开工前先用 `/grill-me` 让 agent 面试你，把设计决策写成文档再开新会话动手，而不是边写边发现需求没想清。
 
-**6. 2026 年 11 月最佳 AI 编程工具横评：不看跑分，看 PR 合并率（11 月 24 日更新）**
+**6. Coding Agent 的积木：可复用的 Skill 与专业化 Subagent（AI Dev Tools 课程系列第 5 篇）**
 
-[https://theairankings.com/best-ai-for-coding/](https://theairankings.com/best-ai-for-coding/)
+[https://aishippingblog.com/p/coding-agent-building-blocks-reusable](https://aishippingblog.com/p/coding-agent-building-blocks-reusable)
 
-讲了什么：2026-11-24 更新的横评，对比 Claude Code、Codex、Copilot、Cursor、Devin、Antigravity、Kiro、Cline 等工具，核心指标不是基准跑分，而是各家 agent 在公开仓库的 PR 合并率、开发者使用率和价格。
+讲了什么：系统讲 skill（可重复任务的操作手册）与 subagent（独立上下文的专职 agent）这两个概念：skill 是带 frontmatter 的 Markdown 文件、启动时自动可发现；subagent 按角色拆成文件，主会话当编排器；并给出"发版"这类重复流程写成 skill 后一句"release a new version"就能触发的例子。
 
-为什么有效：用"真实交付"做差异化证据——Claude Code 合并率 91.2%、Codex 约 910 万个 PR 中 87.4% 被合并，并同时坦白"合并≠代码正确，56% 的已合并 PR 无人审阅"，数字可信度立刻拉高。
+为什么有效：证据形式是"课程 + 工作坊实录"——作者把直播课里的即兴内容整理成文，配"先让 agent 读角色文件再干活"的具体命令，读者不用看完课就能上手。
 
-可以直接借的一招：做工具横评时别只列跑分，改用"PR 合并率/采纳率"这类结果型指标，再主动写一句反方提醒，读者反而更信你的结论。
+可以直接借的一招：别把重复流程写进每次的提示词，写成一个 skill 文件：下次只说一句话，agent 自己发现并加载它。
