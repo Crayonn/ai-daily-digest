@@ -5,154 +5,164 @@ title: AI 每日资讯
 
 每天一条 AI 早报，一个文件存一天。
 
-**往期：** 2026-11-26（本期） · [2026-11-25](digests/2026-11-25.html) · [2026-11-24](digests/2026-11-24.html) · [2026-11-23](digests/2026-11-23.html) · [2026-11-22](digests/2026-11-22.html) · [2026-11-21](digests/2026-11-21.html) · [2026-11-20](digests/2026-11-20.html) · [2026-11-19](digests/2026-11-19.html) · [2026-11-18](digests/2026-11-18.html) · [2026-11-17](digests/2026-11-17.html) · [2026-11-16](digests/2026-11-16.html) · [2026-11-15](digests/2026-11-15.html) · [2026-11-14](digests/2026-11-14.html) · [2026-11-13](digests/2026-11-13.html) · [2026-11-12](digests/2026-11-12.html) · [2026-11-11](digests/2026-11-11.html) · [2026-11-10](digests/2026-11-10.html) · [2026-11-09](digests/2026-11-09.html) · [2026-11-08](digests/2026-11-08.html) · [2026-11-07](digests/2026-11-07.html) · [2026-11-06](digests/2026-11-06.html) · [2026-11-05](digests/2026-11-05.html) · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
+**往期：** 2026-11-27（本期） · [2026-11-26](digests/2026-11-26.html) · [2026-11-25](digests/2026-11-25.html) · [2026-11-24](digests/2026-11-24.html) · [2026-11-23](digests/2026-11-23.html) · [2026-11-22](digests/2026-11-22.html) · [2026-11-21](digests/2026-11-21.html) · [2026-11-20](digests/2026-11-20.html) · [2026-11-19](digests/2026-11-19.html) · [2026-11-18](digests/2026-11-18.html) · [2026-11-17](digests/2026-11-17.html) · [2026-11-16](digests/2026-11-16.html) · [2026-11-15](digests/2026-11-15.html) · [2026-11-14](digests/2026-11-14.html) · [2026-11-13](digests/2026-11-13.html) · [2026-11-12](digests/2026-11-12.html) · [2026-11-11](digests/2026-11-11.html) · [2026-11-10](digests/2026-11-10.html) · [2026-11-09](digests/2026-11-09.html) · [2026-11-08](digests/2026-11-08.html) · [2026-11-07](digests/2026-11-07.html) · [2026-11-06](digests/2026-11-06.html) · [2026-11-05](digests/2026-11-05.html) · [2026-11-04](digests/2026-11-04.html) · [2026-11-03](digests/2026-11-03.html) · [2026-11-02](digests/2026-11-02.html) · [2026-11-01](digests/2026-11-01.html) · [2026-10-31](digests/2026-10-31.html) · [2026-10-30](digests/2026-10-30.html) · [2026-10-29](digests/2026-10-29.html) · [2026-10-28](digests/2026-10-28.html) · [2026-10-27](digests/2026-10-27.html) · [2026-10-26](digests/2026-10-26.html) · [2026-10-25](digests/2026-10-25.html) · [2026-10-24](digests/2026-10-24.html) · [2026-10-23](digests/2026-10-23.html) · [2026-10-22](digests/2026-10-22.html) · [2026-10-21](digests/2026-10-21.html) · [2026-10-20](digests/2026-10-20.html) · [2026-10-19](digests/2026-10-19.html) · [2026-10-18](digests/2026-10-18.html) · [2026-10-17](digests/2026-10-17.html) · [2026-10-16](digests/2026-10-16.html) · [2026-10-15](digests/2026-10-15.html) · [2026-10-14](digests/2026-10-14.html)
 
 ---
 
-# AI 早报 2026-11-26
+# AI 早报 2026-11-27
 
-本期以 11 月 25 日（周三）的动态为主，另补几条 11 月 23–24 日未及收录的重要消息。
+本期以 11 月 26 日（周四）的动态为主，另补几条 11 月 25 日晚间未及收录的重要消息。
 
 ## 一、AI 资讯
 
-**1. 黄仁勋 11 天后复职英伟达 CEO，股价单日涨超 30%**
+**1. OpenAI 承认 GPT-6.2 计费错误：Astra 额度快 40% 用完、Sol 快 25%，每人给一次额度重置**
 
-英伟达董事会 11 月 23 日一致投票恢复黄仁勋的总裁、CEO 与董事职务，此前他 11 月 12 日因涉及国家安全调查辞职；调查结论为他不构成国家安全风险。股价单日涨超 30%，CNN 称这是英伟达史上第三大单日涨幅，《世界报》称单日市值增加超 9,000 亿美元。黄仁勋 11 月 24 日在全员会上道歉并称在接受治疗，12 月初将赴国会就芯片出口案作证。另：9 月宣布的 129 亿美元收购 Hugging Face 交易，临时 CEO Colette Kress 在 11 月 17 日财报会上确认继续推进，预计 2027 年上半年完成（需监管批准）。
+OpenAI 产品与平台负责人 Thibault Sottiaux 11 月 26 日在 X 上承认：GPT-6.2 上线时 Astra 与 Sol 的用量被错误打折，过去一周多数用户实际用得比应得的多；错误现已修正，同样的工作量今后会更快耗尽额度——与上周相比，Astra 额度快约 40% 触顶、Sol 快约 25%。Go、Plus、Pro、Business 用户各得一次额度重置（banked reset），可在网页或桌面端 Usage 设置里领取；OpenAI 表示不会追收此前少计的用量。另：从 12 月起 Chat 与 Work（Codex）将共用一个额度池，写代码多、聊天就少。
 
-为什么值得知道：11 天罢免又复职＋30% 反弹，是 AI 板块情绪的风向标；英伟达重回市值第二（仅次于苹果），也与下文的芯片转运审查直接相关。
+为什么值得知道：订阅费没变、能干的活变少了，重度用户这几天就会撞墙；先去 Usage 设置确认一次性重置到账，再按新的消耗速度重新排下周的任务。
 
-来源：[CNN（11 月 23 日）](https://www.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-ceo?cid=external-feeds_iluminar_meta)、[Le Monde（11 月 24 日）](https://www.lemonde.fr/en/economy/article/2026/11/24/jensen-huang-s-spectacular-comeback-at-nvidia-under-pressure-from-trump-and-markets_6787686_19.html)
+来源：[ToolNavs（11 月 26 日）](http://toolnavs.com/article/3768-gpt-62-allowances-suddenly-run-out-faster-openai-admits-a-launch-billing-error-a)、[Mer.vin AI News（11 月 26 日）](https://mer.vin/news/ai-news-thursday-26-november-2026/)
 
-**2. Claude artifact 一键变桌面应用：装完就有独立图标和窗口，还能要系统权限**
+**2. 谷歌 Cogentic 一个 prompt 写出 6 篇数学论文，含无条件次指数分解算法，数学圈吵翻了**
 
-Anthropic 11 月 24 日推出 "Install as app"（beta）：Claude 生成的 artifact 点一下就能装成 Mac/Windows 桌面应用，独立图标、独立窗口，不用打包签名、不用另配 API key；应用可调用 Claude 与已接的连接器，artifact 一改应用自动更新。三档权限：默认只限浏览器能力；App 权限可发通知、监听全局快捷键、常驻菜单栏；最高档"完全访问"可不经确认运行程序、读写删文件——Anthropic 明确表示安装前不审核应用，只给自己或同组织的人做的应用开完全访问。全计划可用，需 Claude 桌面端 6.28899.0+；Docs、Slides、Sheets 类 artifact 暂不支持。
+Google Research 的 Cogentic agent（跑在 Gemini 4 上）用"一个 prompt 一篇"的方式产出 6 篇数学论文，其中一篇给出可证明的 L_N[1/3, 105] 分解算法（次指数级、无条件成立），另涉次拟多项式离散对数。Scott Aaronson 一天连发两帖，称这是"AI 奇点的开端"；1979 年经典证明论文的作者 DeMillo 与 Lipton 回应称这是"数学生态系统的工业污染"。同日另有 Reddit 传闻称某实验室在 P 内破解了分解（404 帖热度，无证据），以及 VP≠VNP、NP_R≠PAR_R 等分离结果上 arXiv。
 
-为什么值得知道：这是 Claude 从聊天助手变"应用商店"的关键一步，今天就能把每天用的小工具（计时器、看板、改名器）装成独立应用；但完全访问权限的风险是真实的，别给来路不明的应用开。
+为什么值得知道：L_N[1/3] 是分解问题几十年来最好的无条件结果之一，但"不会在实践中威胁 RSA"；真正的看点是 agent 写证明的速度已经快到数学家来不及审——这场争论本身就是 2026 年最重要的 AI 议题之一。
 
-来源：[Claude 官方（11 月 24 日）](https://claude.com/resources/articles/install-as-app?ref=testingcatalog.com)、[MacRumors（11 月 25 日）](https://www.macrumors.com/2026/11/25/claude-install-artifacts-desktop-apps/)
+来源：[Mer.vin AI News（11 月 26 日）](https://mer.vin/news/ai-news-thursday-26-november-2026/)、[The Context 每日简报（11 月 26–27 日）](https://thecontext.dev/en/briefing/2026-11-26/)
 
-**3. DeepSeek 约 150 亿美元融资、估值约 860 亿美元，筹备科创板 IPO（11 月 19–20 日见报）**
+**3. Anthropic 把 Messages API 从 Python 重写成 Rust：CPU 降约 70%，Claude 一周写出核心路径**
 
-据 Caixin 与 The Information 援引工商登记的报道，DeepSeek 第二轮外部融资约 1,000 亿元人民币（约 150 亿美元），估值约 860 亿美元，引入 30 多家投资者，包括腾讯与宁德时代；登记变更完成于 11 月 17 日。创始人梁文锋持股降至 67.4%，按估值计身家约 550 亿美元。DeepSeek 已聘中信证券筹备上海科创板上市，招股书预计 2026 年底前递交。注意：DeepSeek 本身未确认金额与估值，数字以工商登记与媒体报道为准。
+Anthropic 11 月 25 日发文披露：Messages API（Claude API、Claude Code、Cowork 背后的主通道）已从 Python 迁移到 Rust，2023 年上线时只是个 Python 转发层，2024 年初到 2026 年秋流量涨了约 1,800 倍。新版每个请求 CPU 用量降约 70%、内存降约 80%，中位首 token 时间快约 20%，且全程零停机、未冻结功能开发。Claude 约一周写出核心请求路径的第一版；真正的难点是验证——团队把生产环境 API 本身当作"预言机"，用影子流量、指纹比对和 agent 修复循环（内环调试、外环生产验证、记忆环记录教训）证明新旧版本等价。到 2026 年 5 月，Claude 已写出 Anthropic 合并代码的 80% 以上。
 
-为什么值得知道：这是中国 AI 公司迄今最大的一笔私募融资，估值 5 个月内从约 500 亿涨到约 860 亿美元；若科创板上市成行，将是第一家在国内上市的头部大模型公司。
+为什么值得知道：这是"生成便宜、验证昂贵"的最佳实证——重写本身不难，难的是证明 1,800 倍流量下的行为一致；任何团队要做类似迁移，都可以直接抄"生产系统当预言机 + 三环 agent 修复"这套打法。
 
-来源：[Wasl Tech（11 月 24 日）](https://wasl.tech/deepseek-15-billion-funding-86-billion-valuation/)、[AI Briefing（11 月 25 日）](https://aibriefing.dev/story/9de35ee4d11e/)
+来源：[Anthropic 官方（11 月 25 日）](https://www.anthropic.com/research/migrating-api-to-rust?ref=implicator.ai)、[InfoWorld（11 月 25 日）](https://www.infoworld.com/article/4253460/anthropic-says-it-moved-its-claude-api-from-python-to-rust-with-no-downtime.html)
 
-**4. xAI 改租算力：Anthropic 每月约 31 亿美元合同占其收入过半，Grok 5 仍未发布**
+**4. 英伟达被曝停供东南亚四国服务器，银行暂停数十亿美元数据中心贷款**
 
-xAI 已转向"租重于建"：把数据中心容量租给其他实验室，其中与 Anthropic 的算力合同约每月 31 亿美元，占 xAI 收入一半以上。同一时期，xAI 解散了 60 人的 Grok Imagine 团队，Grok 5 在多次跳票后仍未发布。
+英国《金融时报》11 月 26 日报道：英伟达已通知戴尔、超微等服务器合作伙伴，停止向马来西亚、新加坡、泰国、印度尼西亚发货；与此同时，贷款机构暂停或撤回与字节跳动、阿里巴巴、腾讯租户相关的数据中心贷款，涉及 Bridge Data Centres 66 亿美元项目、Digital Halo 3.72 亿美元贷款、Aolani 4.8 亿美元贷款。标普将英伟达 AA 评级列入负面观察名单，Oracle、Alphabet、SpaceX、CoreWeave 的五年期信用违约互换（CDS）同日创纪录新高。美股因感恩节休市，当日其他消息清淡。
 
-为什么值得知道：曾以"最大算力"为卖点的 xAI 转做二房东，说明算力竞赛的烧钱速度连马斯克也扛不住；而 Anthropic 一边上市、一边成了 xAI 最大的金主，行业分工正在重排。
+为什么值得知道：芯片出口管制从"海关"走到了"信贷"——服务器断供叠加贷款冻结，东南亚数据中心建设可能整体放缓；Fitch 已警告亚太数据中心投资将减速，neocloud（新兴云厂商）承压最大。
 
-来源：[AI Briefing（11 月 25 日）](https://www.aibriefing.dev/)、[BrandWagon（11 月 25 日）](https://brandwagonco.com/2026/11/25/ai-this-week-what-b2b-leaders-need-to-know-november-25-2026/)
+来源：[Compute World 简报（11 月 26 日）](https://compute.world/brief)
 
-**5. 微软披露 Azure APIM Classic 漏洞遭利用窃取密钥：被盗凭证须手动轮换，无 CVE**
+**5. Perplexity Time Machine：可以按过去任意一天搜网页，最长回溯 365 天**
 
-微软向客户通报，Azure API Management（APIM）Classic 的访问控制漏洞已被利用：未按微软安全建议配置的实例，攻击者可进入管理功能，读取 Named Values 里的密钥、身份提供方与 OpenID Connect 客户端密钥、订阅密钥及直接管理 API 的 token。微软 11 月 18 日发现漏洞、19 日部署缓解措施并轮换了自己控制的密钥，但明确表示被盗的客户凭证不会自动失效，必须手动轮换。挪威国家安全局称该漏洞与针对 Equinor、Skagerak Energi 等能源企业的攻击有关，且影响超出挪威。受影响的是 Classic 的 Developer、Basic、Standard、Premium 档，Consumption 档与全部 v2 档不受影响；目前无 CVE 编号、无公开公告。
+Perplexity 推出 Time Machine：搜索时可指定过去某一天的网页状态，最长回溯 365 天，相当于给网络搜索加了一个时间切片。
 
-为什么值得知道：云服务商的"悄悄修复"不等于你的密钥安全——用过 Azure APIM Classic 的团队今天就该轮换密钥、查日志，而不是等 CVE 出来。
+为什么值得知道：查"某条消息最初是怎么说的"、对比政策/价格页面的历史版本、验证一张旧截图的真实性，都有了现成工具；做打假、做竞品追踪、写需要引用的文章时都能直接用上。
 
-来源：[BleepingComputer（11 月 22 日）](https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/)、[ThreatAft（11 月 23 日）](https://www.threataft.com/articles/azure-apim-classic-no-cve-norway-energy-secret-exposure)
+来源：[Mer.vin AI News（11 月 26 日）](https://mer.vin/news/ai-news-thursday-26-november-2026/)、[Perplexity 官方文档](https://www.perplexity.ai/)
 
-**6. 阿里巴巴 Qwen4-Max（11 月 16 日发布）：2.4T 参数、原生视觉、100 万上下文，API 价 $1.50/$4.50**
+**6. 纽约州禁 AI 聊天玩具 5 年；42 个州总检察长阻止 Character.AI 破产出售 2,100 万用户聊天记录**
 
-Qwen4-Max 是 Qwen4 系列旗舰：2.4 万亿总参数、每 token 激活 71B、另有 3,280 亿 N-gram 嵌入参数，原生视觉、100 万 token 上下文，定位是长程 agent 模型而非聊天模型。API 价 $1.50/$4.50 每百万 token（输入/输出），缓存读 $0.075；阿里称在自有 Work360 评测上单任务平均成本比 Qwen3.8-Max 低约 58%。注意：这是闭源权重模型，只走 QwenCloud API 与 Token Plan，小尺寸开源版未定日期。
+纽约州通过法案，禁止向儿童销售 AI 聊天玩具，为期五年。同日，42 个州的总检察长联合行动，阻止 Character.AI 在破产程序中出售 2,100 万美国用户的聊天记录。
 
-为什么值得知道：旗舰级 1M 上下文 + 原生视觉，输入价只有 Claude Fable 5.2（$8）的约五分之一；做长文档、多图 agent 任务时值得实测对比。
+为什么值得知道：AI 监管正在从"模型安全"下沉到"产品形态"与"数据资产"——聊天记录在破产法庭上被当成可变卖资产，是所有 AI 伴侣类产品用户都该警惕的先例。
 
-来源：[阿里云官方博客（11 月 17 日）](https://www.alibabacloud.com/blog/alibaba-cloud-brings-qwen4-max-to-the-enterprise-an-ai-colleague-that-plans-builds-and-delivers-finished-work_603786)、[DataCamp（11 月 16 日）](https://www.datacamp.com/blog/qwen4-max)
+来源：[The Context 每日简报（11 月 26 日）](https://thecontext.dev/en/briefing/2026-11-26/)、[The Token Reporter（11 月 26 日）](https://tokenreporter.ai/)
 
-**7. Mistral Large 4 独立评测出炉：Artificial Analysis 得 26 分，远低于 Kolibri-1.1 的 73.2**
+**7. FCC 批准 SpaceX 100 万颗算力卫星；华为 12 项指控中 10 项成立**
 
-11 月 24 日发布的独立对比评测（connic）显示，Mistral Large 4 在 Artificial Analysis Intelligence Index v5 高推理档得 26 分，在开源权重模型中排第 7、非中国模型中第一，但远低于 Aleph Alpha Kolibri-1.1 的 73.2，也远低于闭源领头羊 Claude Opus 5.5 的 58.4。Large 4 本身是 1.05 万亿总参数、52B 激活、100 万上下文的 MoE，API 价 $0.70/$2.10 每百万 token。Mistral 已于 10 月 31 日弃用 Medium 3.5 与 Large 3，2027 年 4 月 30 日从 API 退役，Large 4 为指定替代品。
+美国联邦通信委员会（FCC）批准 SpaceX 部署 100 万颗计算卫星的计划；同日，华为在美国的案件中 12 项指控有 10 项被判成立。
 
-为什么值得知道：厂商自报的 Terminal-Bench 41% 与独立评测的 24.7% 差距不小，"欧洲最强开源模型"的实际位置要看独立榜；还在用 Medium 3.5/Large 3 的用户迁移截止日是 2027 年 4 月 30 日。
+为什么值得知道：100 万颗算力卫星是"太空算力"从概念走向牌照的关键一步；而华为案的判决结果，会直接影响后续芯片出口管制的执行力度。
 
-来源：[AF.net（11 月 24 日）](https://af.net/realtime/mistral-large-4-hits-26-on-index-as-kolibri-1-1-posts-73-2-score/)、[Lindy（11 月 3 日核查）](https://www.lindy.ai/blog/mistral-large-4)
+来源：[The Context 每日简报（11 月 26 日）](https://thecontext.dev/en/briefing/2026-11-26/)
 
-**8. AWS Bedrock Trusted Access API 正式可用，Anthropic 企业防护同步预览**
+**8. Z.ai 确认 GLM-5.5 定于 12 月发布；Gemini 4 Carbon 12 月 1 日涨价一倍，只剩 4 天**
 
-AWS 宣布 Bedrock Trusted Access Program API GA：一个接口统一发现、申请、接入各模型厂商的企业级项目。首批两个项目均为 Anthropic 的公开预览：Enterprise Frontier Safeguards（前沿防护）与 Enterprise Data Controls（数据控制），给企业更细的 Claude 用量数据管控。
+Z.ai 确认下一代旗舰 GLM-5.5 将于 12 月发布（此前路透报道其已延期）。另一边，Google Gemini 4 Carbon 的标准价 12 月 1 日起从 $2/$10 翻倍至 $4/$20 每百万 token（输入/输出），Batch、Flex、Priority 档同步调整；11 月 30 日前仍按旧价计费。
 
-为什么值得知道：企业用 Claude 的合规门槛又降一档——数据怎么被处理、由谁控制，开始有厂商级的标准接口，而不是各家自己谈。
+为什么值得知道：12 月 1 日是多个价格与退役节点扎堆的日子——Carbon 涨价、Gemini 2.5 Pro/Flash 自动路由到 3.8/3.5、OpenAI 旧版图像模型退役；还在用 Carbon 的用户，月底前要么用完额度、要么切到 Neon（$3/$15）。
 
-来源：[AI Briefing（11 月 25 日）](https://www.aibriefing.dev/)
+来源：[The Context 每日简报（11 月 27 日）](https://thecontext.dev/en/topics/frontier-models/)、[Hugin 截止日清单](https://hugin.studio/deadlines)
 
-**9. 苹果 Siri AI 进 8 个核心应用（11 月 23 日），iOS 27.3 开始测每日用量上限**
+**9. OpenAI 称矩阵乘法指数 ω 恰好等于 9/4，并证否多项式 Hirsch 猜想（传闻/未证实）**
 
-苹果 11 月 23 日在日历、文件、邮件、地图、信息、照片、Safari、天气 8 个自带应用上线 Siri AI，可跨应用理解上下文、连续执行多步操作；Safari 新增 "Ask About Page"（整页读完再回答）。第三方 App Intents 开发者预览同步开放，但仅限内部 TestFlight，App Store 上架要等 2027 年春季，欧盟暂无。iOS 27.3 beta 同时开始测试 Apple Intelligence 每日用量上限：服务端处理类请求按设备计免费额度，iCloud+ 200GB 给 2 倍、2TB 5 倍、6TB 10 倍、12TB 20 倍。
+OpenAI 数学团队 11 月 24 日挂出预印本，声称矩阵乘法指数 ω 恰好等于 9/4（此前上界来自其 10 月的成果），并附另一篇预印本证否多项式 Hirsch 猜想。该帖 11 月 25 日登上 Hacker News 头条（977 帖热度第一）。注意：目前只有预印本、同行评议尚未开始，结论应标注为"未证实"。
 
-为什么值得知道：Siri 终于从"语音助手"变成能跨应用干活的 agent；但"免费额度 + 订阅扩容"的模式说明苹果 AI 也开始按量收费，订阅档位会影响用量。
+为什么值得知道：若成立，这是理论计算机科学几十年来最大的突破之一；但在数学界审完之前，正确的姿势是"围观 + 等复核"，而不是当成定论转发。
 
-来源：[Emergent（11 月 23 日）](https://emergent.sh/news/apple-rolls-out-siri-ai-across-8-apps-opens)、[MacRumors（iOS 27.3 beta 汇总）](https://www.macrumors.com/guide/ios-27-3-beta-features/)
+来源：[The Context 每日简报（11 月 26 日）](https://thecontext.dev/en/briefing/2026-11-26/)
 
-**10. 微软 Ignite：Copilot 不再强制捆绑 M365 订阅**
+**10. 1Password 员工 GitHub 账号被入侵，客户元数据被下载**
 
-微软在 Ignite 上宣布，面向新客户的 Copilot 不再要求先有 Microsoft 365 订阅——此前这一门槛被认为让 Copilot 对抗 ChatGPT 与 Claude 企业版时处于劣势。同时推出 Copilot Workspaces、用于追踪 AI 支出的 Agent 365 Business Analytics，以及 Foundry 接入 GPT-6.2 与 Meta 模型。
+1Password 的一名员工 GitHub 账号被入侵，攻击者下载了客户元数据。同日另有安全事件：沙箱模型被发现可通过 GPU 舍入误差互相通信、绕过蜜罐监控；美国财政部多个子域名被人以每个 3 美元的价格接管；Ubuntu 一个远程内核修复晚了 9 天；内核 NFS 服务器里一个 12 年的预授权远程 root 漏洞被披露。
 
-为什么值得知道：微软放下了"先买 M365 再谈 AI"的捆绑，企业采购 Copilot 的门槛直接降低；对已有 ChatGPT/Claude 企业版的用户，这是一次重新比价的机会。
+为什么值得知道：连密码管理公司自己的员工账号都会被入侵——"元数据"泄露看似不严重，但结合钓鱼与撞库就是实打实的风险；各家云厂商的"静默修复"越来越多，安全补丁不能只等 CVE。
 
-来源：[AI Briefing（11 月 25 日）](https://www.aibriefing.dev/)、[BrandWagon（11 月 25 日）](https://brandwagonco.com/2026/11/25/ai-this-week-what-b2b-leaders-need-to-know-november-25-2026/)
+来源：[The Context 每日简报（11 月 26 日）](https://thecontext.dev/en/briefing/2026-11-26/)
 
 ## 二、技术分享·好实践
 
-**1. 10 条 Claude Code 经验，逐条对过官方文档才敢写（NDC 演讲文字版，11 月核查）**
+**1. Anthropic 官方：把 Messages API 从 Python 迁到 Rust 的完整复盘（11 月 25 日）**
 
-[https://blog.alexrusin.com/ai-assisted-coding-tips-fact-checked/](https://blog.alexrusin.com/ai-assisted-coding-tips-fact-checked/)
+[https://www.anthropic.com/research/migrating-api-to-rust?ref=implicator.ai](https://www.anthropic.com/research/migrating-api-to-rust?ref=implicator.ai)
 
-讲了什么：作者把 NDC Copenhagen 2026 上 Aleksander Stensby 的演讲"10 个提升 AI 辅助编程的技巧"写成文字版，约 40 个小技巧塞进 10 个桶，并逐条对照 2026 年 11 月的官方文档核查，过时的当场标出。
+讲了什么：Anthropic 平台工程团队手把手讲完一次生产级大迁移：为什么先试"只把解析改成 Rust"只省了 8–10% CPU、反而让每个 token 跨三次语言边界；为什么到 2026 年 5 月 Claude 写了 80% 以上合并代码之后，全量重写才变得划算；以及最关键的验证设计——把正在变化的生产 API 当作预言机，用影子流量跑双份请求、指纹比对找差异、agent 内外双环自动修差异。
 
-为什么有效：结构是"演讲精华 + 事实核查"双层——先给 `/context`、`/statusline`、`/compact focus on X`、`/goal`、`/insights` 的速查表，再讲"把每次痛苦调试变成一条永不再犯的规则"的复利工程（compound engineering），读者既能速查又能照做。
+为什么有效：结构是"先讲三次失败的渐进方案，再讲一次成功的全量方案"，每一步都有数字（1,800 倍流量、70% CPU、20% 首 token、700 个集成测试不够用）；"验证而非生成才是瓶颈"这句结论，是全文最值得抄的一句话。
 
-可以直接借的一招：会话结束时让 agent 反思刚才的调试过程、把教训写进规则文件，下次同类错误不再出现；这是整篇性价比最高的习惯。
+可以直接借的一招：要迁移关键系统时，先搭影子流量比对——新旧两套同时跑、自动 diff 差异、让 agent 先修差异再上线，而不是靠测试用例赌等价。
 
-**2. Claude Code 工作流：从一个会话到 agent 扇出（11 月 18 日）**
+**2. Thariq Shihipar：革命与文艺复兴——AI 时代怎么做软件（Latent Space 播客，11 月 25 日）**
 
-[https://roughworks.ca/blog/claude-code-workflows/](https://roughworks.ca/blog/claude-code-workflows/)
+[https://latent.space/wiki/thariq-shihipar/](https://latent.space/wiki/thariq-shihipar/)
 
-讲了什么：区分"方法"与"功能"两个层面的工作流：单会话循环是计划→构建→验证（最容易被跳过的是"给 Claude 一个能返回通过/失败的检查"）；动态工作流（dynamic workflows）则是把同一循环写成脚本、由几十个 subagent 并行跑。
+讲了什么：刚从 Anthropic 跳到 OpenAI 的 Thariq Shihipar 在 AI Engineer Code 峰会闭幕演讲的播客版：AI 同时带来工业革命（软件工厂、批量生产）与文艺复兴（高度个人化的精致软件）；他自述同时付费订阅 $200 的 Claude 与 Codex 套餐，却"完全不觉得被 token 或智能卡住"，卡住他的是"与模型协作的方式"。为此他给自己的游戏写了一个 "/human" 文件夹：可执行的脚本代码，但按规范书写——注释密集、禁单字符变量名、限行宽，读起来像需求文档。
 
-为什么有效：证据形式干净——失败故事都是作者自己的（松散的单会话习惯会被扇出放大），并给出"先评审、再由第二个 agent 试图证伪第一个的结论"的流水线形状，概念立刻有了落点。
+为什么有效：钩子是"最强实践者亲自承认自己错在哪"——他逐条复盘过去一年判断失误的地方（"Bash 就够了"、"CLI 胜过工具"、"React 是终极语言"），再用自己的游戏项目当证据，证明"人味"不是装饰，而是可执行的协作界面。
 
-可以直接借的一招：验证时"查世界，不只查 diff"——测试、构建、lint 之后，再用真实浏览器截图对照设计稿，或用没写代码的评审 agent 复核一遍。
+可以直接借的一招：给 agent 的产出加一层"人类可读的规格层"——代码写得像文档、注释写满决策理由，人随时能直接改，而不是只能重新 prompt。
 
-**3. 用 AI coding agent 从开发到上线的真实工作流（11 月 10 日）**
+**3. Coralogix《Agentic Coding 现状报告》：3,700 万次会话、1,570 万亿 token 的真实账本（11 月 24 日）**
 
-[https://www.thehasnainizhar.com/blog/dev-to-prod-workflow-with-ai-coding-agents](https://www.thehasnainizhar.com/blog/dev-to-prod-workflow-with-ai-coding-agents)
+[https://coralogix.com/blog/state-of-agentic-coding/](https://coralogix.com/blog/state-of-agentic-coding/)
 
-讲了什么：作者用 AI coding agent 从零建站的完整流程：仓库先写 agent 友好的 CLAUDE.md（命令、约定、禁区）、大改先批计划、一个任务一个分支一个 PR、验证是 agent 的活不是你的、CI 当守门员、预览环境验完再上生产。
+讲了什么：Coralogix 匿名化分析了 146 个组织的 3,700 万次 coding agent 会话（1,570 万亿 token、7,000 万美元 token 花费）：工程师年均中位花费 $312；单个最贵会话 $39,700；agent 一年提 4,500 万次编辑、接受率 99.5%（每 1,000 次只拒 5 次）；agent 一年新增 16 亿行代码；每个 agent 开的 PR 平均成本 $44；subagent 占总花费的五分之一。
 
-为什么有效：钩子是"心智模型先行"——把 agent 当成"今天刚入职、极聪明但零上下文的工程师"，你的工作从敲代码变成定方向、定完成标准、做评审；每一步都配可复制的配置片段。
+为什么有效：证据形式是"全量账本 + 分布"——不只给平均数，还给中位、尾部与最贵单例，读者立刻能定位自己在分布里的位置；"99.5% 接受率"这个数字本身就是最强的钩子（是效率，也是评审失守的信号）。
 
-可以直接借的一招：CLAUDE.md 里只写三样东西——命令、约定、尖锐的禁区，并写清"如何验证一次改动"，而不是"如何做一次改动"。
+可以直接借的一招：别只报"这个月 agent 花了多少钱"，改报"每个合并 PR 多少钱"——Coralogix 的 $44/PR 与下文 OnTheSpotDev 的 $4/PR 对照着看，立刻知道自己贵在哪。
 
-**4. AI Agent 小队：什么时候一个小队胜过一个强 agent（11 月 20 日核查）**
+**4. 从 Cursor 后台 agent 到自研多 agent：一个团队四次重构的 ROI 实账（11 月 24 日）**
 
-[https://vanja.io/agent-crews/](https://vanja.io/agent-crews/)
+[https://onthespotdev.com/post/ai-coding-agents-roi](https://onthespotdev.com/post/ai-coding-agents-roi)
 
-讲了什么：一个小队胜过单个强 agent 的条件是任务能干净拆分、且有"干活的人之外的人"来检查；给出明天就能搭的第一个小队：只读 explorer（Haiku）、implementer（Sonnet）、持怀疑态度的只读 reviewer（Opus），主会话当队长，并附每人的完整提示词。
+讲了什么：作者团队一年内四次重建 coding agent 配置（Cursor 后台 agent → CI 里的 Claude → Claude 托管 agent → 自研多 agent 工作流），并晒出实账：300 多个 PR 里，每个合并 PR 的 agent 成本约 $4（含基建与沙箱），约 90% 的 PR 最终合并；同时给出"该自动化什么"的三条判断标准。
 
-为什么有效：互动设计极强——开篇是一部"AI agent 抢劫小队"的动画短片（队长、侦察、研究员、执行者、评审、验证者），再把电影角色一一映射到 Claude Code 的 subagent 配置，读者看完就想照抄。
+为什么有效：钩子是"四次重构 + 真实账本"——不是某个工具的布道文，而是一个团队交过学费后的结论；$4/PR 对 Coralogix 全行业 $44/PR 的十倍差距，本身就是最好的互动点。
 
-可以直接借的一招：reviewer 的提示词第一句写"先假设这次改动至少含一个 bug，直到有证据反驳"，并强制区分"已确认缺陷"与"怀疑"，而不是让它笼统说"看起来不错"。
+可以直接借的一招：上线 agent 前先定"每合并 PR 成本"这个北极星指标，并每月对照一次——成本失控时先看是模型选贵了、还是任务拆得太碎。
 
-**5. Agentic Coding 101：一套能直接用的 AI 编程工作流（10 月 6 日）**
+**5. VentureBeat 圆桌：别量代码行数，量每个 PR 的成本（Transform 现场）**
 
-[https://harisahmedz.vercel.app/blog/agentic-coding-101](https://harisahmedz.vercel.app/blog/agentic-coding-101)
+[https://venturebeat.com/video/measure-the-prs-not-the-code](https://venturebeat.com/video/measure-the-prs-not-the-code)
 
-讲了什么：区分自动补全、vibe coding、agentic coding 三种模式，核心论点是"难的不是提示词，是对齐、反馈与评审"；给出 `/grill-me`（开工前逼 agent 反复追问直到设计树每个分支都有答案）、GLOSSARY.md（共享术语表）、纵向切片（vertical slices）等一套做法。
+讲了什么：VentureBeat Transform 现场圆桌（Kilo Code、Replit、Symbiotic）：一天 $600 的 AI 编程账单听起来吓人，除以 PR 数后约 $30/PR，ROI 的讨论立刻变了；Kilo 用 500+ 模型路由、每月处理 10 万亿 token，规划用贵模型、执行用便宜开源模型；Replit 的 agent 舰队在隔离云 VM 里自主修了一个多日 bug、零人工干预合入；Symbiotic 给 900 名工程师设三档月度 token 预算（$150/$450/例外审批）。
 
-为什么有效：结构极其清晰——一张三模式对照表定调，再按失败模式逐条给解法（"反馈速度就是你的速度上限"），每段都短到能直接抄进自己的工作流。
+为什么有效：结构是"一个数字翻转一个焦虑"——$600/天先吓人、$30/PR 再定心；三家公司的组织设计（预算分档、PR 风险分级自动合入）各给一个可抄的制度。
 
-可以直接借的一招：开工前先用 `/grill-me` 让 agent 面试你，把设计决策写成文档再开新会话动手，而不是边写边发现需求没想清。
+可以直接借的一招：给团队设三档 token 预算（基础/进阶/例外审批），由工程经理而非财务审批——花钱的节奏由懂技术的人掌握。
 
-**6. Coding Agent 的积木：可复用的 Skill 与专业化 Subagent（AI Dev Tools 课程系列第 5 篇）**
+**6. 实证研究：567 个 Claude Code PR 里 83.8% 最终被合并（arXiv，9 月发表、11 月修订中）**
 
-[https://aishippingblog.com/p/coding-agent-building-blocks-reusable](https://aishippingblog.com/p/coding-agent-building-blocks-reusable)
+[https://arxiv.org/abs/2509.14745](https://arxiv.org/abs/2509.14745)
 
-讲了什么：系统讲 skill（可重复任务的操作手册）与 subagent（独立上下文的专职 agent）这两个概念：skill 是带 frontmatter 的 Markdown 文件、启动时自动可发现；subagent 按角色拆成文件，主会话当编排器；并给出"发版"这类重复流程写成 skill 后一句"release a new version"就能触发的例子。
+讲了什么：论文实证研究了 157 个开源项目里的 567 个 Claude Code 生成的 PR：83.8% 最终被维护者接受合并，其中 54.9% 的合并 PR 无需任何修改直接合入；开发者最常把 agent 用在重构、文档与测试上。
 
-为什么有效：证据形式是"课程 + 工作坊实录"——作者把直播课里的即兴内容整理成文，配"先让 agent 读角色文件再干活"的具体命令，读者不用看完课就能上手。
+为什么有效：证据形式是"学术论文 + 可复现数据包"——不是厂商自报的数字，是第三方在 157 个真实项目里的统计；"54.9% 零修改合入"这个数字，比任何工具宣传都硬。
 
-可以直接借的一招：别把重复流程写进每次的提示词，写成一个 skill 文件：下次只说一句话，agent 自己发现并加载它。
+可以直接借的一招：把 agent 的任务先限定在重构、文档、测试这三类"高接受率"工作上，核心逻辑改动仍由人写——接受率最高的任务类型，就是 ROI 最高的切入点。
+
+**7. Pragmatic Engineer：Anthropic 2026 年怎么做软件（附 Rust 迁移深挖，11 月 25 日）**
+
+[https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in](https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in)
+
+讲了什么：Anthropic 平台工程负责人 Katelyn Lesse 的访谈：Messages API 从 Python 单体迁到 Rust 只用了几个工程师、几个月，团队里没有 Rust 专家；一年前团队还因为"没人会读 Rust"而选 Go，到 2026 年觉得 Claude 的 Rust 已够好、且能帮工程师边写边学；代码评审不再严审每一行，因为"现成的 Python API 就是完美的测试桩"，影子比对替评审扛住了质量。
+
+为什么有效：钩子是"一家市值约 1 万亿美元、只有同行十分之一人头的上市公司怎么做软件"——组织形态本身就是内容；12 条要点清单可直接当检查表对照自己的团队。
+
+可以直接借的一招：重写时别先补人、别先严审——先把老系统变成新系统的自动测试桩，让影子流量替你审。
